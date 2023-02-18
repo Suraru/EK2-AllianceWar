@@ -1,0 +1,63 @@
+﻿@always_primary_score = 1000
+
+#Formables
+
+e_aldmeri_dominion = {
+	color={ 247 190 0 }
+	definite_form = yes
+	capital = c_alinor
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+e_daggerfall_covenant = {
+	color={ 0 57 247 }
+	definite_form = yes
+	capital = c_wayrest
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+e_ebonheart_pact = {
+	color={ 199 26 26 }
+	definite_form = yes
+	capital = c_windhelm
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+e_molag_bal = {
+	color={ 84 0 56 }
+	definite_form = yes
+	capital = c_imperial_city
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
+
+d_red_rook = {
+	color={ 199 26 26 }
+	definite_form = yes
+	capital = c_crosswych
+	de_jure_drift_disabled = yes
+	no_automatic_claims = yes
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		add = @always_primary_score
+	}	
+}
