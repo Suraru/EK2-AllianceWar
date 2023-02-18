@@ -1,0 +1,31 @@
+﻿
+camoran_9 = { # Aeradan
+	name = "Aeradan"
+	dynasty_house = camoran_graht
+	religion = greenpact
+	culture = grahtwood
+	mother = camoran_8
+	father = altansar_1
+	dna = camoran_9_dna_entry
+	
+	trait = lifespan_3
+	trait = curious
+
+	3357.1.1 = { birth = yes }
+	3370.1.1 = {
+		trait = callous
+		trait = brave
+	}
+	#3500.4.7 = { effect = { imprison_character_effect = character:camoran_11 } } #effect 'imprison_character_effect' returned false
+	3650.9.4 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_legwear=male_legwear_secular_western_war_01
+			custom_clothes=male_clothes_secular_byzantine_war_nobility_01_low
+			custom_hair=male_hair_western_09
+			custom_cloaks=male_furs_secular_fp1_nobility_02
+			custom_beards=male_beard_western_01
+		}
+	}
+}

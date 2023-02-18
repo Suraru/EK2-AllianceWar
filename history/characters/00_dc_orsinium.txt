@@ -1,0 +1,1109 @@
+﻿## Orsimer
+
+#Bagrakh
+
+bagrakh_1101 = {
+	name = "Bolazgar"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3421.1.1 = { birth = yes }
+	3484.1.30 = { death = {death_reason = death_duel killer = bagrakh_1103 } }
+}
+
+bagrakh_1102 = {
+	name = "Alga"
+	female = yes
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	trait = diligent
+	trait = just
+	trait = brave
+	
+	3441.1.1 = { birth = yes }
+	3503.4.11 = { death = {death_reason = death_duel killer = fharun_1102 } }
+}
+
+bagrakh_1103 = {
+	name = "Kurog"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	dna =  bagrakh_1003_dna_entry
+	
+	mother = bagrakh_1102
+	father = bagrakh_1101
+	
+	3461.1.1 = { birth = yes }
+	3502.1.30 = {
+		effect = { 	
+			spawn_army = {
+				name = event_troop_default_name
+				men_at_arms = {
+					type = light_footmen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = orc_marauders
+					stacks = 2
+				}
+				location = province:298
+				origin = province:298
+				inheritable = no
+			} 
+		}
+	}
+	3500.1.30 = { add_spouse = morkul_1102 }
+	3500.1.30 = { add_spouse = shatul_1110 }
+	3504.3.11 = { death = {death_reason = death_duel killer = fharun_1102} }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_clothes=male_clothes_secular_orc_war
+			custom_headgear=male_headgear_secular_byzantine_war_nobility_01
+			custom_beards=male_empty
+			custom_cloaks=male_furs_secular_fp1_nobility_03
+			custom_legwear=male_legwear_secular_fp1_common_01
+		}
+	}
+}
+
+bagrakh_1104 = {
+	name = "Azhnura"
+	female = yes
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	give_nickname = "the Proselytizer"
+	
+	3441.1.1 = { birth = yes }
+}
+
+bagrakh_1105 = {
+	name = "Azulg"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	
+	3421.1.1 = { birth = yes }
+	3486.1.30 = { employer = bagrakh_1104 }
+}
+
+bagrakh_1106 = {
+	name = "Akarah"
+	female = yes
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	
+	3421.1.1 = { birth = yes }
+	3486.1.30 = { employer = bagrakh_1104 }
+}
+
+bagrakh_1107 = {
+	name = "Uznom"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	
+	3421.1.1 = { birth = yes }
+	3486.1.30 = { employer = bagrakh_1104 }
+}
+
+bagrakh_1108 = {
+	name = "Yozth"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	
+	3421.1.1 = { birth = yes }
+	3486.1.30 = { employer = bagrakh_1104 }
+}
+
+bagrakh_1109 = {
+	name = "Graguz"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	give_nickname = "Fire-Caller"
+	
+	3461.1.1 = { birth = yes }
+	3486.1.30 = { employer = bagrakh_1104 }
+}
+
+bagrakh_1110 = {
+	name = "Grasha"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+bagrakh_1111 = {
+	name = "Glothun"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	give_nickname = "the Recruiter"
+	
+	3461.1.1 = { birth = yes }
+	3486.1.30 = { employer = bagrakh_1104 }
+}
+
+bagrakh_1112 = {
+	name = "Penitent Vumnish"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	female = yes
+	
+	3461.1.1 = { birth = yes }
+}
+
+bagrakh_1113 = {
+	name = "Ushenat"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	female = yes
+	give_nickname = "Ice-Bringer"
+	
+	3461.1.1 = { birth = yes }
+	3486.1.30 = { employer = bagrakh_1104 }
+}
+
+bagrakh_1114 = {
+	name = "Vunp"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	
+	3461.1.1 = { birth = yes }
+}
+
+#Fahrun
+
+fharun_1102 = {
+	name = "Bazrag"
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = legitimized_bastard
+	trait = education_martial_2
+	trait = ambitious
+	trait = sadistic
+	trait = brave
+	give_nickname = "the Butcher"
+	
+	3461.1.1 = { birth = yes }
+}
+
+#Stonefield
+
+gloorot_100 = {
+	name = "Gloorot"
+	culture = mountain_orc
+	religion = code_of_malacath
+	3486.1.30 = { add_spouse = gloorot_100_wife }
+	
+	3461.1.1 = { birth = yes }
+}
+
+gloorot_100_wife = {
+	name = "Atorag"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3461.1.1 = { birth = yes }
+	3486.1.1 = {
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = huntwife_court_position
+			}
+		}
+	}
+}
+
+lurg_100 = {
+	name = "Lurg"
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3486.1.30 = { employer = gloorot_100 }
+	3421.1.1 = { birth = yes }
+	3486.1.30 = { trait = lunatic_1 }
+	3486.1.30 = { trait = blind }
+}
+
+lurg_101 = {
+	name = "Orluguk"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	father = lurg_100
+	
+	3486.1.30 = { employer = gloorot_100 }
+	3461.1.1 = { birth = yes }
+}
+
+gloorot_100_bard = {
+	name = "Agrulla"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3486.1.30 = { employer = gloorot_100 }
+	3461.1.1 = { birth = yes }
+}
+
+gloorot_100_orc = {
+	name = "Grenbet"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3486.1.30 = { employer = gloorot_100 }
+	3461.1.1 = { birth = yes }
+}
+
+gloorot_100_orc2 = {
+	name = "Grugleg"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3486.1.30 = { employer = gloorot_100 }
+	3461.1.1 = { birth = yes }
+}
+
+gloorot_100_drunk = {
+	name = "Kirgut"
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3486.1.30 = { employer = gloorot_100 }
+	3461.1.1 = { birth = yes }
+}
+
+gloorot_100_orc3 = {
+	name = "Shab"
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3486.1.30 = { employer = gloorot_100 }
+	3461.1.1 = { birth = yes }
+}
+
+gloorot_100_orc4 = {
+	name = "Yagorkh"
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3486.1.30 = { employer = gloorot_100 }
+	3461.1.1 = { birth = yes }
+}
+
+# Tumnosh
+
+tumnosh_1100 = {
+	name = "Ramash"
+	dynasty = 800014
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3461.1.1 = { birth = yes }
+}
+
+tumnosh_1100_wife = {
+	name = "Kharza"
+	dynasty = 800014
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { 
+		add_spouse = tumnosh_1100 
+		employer = tumnosh_1100 
+	}
+	3481.1.1 = { 
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = forgewife_court_position
+			}
+		}
+	}
+}
+
+tumnosh_1100_wife2 = {
+	name = "Bolgar"
+	dynasty = 800014
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { 
+		add_spouse = tumnosh_1100 
+		employer = tumnosh_1100 
+	}
+	3481.1.1 = { 
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = huntwife_court_position
+			}
+		}
+	}
+}
+
+tumnosh_1101 = {
+	name = "Ghobub"
+	dynasty = 800014
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { employer = tumnosh_1100 }
+}
+
+tumnosh_1102 = {
+	name = "Rolbutha"
+	dynasty = 800014
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { employer = tumnosh_1100 }
+}
+
+tumnosh_1103 = {
+	name = "Rolfzal"
+	dynasty = 800014
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { employer = tumnosh_1100 }
+}
+
+tumnosh_1104 = {
+	name = "Tugam"
+	dynasty = 800014
+	culture = mountain_orc
+	religion = code_of_malacath
+	give_nickname = "Talespinner"
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { employer = tumnosh_1100 }
+}
+
+tumnosh_1105 = {
+	name = "Urbek"
+	dynasty = 800014
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { employer = tumnosh_1100 }
+}
+
+tumnosh_1106 = {
+	name = "Rolfzal"
+	dynasty = 800014
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	mother = tumnosh_1100_wife2
+	father = tumnosh_1100
+	
+	3481.1.1 = { birth = yes }
+}
+
+#Shatul
+
+shatul_1099 = {
+	name = "Yazara"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3441.1.1 = { birth = yes }
+}
+
+shatul_1100 = {
+	name = "Ogzor"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	mother = shatul_1099
+	
+	3461.1.1 = { birth = yes }
+	3503.4.11 = { death = yes }
+}
+
+shatul_1100_wife = {
+	name = "Glagosh"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { 
+		add_spouse = shatul_1100
+		employer = shatul_1100
+	}
+	3481.1.1 = { 
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = huntwife_court_position
+			}
+		}
+	}
+}
+
+shatul_1100_wife2 = {
+	name = "Rogzesh"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { 
+		add_spouse = shatul_1100
+		employer = shatul_1100
+	}
+	3481.1.1 = { 
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = hearthwife_court_position
+			}
+		}
+	}
+}
+
+shatul_1101 = {
+	name = "Ushruka"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	father = shatul_1100
+	mother = shatul_1100_wife
+	
+	3485.1.1 = { birth = yes }
+}
+
+shatul_1102 = {
+	name = "Laurig"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = ambitious
+	
+	3485.1.1 = { birth = yes }
+}
+
+shatul_1103 = {
+	name = "Glunrum"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3485.1.1 = { birth = yes }
+}
+
+shatul_1104 = {
+	name = "Lugbagg"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3485.1.1 = { birth = yes }
+}
+
+shatul_1105 = {
+	name = "Stugbrulz"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3485.1.1 = { birth = yes }
+}
+
+shatul_1106 = {
+	name = "Shugzur"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3485.1.1 = { birth = yes }
+}
+
+shatul_1107 = {
+	name = "Lashbesh"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3485.1.1 = { birth = yes }
+	3502.1.30 = { set_employer = c_dune }
+}
+
+shatul_1108 = {
+	name = "Lurz"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3485.1.1 = { birth = yes }
+	3502.1.30 = { set_employer = c_shornhelm }
+}
+
+shatul_1109 = {
+	name = "Narhag"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3485.1.1 = { birth = yes }
+	3502.1.30 = { set_employer = c_anvil }
+}
+
+shatul_1110 = {
+	name = "Noroga"
+	dynasty = 800016
+	culture = mountain_orc
+	religion = vosh_rakh
+	female = yess
+	
+	3480.1.1 = { birth = yes }
+	3500.1.1 = { 
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = huntwife_court_position
+			}
+		}
+	}
+}
+
+# Morkul
+
+morkul_1100 = {
+	name = "Abzug"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3461.1.1 = { birth = yes }
+}
+
+morkul_1100_wife = {
+	name = "Lazghal"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3471.1.1 = { birth = yes }
+	3485.1.1 = { add_spouse = morkul_1100
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = forgewife_court_position
+			}
+		}
+	}
+}
+
+morkul_1101 = {
+	name = "Ashaka"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	father = morkul_1100
+	mother = morkul_1100_wife
+	
+	3491.1.1 = { birth = yes }
+}
+
+morkul_1102 = {
+	name = "Tugha"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = vosh_rakh
+	female = yes
+	
+	father = morkul_1100
+	mother = morkul_1100_wife
+	
+	3480.1.1 = { birth = yes }
+	3500.1.1 = { 
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = forgewife_court_position
+			}
+		}
+	}
+}
+
+morkul_1103 = {
+	name = "Thazeg"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3471.1.1 = { birth = yes }	
+	3495.1.1 = { give_council_position = councillor_court_chaplain }
+}
+
+morkul_1104 = {
+	name = "Lothgud"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3471.1.1 = { birth = yes }
+}
+
+morkul_1105 = {
+	name = "Ashgel"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = vosh_rakh
+	female = yes
+	
+	father = morkul_1103
+	
+	3491.1.1 = { birth = yes }
+	3502.1.30 = { add_spouse = morkul_1105_husband }
+}
+
+morkul_1105_husband = {
+	name = "Balarkh"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = vosh_rakh
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1106 = {
+	name = "Guruzug"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = trinimac_cult
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1107 = {
+	name = "Mulzara"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1108 = {
+	name = "Nazhag"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1109 = {
+	name = "Thaz"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1110 = {
+	name = "Nazhag"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1111 = {
+	name = "Duragma"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1112 = {
+	name = "Oorgurn"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1113 = {
+	name = "Arushna"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1114 = {
+	name = "Brogdul"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1115 = {
+	name = "Dulrat"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1116 = {
+	name = "Maraka"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1117 = {
+	name = "Murzgut"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1118 = {
+	name = "Pruzag"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1119 = {
+	name = "Skalguth"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1120 = {
+	name = "Ugdush"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1121 = {
+	name = "Yakegg"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1122 = {
+	name = "Gogul"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1123 = {
+	name = "Rogba"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1124 = {
+	name = "Othrika"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1125 = {
+	name = "Rogrug"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1126 = {
+	name = "Kruaga"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1127 = {
+	name = "Aghurz"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1128 = {
+	name = "Borgrara"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1129 = {
+	name = "Oorgurn"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1130 = {
+	name = "Brulak"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1131 = {
+	name = "Borzugh"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3481.1.1 = { birth = yes }
+}
+
+morkul_1132 = {
+	name = "Ghakorz"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	3502.1.30 = { set_employer = c_evermore }
+	
+	3481.1.1 = { birth = yes }
+}
+
+## Reachmen
+
+winterborn_1100 = {
+	name = "Urfon" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	give_nickname = "Ice-Heart"
+	trait = briarheart
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1101 = {
+	name = "Kyrtos" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	trait = briarheart
+	
+	3452.1.1 = { birth = yes }
+}
+
+winterborn_1102 = {
+	name = "Corintthac" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	give_nickname = "the Abomination"
+	trait = briarheart
+	
+	3452.1.1 = { birth = yes }
+	3481.1.1 = { employer = magnar_100 }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1103 = {
+	name = "Wuhkusto" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1104 = {
+	name = "Janavynn" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	female = yes
+	trait = arcana_good_3
+
+	3452.1.1 = { birth = yes }
+	3481.1.1 = { employer = winterborn_1103 }
+	3486.1.30 = {
+		effect = {	
+			liege = {
+				appoint_court_position = {
+					recipient = root
+					court_position = court_mage_position
+				}
+			}
+		}
+	}
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1105 = {
+	name = "Millengor" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	
+	3452.1.1 = { birth = yes }
+	3481.1.1 = { employer = winterborn_1103 }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1106 = {
+	name = "Olarz" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	trait = briarheart
+	give_nickname = "the Cunning"
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1107 = {
+	name = "Vilum" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+winterborn_1108 = {
+	name = "Ordun" 
+	dynasty = 500022
+	culture = reachfolk
+	religion = malacath_cult
+	trait = briarheart
+	give_nickname = "Clan-Slayer"
+	
+	3452.1.1 = { birth = yes }
+	3503.11.2 = { death = yes }
+}
+
+magnar_100 = {
+	name = "Magnar"
+	dynasty = lowborn
+	culture = reachfolk
+	religion = malacath_cult
+	give_nickname = "Child-Eater"
+	trait = lycan_character
+	
+	3461.1.1 = { birth = yes }
+}
+
+magnar_101 = {
+	name = "Dreadclaw"
+	dynasty = lowborn
+	culture = reachfolk
+	religion = malacath_cult
+	trait = lycan_character
+	
+	father = magnar_100
+	
+	3481.1.1 = { birth = yes }
+	3584.1.1 = { set_employer = magnar_100 }
+}

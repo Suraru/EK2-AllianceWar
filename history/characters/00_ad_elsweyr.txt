@@ -1,0 +1,100 @@
+﻿
+#Manes
+mane_001 = {
+    name = "Rid_Thar_riDatta" #Riddle'Thar Prophet
+	culture = anequinan
+	religion = twomoonsdance
+	dynasty = 1100008
+
+	3210.1.1 = { birth = yes }
+	3226.1.1 = {
+		trait = education_learning_4
+		trait = theologian
+		trait = mystic_3
+		trait = crusader_king
+	}
+	3310.1.1 = { death = yes }
+}
+
+mane_002 = {
+	name = "Marandru_jo"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100008
+
+	father = maran_001
+	mother = maran_002
+
+	#furstock
+	trait = furstock_cathay
+	trait = craven
+	trait = trusting
+	trait = arrogant
+	trait = education_diplomacy_1
+	trait = mystic_3
+	trait = arcana_good_2
+
+	3310.1.1 = { birth = yes }
+	3400.1.1 = { death = yes }
+}
+
+mane_003 = {
+	name = "Akkhuz-ri"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100008
+	dna = mane_003_dna_entry
+
+	#furstock
+	trait = furstock_cathay
+
+	3427.1.1 = { birth = yes }
+	3504.4.11 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_headgear=male_headgear_secular_steppe_war_nobility_01
+			custom_clothes=male_clothes_religious_steppe_high_01_common
+			custom_hair=male_hair_fp1_08
+			custom_beards=male_empty
+		}
+	}
+}
+
+mane_004 = {
+	name = "Khali"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100008
+
+	#furstock
+	trait = furstock_cathay
+
+	3484.1.1 = { birth = yes }
+}
+
+mane_005 = {
+	name = "Shazah"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100008
+
+	#furstock
+	trait = furstock_cathay
+
+	3484.1.1 = { birth = yes }
+}
+
+# mane_006 = {
+#	name = "Nhad-hatta"
+#	culture = pellitinian
+#	religion = twomoonsdance
+#	dynasty = 1100008
+#
+#	#furstock
+#	trait = furstock_cathay
+#
+#	3802.1.1 = { birth = yes }
+# }

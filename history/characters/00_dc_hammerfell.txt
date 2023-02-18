@@ -1,0 +1,26 @@
+﻿
+bergama_1005 = {
+	name = "Faharajad"
+	dynasty_house = phyllocid_bergama
+	religion = redguard_cult
+	culture = forebear
+	dna = bergama_1005_dna_entry
+	
+	mother = bergama_1004
+	father = hegathe_1005
+
+	3438.1.1 = { birth = yes }
+	3465.1.1 = { add_spouse = danobia_1001 }
+	3471.1.1 = { effect = { add_pressed_claim = title:e_hammerfell } }
+	3507.1.1 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_headgear=male_empty
+			custom_hair=male_hair_sub_saharan_01
+			custom_clothes=male_clothes_secular_dde_abbasid_war_nobility_01_low
+			custom_beards=male_empty
+			custom_cloaks=male_cloaks_secular_western_royalty_01
+		}
+	}
+}

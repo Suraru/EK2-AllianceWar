@@ -1,0 +1,69 @@
+﻿
+arana_1001 = {
+	name = "Ayrenn"
+	dynasty = 700000
+	religion = auriel
+	culture = alinor
+	female = yes
+	dna = arana_1001_dna_entry
+
+	mother = aunsamiran_36406
+	father = arana_1000
+	trait = lifespan_3
+	
+	trait = education_martial_4
+	trait = arcana_good_1
+	trait = ambitious
+	trait = brave
+	trait = cynical
+	trait = adventurer
+	
+	3475.5.5 = { birth = yes }
+	3500.1.1 = { give_nickname = nick_the_unforeseen
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = destruction_novice_perk
+			add_perk = destruction_apprentice_perk
+			add_perk = restoration_novice_perk
+			add_perk = restoration_apprentice_perk
+			add_perk = restoration_journeyman_perk
+		}
+	}
+	3724.2.8 = { death = yes }
+	
+	portrait_override = {	# Will override the character's appearance
+	portrait_modifier_overrides={
+		custom_clothes=clothes_altmer_female_noble_war_01
+		custom_hair=female_hair_northern_03
+		custom_headgear=female_headgear_secular_ayleid_crown_02
+		}
+	}
+}
+
+arana_1002 = {
+	name = "Naemon"
+	dynasty = 700000
+	religion = auriel
+	culture = alinor
+	mother = aunsamiran_36406
+	father = arana_1000
+	trait = lifespan_3
+	
+	trait = education_stewardship_3
+	trait = ambitious
+	trait = arcana_good_1
+	
+	3478.5.5 = { birth = yes }
+	3494.5.5 = { add_spouse = errinorne_1000 
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = illusion_novice_perk
+			add_perk = illusion_apprentice_perk
+			add_perk = restoration_novice_perk
+			add_perk = restoration_apprentice_perk
+		}	
+	}
+	3502.12.3 = { death = yes }
+}
