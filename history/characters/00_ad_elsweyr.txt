@@ -38,6 +38,43 @@ mane_002 = {
 	3400.1.1 = { death = yes }
 }
 
+mane_002a = {
+	name = "Jo'Thri-Dar" #Powerful Mane
+	dynasty = 1100008
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	trait = education_magical_4
+	trait = mystic_3
+	trait = brave
+	trait = blademaster_2
+	trait = arcana_good_3
+	trait = diligent
+	trait = intellect_good_2
+	trait = furstock_pahmar_raht
+	trait = education_martial_3
+	stewardship = 10
+	3400.1.1 = { birth = yes }
+	3456.1.1 = {
+		effect = { #Commander against Cyrodiil and Powerful Mane
+			add_prestige_level = 2
+		}
+	}
+	3458.1.1 = {
+				effect = {
+			add_perk = destruction_novice_perk
+			add_perk = destruction_apprentice_perk
+			add_perk = destruction_journeyman_perk
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = alteration_journeyman_perk
+			add_perk = alteration_expert_perk
+			add_perk = alteration_master_perk
+		}
+	}
+	3462.11.29 = { death = { death_reason = death_battle } }
+}
+
 mane_003 = {
 	name = "Akkhuz-ri"
 	culture = pellitinian
@@ -98,3 +135,3938 @@ mane_005 = {
 #
 #	3802.1.1 = { birth = yes }
 # }
+
+
+
+#Brae Dynasty Sons of Keirgo
+
+anequina_69005 = {
+	name = "S'razirr"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	father = anequina_remaneasteregg3
+	trait = furstock_pahmar_raht	
+	3336.1.1 = { birth = yes }
+	3421.1.1 = { death = yes }
+}
+anequina_69006 = {
+	name = "Urjabhi"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	trait = twin
+	father = anequina_69005 # S'razirr Brae
+	3386.1.1 = { birth = yes }
+	3438.1.1 = { death = yes }
+}
+anequina_69007 = {
+	name = "S'Bakha"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	trait = twin
+	father = anequina_69005 # S'razirr Brae
+	3386.1.1 = { birth = yes }
+	3481.1.1 = { death = yes }
+}
+anequina_69008 = {
+	name = "Ahnia"
+	female = yes
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = anequina_69007
+	3432.1.1 = { birth = yes }
+	3497.1.1 = { death = yes }
+}
+anequina_69009 = {
+	name = "J'Jazha"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	mother = anequina_69008
+	3460.1.1 = { birth = yes }
+	3481.1.1 = { add_spouse = anequina_69022 }
+	3515.1.1 = { death = yes }
+}
+anequina_69010 = {
+	name = "Urjorad"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = anequina_69009
+	3483.1.1 = { birth = yes }
+	3544.1.1 = { death = yes }
+}
+anequina_69011 = {
+	name = "Izandskar"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = anequina_69010
+	3518.1.1 = { birth = yes }
+	3579.1.1 = { death = yes }
+}
+anequina_69012 = {
+	name = "Shawia"
+	female = yes
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = anequina_69011
+	3542.1.1 = { birth = yes }
+	3596.1.1 = { death = yes }
+}
+anequina_69013 = {
+	name = "Fazaddu"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	mother = anequina_69012
+	3562.1.1 = { birth = yes }
+	3608.1.1 = { death = yes }
+}
+anequina_69014 = {
+	name = "Buzul"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = anequina_69013
+	3590.1.1 = { birth = yes }
+	3647.1.1 = { death = yes }
+}
+anequina_69015 = {
+	name = "Ri'zaadzin"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = anequina_69014
+	3622.1.1 = { birth = yes }
+	3686.1.1 = { death = yes }
+}
+anequina_69016 = {
+	name = "Thalara"
+	female = yes
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = anequina_69015
+	3641.1.1 = { birth = yes }
+	3700.1.1 = { death = yes }
+}
+anequina_69017 = {
+	name = "Zaynabi"
+	female = yes
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	mother = anequina_69016
+	3663.1.1 = { birth = yes }
+	3725.1.1 = { death = yes }
+}
+anequina_69018 = {
+	name = "J'Eeja"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	mother = anequina_69017
+	3694.1.1 = { birth = yes }
+	3749.1.1 = { death = yes }
+}
+anequina_69019 = {
+	name = "Khaygi"
+	female = yes
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = anequina_69018
+	3720.1.1 = { birth = yes }
+	3784.1.1 = { death = yes }
+}
+anequina_69020 = {
+	name = "Kamjo"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	mother = anequina_69019
+	3737.1.1 = { birth = yes }
+	3806.1.1 = { death = yes }
+}
+anequina_69021 = {
+	name = "Kargand"
+	dynasty = 1110000
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = anequina_69020
+	3772.1.1 = { birth = yes }
+	3844.1.1 = { death = yes }
+}
+anequina_69022 = { #Mother of Ujorad in Rimmen Crisis BM
+	name = "Mazu"
+	female = yes
+	culture = anequinan
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	3462.1.1 = { birth = yes }
+	3539.1.1 = { death = yes }
+}
+
+#Zadavi
+pelletine_66150 = {
+	name = "Wadarkhu"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	3336.1.1 = { birth = yes }
+	3407.1.1 = { death = yes }
+}
+pelletine_66151 = {
+	name = "Ma'jhad"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = pelletine_003
+	3372.1.1 = { birth = yes }
+	3439.1.1 = { death = yes }
+}
+pelletine_66152 = {
+	name = "K'Sharr"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = pelletine_66151
+	3395.1.1 = { birth = yes }
+	3498.1.1 = { death = yes }
+}
+pelletine_66153 = {
+	name = "Kharjo"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = pelletine_66152
+	3444.1.1 = { birth = yes }
+	3505.1.1 = { death = yes }
+}
+pelletine_66154 = {
+	name = "Ra'Zhid"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = pelletine_66153
+	3470.1.1 = { birth = yes }
+	3546.1.1 = { death = yes }
+}
+pelletine_66155 = {
+	name = "Zoaraym"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = pelletine_66153
+	3501.1.1 = { birth = yes }
+	3572.1.1 = { death = yes }
+}
+pelletine_66156 = {
+	name = "Ralkash-dar"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66155
+	3538.1.1 = { birth = yes }
+	3617.1.1 = { death = yes }
+}
+pelletine_66157 = {
+	name = "Miczen"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66156
+	3565.1.1 = { birth = yes }
+	3615.1.1 = { death = yes }
+}
+pelletine_66158 = {
+	name = "Shelzaka"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66157
+	3592.1.1 = { birth = yes }
+	3656.1.1 = { death = yes }
+}
+pelletine_66159 = {
+	name = "J'Jarsha"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66158
+	3614.1.1 = { birth = yes }
+	3683.1.1 = { death = yes }
+}
+pelletine_66160 = {
+	name = "Duharr"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66159
+	3652.1.1 = { birth = yes }
+	3730.1.1 = { death = yes }
+}
+pelletine_66161 = {
+	name = "Didakah"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66160
+	3679.1.1 = { birth = yes }
+	3737.1.1 = { death = yes }
+}
+pelletine_66162 = {
+	name = "Ra'jirr"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66161
+	3704.1.1 = { birth = yes }
+	3778.1.1 = { death = yes }
+}
+pelletine_66163 = {
+	name = "Kuralit"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66162
+	3731.1.1 = { birth = yes }
+	3797.1.1 = { death = yes }
+}
+pelletine_66164 = {
+	name = "Ra'jirr"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66163
+	3762.1.1 = { birth = yes }
+	3823.1.1 = { death = yes }
+}
+pelletine_66165 = {
+	name = "Ululmalit"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = pelletine_66164
+	3785.1.1 = { birth = yes }
+	3868.1.1 = { death = yes }
+}
+
+
+#Harabiri Rulers of Senchal after 3495
+
+harabiri_66650 = {
+	name = "S'rathad"
+	dynasty = harabiri 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	3347.1.1 = { birth = yes }
+	3415.1.1 = { death = yes }
+}
+harabiri_66651 = {
+	name = "J'Zhirr"
+	dynasty = harabiri 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	father = harabiri_66650
+	3385.1.1 = { birth = yes }
+	3448.1.1 = { death = yes }
+}
+harabiri_66652 = {
+	name = "Dro'Zhirr"
+	dynasty = harabiri 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_dagi_raht
+	father = harabiri_66651
+	3419.1.1 = { birth = yes }
+	3487.1.1 = { death = yes }
+}
+harabiri_66653 = {
+	name = "Ranarr-Jo"
+	dynasty = harabiri 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar_raht
+	trait = ambitious
+	trait = patient
+	father = harabiri_66652
+	3456.1.1 = { birth = yes }
+	3460.1.1 = { 
+		effect = {
+			add_pressed_claim = title:k_senchal
+			add_pressed_claim = title:d_senchal
+			add_pressed_claim = title:c_senchal
+		}
+	}
+	3476.1.1 = { add_spouse = harabiri_68001 }
+	3537.1.1 = { death = yes }
+}
+harabiri_68001 = {
+	name = "Arimaia"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = physique_good_1
+	trait = furstock_pahmar
+	3455.1.1 = { birth = yes }
+	3536.1.1 = { death = yes }
+}
+harabiri_66654 = {
+	name = "Dro'shanji"
+	dynasty = harabiri 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66653
+	mother = harabiri_68001
+	3485.1.1 = { birth = yes }
+	3543.1.1 = { death = yes }
+}
+harabiri_66655 = {
+	name = "Mehdir"
+	dynasty = harabiri
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66654
+	3520.1.1 = { birth = yes }
+	3593.1.1 = { death = yes }
+}
+harabiri_66656 = {
+	name = "Shalubar"
+	dynasty = harabiri
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66655
+	3557.1.1 = { birth = yes }
+	3612.1.1 = { death = yes }
+}
+harabiri_66657 = {
+	name = "J'zidzo"
+	dynasty = harabiri
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66656
+	3591.1.1 = { birth = yes }
+	3657.1.1 = { death = yes }
+}
+harabiri_66658 = {
+	name = "Bezur"
+	dynasty = harabiri
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66657
+	3629.1.1 = { birth = yes }
+	3696.1.1 = { death = yes }
+}
+harabiri_66659 = {
+	name = "Ghadar"
+	dynasty = harabiri
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66658
+	3655.1.1 = { birth = yes }
+	3702.1.1 = { death = yes }
+}
+harabiri_66660 = {
+	name = "S'Vandra"
+	dynasty = harabiri
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66659
+	3685.1.1 = { birth = yes }
+	3753.1.1 = { death = yes }
+}
+harabiri_66661 = {
+	name = "Jul-dar"
+	dynasty = harabiri
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66660
+	3711.1.1 = { birth = yes }
+	3790.1.1 = { death = yes }
+}
+harabiri_66662 = {
+	name = "Zagun-ra"
+	dynasty = harabiri
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66661
+	3747.1.1 = { birth = yes }
+	3812.1.1 = { death = yes }
+}
+harabiri_66663 = {
+	name = "Urjen"
+	dynasty = harabiri
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = harabiri_66662
+	3770.1.1 = { birth = yes }
+	3829.1.1 = { death = yes }
+}
+
+##Corinthe Kings of 
+
+
+corinthe_6675555 = {
+	name = "Ra'Kothre"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	trait = strong
+	trait = zealous
+	trait = envious
+	#father = corinthe_6675554
+	mother = corinthe_003
+	3380.1.1 = { birth = yes }
+	3436.1.1 = { death = yes }
+}
+corinthe_6675556 = {
+	name = "Khayla"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	3385.1.1 = { birth = yes }
+	3403.1.1 = { add_spouse = corinthe_6675555 }
+	3447.1.1 = { death = yes }
+}
+corinthe_6675557 = {
+	name = "J'bari"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675555
+	mother = corinthe_6675556
+	3412.1.1 = { birth = yes }
+	3483.1.1 = { death = yes }
+}
+corinthe_6675558 = {
+	name = "Tsajadhi"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	3412.1.1 = { birth = yes }
+	3435.1.1 = { add_spouse = corinthe_6675557 }
+	3479.1.1 = { death = yes }
+}
+corinthe_6675559 = {
+	name = "Ri'Dumiwa"
+	dynasty = 1100004
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675557
+	mother = corinthe_6675558
+	3440.1.1 = { birth = yes }
+	3502.1.1 = { death = yes }
+}
+corinthe_6675560 = {
+	name = "Ahzini"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	3444.1.1 = { birth = yes }
+	3460.1.1 = { add_spouse = corinthe_6675559 }
+	3508.1.1 = { death = yes }
+}
+corinthe_6675561 = {
+	name = "Kesh"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675559
+	mother = corinthe_6675560
+	3469.1.1 = { birth = yes }
+	3502.1.1 = { add_spouse = 68000 }
+	3535.1.1 = { death = yes }
+}
+corinthe_6675562 = {
+	name = "Dro'zharim"
+	dynasty = 1100004
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675557
+	mother = corinthe_6675558
+	3443.1.1 = { birth = yes }
+	3464.1.1 = { add_matrilineal_spouse = 69754 }
+	3499.1.1 = { death = yes }
+}
+corinthe_6675563 = {
+	name = "Manadzur"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675561
+	mother = 68000
+	3512.1.1 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+corinthe_6675564 = {
+	name = "Karpu-sa"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675563
+	3544.1.1 = { birth = yes }
+	3615.1.1 = { death = yes }
+}
+corinthe_6675565 = {
+	name = "Shamara-ma"
+	female = yes
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675564
+	3567.1.1 = { birth = yes }
+	3622.1.1 = { death = yes }
+}
+corinthe_6675566 = {
+	name = "Lwef-Dim"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	mother = corinthe_6675565
+	3590.1.1 = { birth = yes }
+	3656.1.1 = { death = yes }
+}
+corinthe_6675567 = {
+	name = "Jherahn"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675566
+	3629.1.1 = { birth = yes }
+	3701.1.1 = { death = yes }
+}
+corinthe_6675568 = {
+	name = "S'kasha"
+	female = yes
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675567
+	3655.1.1 = { birth = yes }
+	3728.1.1 = { death = yes }
+}
+corinthe_6675569 = {
+	name = "Zihlran"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	mother = corinthe_6675568
+	3674.1.1 = { birth = yes }
+	3737.1.1 = { death = yes }
+}
+corinthe_6675570 = {
+	name = "Tahar-dar"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675569
+	3703.1.1 = { birth = yes }
+	3771.1.1 = { death = yes }
+}
+corinthe_6675571 = {
+	name = "Ma'tasarr"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675570
+	3741.1.1 = { birth = yes }
+	3792.1.1 = { death = yes }
+}
+corinthe_6675572 = {
+	name = "Heathre"
+	female = yes
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = corinthe_6675571
+	3767.1.1 = { birth = yes }
+	3814.1.1 = { death = yes }
+}
+corinthe_6675573 = {
+	name = "Rathul-do"
+	dynasty = 1100004 
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	mother = corinthe_6675572
+	3794.1.1 = { birth = yes }
+	3849.1.1 = { death = yes }
+}
+
+#Raispoor Kings of Riverhold aka Rawla-kei and the Rim
+
+raispoor_69550 = { 
+	name = "Jobasha"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	mother = raispoor_001
+	3340.1.1 = { birth = yes }
+	3380.1.1 = { add_spouse = 69401 } # Tsani Khamim
+	3420.1.1 = { death = yes }
+}
+raispoor_69551 = {
+	name = "Ra'jirr"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69550 # Jobasha Raispoor
+	mother = 69401 # Tsani Khamim
+	3380.1.1 = { birth = yes }
+	3460.1.1 = { death = yes }
+}
+raispoor_69552 = {
+	name = "Ma'Dara"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69551 # Ra'jirr Raispoor
+	3440.1.1 = { birth = yes }
+	3458.1.1 = { add_spouse = kispoor_69902 } # Ajira Kispoor	
+	3505.1.1 = { death = yes }
+}
+raispoor_69553 = {
+	name = "Anurassa"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69551 # Ra'jirr Raispoor
+	female = yes
+	3445.1.1 = { birth = yes }
+	3460.1.1 = { 
+		add_spouse = mahma_69203
+		effect = { add_claim = k_riverhold } 
+		}
+	#3470.1.1 = { add_spouse = mahma_69203 } # Ranarr-Jo Mahma Dune big Vassal
+	3520.1.1 = { death = yes }
+} 
+raispoor_69554 = {
+	name = "Hemakar"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69552 # Ma'Dara Raispoor
+	mother = kispoor_69902 # Ajira Kispoor
+	3460.1.1 = { birth = yes }
+	3479.1.1 = { add_spouse = raispoor_69571 }
+	3496.1.1 = {
+		death = { 
+			death_reason = death_murder
+			killer = tharn_202 #Euraxia Tharn
+		} 
+	}
+}
+raispoor_69555 = {
+	name = "Talasma"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69552 # Ma'Dara Raispoor
+	mother = 69902 # Ajira Kispoor
+	female = yes
+	3475.1.1 = { birth = yes }	
+	3560.1.1 = { death = yes }
+}
+raispoor_69556 = {
+	name = "Ma'Khar"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	mother = raispoor_69555 # Talasma Raispoor
+	3500.1.1 = { birth = yes }	
+	3589.1.1 = { death = yes }
+}
+raispoor_69557 = {
+	name = "Aruda"
+	female = yes
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69556
+	3531.1.1 = { birth = yes }	
+	3607.1.1 = { death = yes }
+}
+raispoor_69558 = {
+	name = "Sahira-daro"
+	female = yes
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	mother = raispoor_69557
+	3560.1.1 = { birth = yes }	
+	3612.1.1 = { death = yes }
+}
+raispoor_69559 = {
+	name = "Sharsheh"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	mother = raispoor_69558
+	3583.1.1 = { birth = yes }	
+	3641.1.1 = { death = yes }
+}
+raispoor_69560 = {
+	name = "Kuzulaza"
+	female = yes
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69559
+	3611.1.1 = { birth = yes }	
+	3669.1.1 = { death = yes }
+}
+raispoor_69561 = {
+	name = "Tahar-dar"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	mother = raispoor_69560
+	3635.1.1 = { birth = yes }	
+	3688.1.1 = { death = yes }
+}
+raispoor_69562 = {
+	name = "J'zargo"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69561
+	3678.1.1 = { birth = yes }
+	3730.1.1 = { death = yes }
+}
+raispoor_69563 = {
+	name = "Kalim-ja"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69562
+	3704.1.1 = { birth = yes }
+	3765.1.1 = { death = yes }
+}
+raispoor_69564 = {
+	name = "Udanta"
+	female = yes
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69563
+	3736.1.1 = { birth = yes }
+	3797.1.1 = { death = yes }
+}
+raispoor_69565 = {
+	name = "Mizahabi"
+	female = yes
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	mother = raispoor_69564
+	3771.1.1 = { birth = yes }
+	3839.1.1 = { death = yes }
+}
+raispoor_69566 = {
+	name = "Aitrabhi"
+	female = yes
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	mother = raispoor_69565
+	3800.1.1 = { birth = yes }
+	3867.1.1 = { death = yes }
+}
+
+raispoor_69567 = {
+	name = "Thengil"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69552 # Ma'Dara Raispoor
+	mother = 69902 # Ajira Kispoor
+	
+	3470.1.1 = { birth = yes }	
+	3496.1.1 = { 
+		death = { 
+			death_reason = death_murder
+			killer = tharn_202 #Euraxia Tharn
+		} 
+	}
+}
+
+raispoor_69568 = {
+	name = "Khamira" #Main Char from ESO 
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69554
+	mother = raispoor_69571
+	female = yes
+
+	3480.1.1 = { birth = yes }	
+	3525.1.1 = { 
+		death = { 
+			death_reason = death_murder
+			killer = 136500 #Lyra Tharn
+		} 
+	}
+}
+raispoor_69569 = {
+	name = "Thahiri"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69554
+	mother = raispoor_69571
+	female = yes
+	
+	3492.1.1 = { birth = yes }	
+	3496.1.1 = { 
+		death = { 
+			death_reason = death_murder
+			killer = tharn_202 #Euraxia Tharn
+		} 
+	}
+}
+raispoor_69570 = {
+	name = "Huthak"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69554
+	mother = raispoor_69571
+	
+	3493.1.1 = { birth = yes }	
+	3496.1.1 = { 
+		death = { 
+			death_reason = death_murder
+			killer = tharn_202 #Euraxia Tharn
+		} 
+	}
+}
+raispoor_69571 = {
+	name = "Numara"
+	culture = anequinan
+	religion = manypathsdance
+	
+	female = yes
+	
+	3460.1.1 = { birth = yes }	
+	3496.1.1 = {
+		death = { 
+			death_reason = death_murder
+			killer = tharn_202 #Euraxia Tharn
+		} 
+	}
+}
+raispoor_69572 = {
+	name = "J'Hanir"
+	dynasty = 1110021 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = raispoor_69567
+
+	3492.1.1 = { birth = yes }	
+	3496.1.1 = { 
+		death = { 
+			death_reason = death_murder
+			killer = tharn_202 #Euraxia Tharn
+		} 
+	}
+}
+
+#Kispoor Rulers of the Rimmen
+
+kispoor_69900 = {
+	name = "Ra'Tesh"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = kispoor_69906
+	mother = anequina_003
+	
+	3350.1.1 = { birth = yes }
+	3430.1.1 = { death = yes }
+}
+kispoor_69901 = {
+	name = "Ra'Karim"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = kispoor_69900 # Ra'Tesh Kispoor
+	3400.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+kispoor_69902 = {
+	name = "Ajira"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = kispoor_69901 # Ra'Karim Kispoor
+	female = yes
+	3430.1.1 = { birth = yes }
+	3460.1.1 = { add_spouse = 69552 } # Ma'Dara Raispoor
+	3489.12.12 = { effect = { add_trait = bubonic_plague } }
+	3490.1.1 = { death = yes } #Khnaten Flu
+}
+kispoor_69903 = {
+	name = "Jora-ri"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	father = anequina_darloc_x
+
+	3200.1.1 = { birth = yes }
+	3265.1.1 = { death = yes }
+}
+kispoor_69904 = {
+	name = "Harassa"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	
+	female = yes
+	father = kispoor_69903
+	
+	3230.1.1 = { birth = yes }
+	3301.1.1 = { death = yes }
+}
+kispoor_69905 = {
+	name = "Ra'Mhirr"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	
+	mother = kispoor_69904
+	
+	3262.1.1 = { birth = yes }
+	3328.1.1 = { death = yes }
+}
+kispoor_69906 = {
+	name = "Ri'Vassa"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = kispoor_69905
+	
+	3312.1.1 = { birth = yes }
+	3370.1.1 = { death = yes }
+}
+kispoor_69907 = {
+	name = "Mehdir"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = kispoor_69900 # Ra'Tesh Kispoor
+	
+	3405.1.1 = { birth = yes }
+	3470.1.1 = { death = yes }
+}
+kispoor_69908 = {
+	name = "Shilaya"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = kispoor_69907
+	female = yes
+	
+	3460.1.1 = { birth = yes }
+	3495.1.1 = { death = yes }
+}
+kispoor_69909 = {
+	name = "Saviwa"
+	dynasty_house = kispoor_brae 
+	culture = anequinan
+	religion = manypathsdance
+	
+	mother = kispoor_69908
+	
+	3480.1.1 = { birth = yes }
+	3502.1.1 = { effect = { add_claim = k_rimmen } }
+	3545.1.1 = { death = yes }
+}
+
+#Rim Valley Brae Cadet Branch
+
+#Rim Valley Dukes
+rim_valley_001 = {
+	name = "Drorassa"
+	dynasty_house = brae_rassa
+	culture = anequinan
+	religion = twomoonsdance
+
+	father = anequina_002b
+
+	#furstock
+	trait = furstock_pahmar_raht
+	disallow_random_traits = yes
+	trait = adventurer
+	trait = athletic
+	trait = reckless
+	trait = education_martial_3
+	trait = trusting
+	trait = arrogant
+	trait = content
+
+	3293.1.1 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+
+#Rim Valley Dukes
+
+rim_valley_002 = {
+	name = "Keirgo"
+	dynasty_house = brae_rassa
+	culture = anequinan
+	religion = twomoonsdance
+
+	father = rim_valley_001
+
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3375.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}
+
+rim_valley_003 = {
+	name = "Drorassa"
+	dynasty_house = brae_rassa
+	culture = anequinan
+	religion = twomoonsdance
+	father = rim_valley_002
+	trait = adventurer
+	trait = zealous
+	trait = trusting
+
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3435.1.1 = { birth = yes }
+	3460.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3503.1.1 = { death = yes }
+}
+rim_valley_004 = {
+	name = "Zaynabi"
+	female = yes
+	dynasty_house = brae_rassa
+	culture = anequinan
+	religion = twomoonsdance
+	father = rim_valley_002
+	sexuality = homosexual
+	trait = gregarious
+	trait = just
+	trait = beauty_good_2
+
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3443.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }
+}
+
+rim_valley_005 = {
+	name = "Maiq"
+	dynasty_house = brae_rassa
+	culture = anequinan
+	religion = twomoonsdance
+	father = rim_valley_002
+	trait = adventurer
+	trait = lunatic
+	trait = deceitful
+
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes }
+	3460.1.1 = { give_nickname = nick_the_liar }
+	3505.1.1 = { death = yes }
+}
+
+rim_valley_006 = {
+	name = "Inigo"
+	dynasty_house = brae_rassa
+	culture = anequinan
+	religion = twomoonsdance
+	father = rim_valley_003
+	trait = adventurer
+	trait = brave
+	trait = gregarious
+	trait = mystic_2
+	trait = blademaster_3
+	trait = education_martial_4
+	trait = education_martial_prowess_4
+	trait = physique_good_3
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3459.1.1 = { birth = yes } 
+	3460.1.1 = { give_nickname = nick_the_brave  }
+	3533.1.1 = { death = yes }
+}
+
+
+#Khaspoor
+khaspoor_66500 = {
+	name = "Ra'Zhid"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	father = khaspoor_99
+	3330.1.1 = { birth = yes }
+	3410.1.1 = { death = yes }
+}
+khaspoor_66501 = {
+	name = "Ahkari"
+	female = yes
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	trait = beauty_good_3
+	father = khaspoor_66500
+	
+	3360.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+khaspoor_66502 = {
+	name = "Ra'Jirr"
+	culture = anequinan
+	religion = twomoonsdance
+	
+	3358.1.1 = { birth = yes }
+	3383.1.1 = { add_matrilineal_spouse = khaspoor_66501 }
+	3421.1.1 = { death = yes }
+}
+khaspoor_66503 = {
+	name = "Ri'Vassa"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = khaspoor_66502
+	mother = khaspoor_66501
+	3388.1.1 = { birth = yes }
+	3454.1.1 = { death = yes }
+}
+khaspoor_66504 = {
+	name = "S'mirra"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	3393.1.1 = { birth = yes }
+	3416.1.1 = { add_spouse = khaspoor_66503 }
+	3448.1.1 = { death = yes }
+}
+khaspoor_66505 = {
+	name = "Baadargo"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	add_trait = strong
+	father = khaspoor_66503
+	mother = khaspoor_66504
+	3417.1.1 = { birth = yes }
+	3437.1.1 = { effect = { add_lover = khaspoor_66506 } }
+	3476.1.1 = { death = yes }
+}
+khaspoor_66506 = {
+	name = "Harassa"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	trait = beauty_good_3
+	father = khaspoor_66503
+	mother = khaspoor_66504
+	female = yes
+	3420.1.1 = { birth = yes }
+	3482.1.1 = { death = yes }
+}
+khaspoor_66507 = {
+	name = "Gharesh-ri" ##ESO Mane Speaker
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = physique_good_3
+	trait = intellect_good_3
+	trait = pureblooded
+	trait = legitimized_bastard
+	father = khaspoor_66505
+	mother = khaspoor_66506
+	trait = furstock_pahmar_raht
+	trait = education_diplomacy_3
+	trait = patient
+	trait = just
+	trait = brave
+	trait = desert_warrior
+	disallow_random_traits = yes
+	
+	3448.1.1 = { birth = yes }
+		#3480.1.1 = {
+		#employer = 66003
+		#give_job_title = job_chancellor
+		#effect = { c_66003 = { add_friend = ROOT } } }
+	3520.1.1 = { death = yes }
+	dna = khaspoor_100_dna_entry
+}
+khaspoor_66508 = {
+	name = "Unjara"
+	dynasty = 1110003
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = khaspoor_66507
+	mother = 66454
+	3478.1.1 = { birth = yes }
+	3494.1.1 = { add_trait = agent_3 }
+	3561.1.1 = { death = yes }
+}
+khaspoor_66509 = {
+	name = "Dehnarra"
+	dynasty = 1110003
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	mother = khaspoor_66508
+	3510.1.1 = { birth = yes }
+	3577.1.1 = { death = yes }
+}
+khaspoor_66510 = {
+	name = "Kihrasha"
+	dynasty = 1110003
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	mother = khaspoor_66508
+	3514.1.1 = { birth = yes }
+	3574.1.1 = { death = yes }
+}
+khaspoor_66511 = {
+	name = "Ri'Dumiwa"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	mother = khaspoor_66509
+	3533.1.1 = { birth = yes }
+	3602.1.1 = { death = yes }
+}
+khaspoor_66512 = {
+	name = "Kurnasiran"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = khaspoor_66511
+	3568.1.1 = { birth = yes }
+	3629.1.1 = { death = yes }
+}
+khaspoor_66513 = {
+	name = "Aishar-sa"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = khaspoor_66512
+	3593.1.1 = { birth = yes }
+	3645.1.1 = { death = yes }
+}
+khaspoor_66514 = {
+	name = "Zazanisa"
+	female = yes
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = khaspoor_66513
+	3630.1.1 = { birth = yes }
+	3688.1.1 = { death = yes }
+}
+khaspoor_66515 = {
+	name = "Ohamatur"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	mother = khaspoor_66514
+	3658.1.1 = { birth = yes }
+	3742.1.1 = { death = yes }
+}
+khaspoor_66516 = {
+	name = "Ra'Jhan"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = khaspoor_66515
+	3689.1.1 = { birth = yes }
+	3755.1.1 = { death = yes }
+}
+khaspoor_66517 = {
+	name = "Jalan"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = khaspoor_66516
+	3712.1.1 = { birth = yes }
+	3767.1.1 = { death = yes }
+}
+khaspoor_66518 = {
+	name = "Yamanu-ko"
+	female = yes
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	father = khaspoor_66517
+	3744.1.1 = { birth = yes }
+	3802.1.1 = { death = yes }
+}
+khaspoor_66519 = {
+	name = "M'jaddha"
+	dynasty = 1110003
+	culture = pellitinian
+	religion = twomoonsdance
+	
+	mother = khaspoor_66518
+	3760.1.1 = { birth = yes }
+	3821.1.1 = { death = yes }
+}
+
+
+# Robiri Zatani Cadet for Senchal
+
+robiri_1000 = {
+	name = "Zarum"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	mother = pelletine_0010
+	trait = furstock_pahmar
+	3270.1.1 = {birth = yes}
+	3340.1.1 = {death = yes}
+}
+
+robiri_1001 = {
+	name = "Zarum"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	father = robiri_1000
+	trait = furstock_pahmar
+	3335.1.1 = {birth = yes}
+	3420.1.1 = {death = yes}
+}
+
+robiri_66451 = {
+	name = "Dro'Sakhar"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_1001
+	mother = eshita_002
+	3370.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}
+robiri_66452 = {
+	name = "Khalajo"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	
+	father = robiri_66451
+	female = yes
+	trait = dull
+	3430.1.1 = { birth = yes }
+	3439.1.1 = { effect = { add_trait = kind } }
+	3445.1.1 = { effect = { add_trait = diligent } }
+	3446.1.1 = { effect = { add_trait = education_stewardship_3 } }
+	3449.1.1 = { effect = { add_trait = just } }
+	3454.1.1 = { effect = { add_trait = patient } }
+	3497.1.1 = { death = yes }
+}
+robiri_66453 = {
+	name = "Ubaasi"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	intrigue = 8
+	female = yes
+	father = robiri_66451
+	3440.1.1 = { birth = yes }
+	3450.1.1 = { effect = { add_trait = deceitful } }
+	3456.1.1 = { effect = { add_trait = paranoid }} 
+	3460.1.1 = { effect = { add_trait = lustful } }
+	3503.1.1 = { death = yes }
+}
+robiri_66454 = {
+	name = "Shomara"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	mother = robiri_66452
+	female = yes
+	trait = dull
+	trait = strong
+	3451.1.1 = { birth = yes }
+	3459.1.1 =  { effect = { add_trait = brave } }
+	3465.1.1 = { effect = { add_trait = gluttonous } }
+	3466.1.1 = { effect = { add_trait = wrathful } }
+	3467.1.1 = { effect = { add_trait = education_martial_2 } }
+	3472.1.1 = { effect = { add_spouse = khaspoor_66507 } }
+	3474.1.1 = { effect = { add_trait = cruel } }
+	3529.1.1 = { death = yes }
+}
+robiri_66455 = {
+	name = "Nisaba"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66451
+	female = yes
+	trait = beauty_good_2
+	3442.1.1 = { birth = yes }
+	3447.1.1 = { effect = { add_trait = ambitious } }
+	3452.1.1 = { effect = { add_trait = deceitful } }
+	3455.1.1 = { effect = { add_trait = lustful } }
+	3457.1.1 = { effect = { add_trait = callous } }
+	3458.1.1 = { effect = { add_trait = education_intrigue_4 } }
+	3465.1.1 = { effect = { add_trait = schemer } }
+	3503.1.1 = { death = yes }
+}
+robiri_66456 = {
+	name = "Dahlima"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	mother = robiri_66452
+	trait = intellect_bad_2
+	trait = strong
+	3454.1.1 = { birth = yes }
+	3459.1.1 = { effect = { { add_trait = patient } }
+	3465.1.1 = { effect = { add_trait = just } }
+	3466.1.1 = { effect = { add_trait = chaste } }
+	3470.1.1 = { 
+	effect = {
+		add_trait = education_martial_1
+		add_trait = diligent
+	} }
+	3474.1.1 = { effect = { add_trait = craven } }
+	3479.1.1 = { add_spouse = 68003 } 
+	3527.1.1 = { death = yes }
+}
+khajiit_68003 = {
+	name = "Nadahi"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = intellect_good_2
+	trait = just
+	trait = furstock_pahmar
+	3454.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }
+}
+robiri_66457 = {
+	name = "J'Dato"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66456
+	mother = 68003
+	3482.1.1 = { birth = yes }
+	3485.1.1 = { effect = { add_trait = wrathful } }
+	3489.1.1 = { effect = { add_trait = honest } }
+	3491.1.1 = { effect = { add_trait = just } }
+	3494.1.1 = { effect = { add_trait = brave } }
+	3498.1.1 = { effect = { add_trait = education_intrigue_1 } }
+	3527.1.1 = { death = yes }
+}
+robiri_66458 = {
+	name = "Inorra"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	female = yes
+	mother = robiri_66453
+	3467.1.1 = { birth = yes }
+	3528.1.1 = { death = yes }
+}
+robiri_66459 = {
+	name = "Ma'zaddha"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66457
+	3505.1.1 = { birth = yes }
+	3572.1.1 = { death = yes }
+}
+robiri_66460 = {
+	name = "Ri'Vassa"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	mother = robiri_66458
+	3490.1.1 = { birth = yes }
+	3546.1.1 = { death = yes }
+}
+robiri_66461 = {
+	name = "Nirajlar"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66460
+	3523.1.1 = { birth = yes }
+	3603.1.1 = { death = yes }
+}
+robiri_66462 = {
+	name = "Mabit"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66461
+	3553.1.1 = { birth = yes }
+	3615.1.1 = { death = yes }
+}
+robiri_66463 = {
+	name = "Adara'hai"
+	female = yes
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66462
+	3588.1.1 = { birth = yes }
+	3652.1.1 = { death = yes }
+}
+robiri_66464 = {
+	name = "Ri'Shajirr"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	mother = robiri_66463
+	3610.1.1 = { birth = yes }
+	3676.1.1 = { death = yes }
+}
+robiri_66465 = {
+	name = "Makam"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66464
+	3635.1.1 = { birth = yes }
+	3707.1.1 = { death = yes }
+}
+robiri_66466 = {
+	name = "Yanabir-ja"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66465
+	3684.1.1 = { birth = yes }
+	3731.1.1 = { death = yes }
+}
+robiri_66467 = {
+	name = "Tsigila"
+	female = yes
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66466
+	3704.1.1 = { birth = yes }
+	3770.1.1 = { death = yes }
+}
+robiri_66468 = {
+	name = "S'drassa"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	mother = robiri_66467
+	3735.1.1 = { birth = yes }
+	3796.1.1 = { death = yes }
+}
+robiri_66469 = {
+	name = "Makam"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66468
+	3761.1.1 = { birth = yes }
+	3804.1.1 = { death = yes }
+}
+robiri_66470 = {
+	name = "Makam"
+	dynasty_house = zatani_robiri
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = furstock_pahmar
+	father = robiri_66469
+	3797.1.1 = { birth = yes }
+	3851.1.1 = { death = yes }
+}
+
+
+#Portneu Dukes
+portneu_1000 = {
+	name = "RaZhid"
+	dynasty_house = khaspoor_south
+	culture = pellitinian
+	religion = twomoonsdance
+	father = portneu_001
+	trait = furstock_pahmar
+	3380.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+
+portneu_1001 = {
+	name = "RaZhid"
+	dynasty_house = khaspoor_south
+	culture = pellitinian
+	religion = twomoonsdance
+	father = portneu_1000
+	trait = furstock_pahmar
+	3440.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+
+portneu_1002 = {
+	name = "Ra'jhad,"
+	dynasty_house = khaspoor_south
+	culture = pellitinian
+	religion = twomoonsdance
+	father = portneu_001
+	trait = furstock_pahmar
+	3442.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+
+portneu_1004 = {
+	name = "Adanja"
+	female = yes
+	dynasty_house = khaspoor_south
+	culture = pellitinian
+	religion = twomoonsdance
+	father = portneu_1000
+	trait = furstock_pahmar
+	3443.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+
+portneu_1003 = {
+	name = "Ra'jhad,"
+	dynasty_house = khaspoor_south
+	culture = pellitinian
+	religion = twomoonsdance
+	father = portneu_1002
+	trait = strong
+	trait = furstock_pahmar
+	3460.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }
+}
+
+#Heimthor Dukes
+
+
+heimthor_1000 = {
+	name = "Zarkier" #Contract so mane wont immediately revoke
+	dynasty_house =  khaspoor_central
+	culture = pellitinian
+	religion = manypathsdance
+	father = heimthor_002
+	trait = giant
+	trait = zealous
+	trait = furstock_pahmar
+	3392.1.1 = { birth = yes }
+	3460.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3466.1.1 = { death = yes }
+}
+
+heimthor_1000a = {
+	name = "Dro'shanji"
+	dynasty_house = khaspoor_central
+	culture = pellitinian
+	religion = manypathsdance
+	father = heimthor_002
+	trait = giant
+	trait = zealous
+	trait = arrogant
+	trait = generous
+	trait = intellect_good_1
+	trait = furstock_suthay_raht
+	3432.1.1 = { birth = yes }
+	3506.1.1 = { death = yes }
+}
+
+heimthor_1001 = {
+	name = "Takaman"
+	dynasty_house =  khaspoor_central
+	culture = pellitinian
+	religion = twomoonsdance
+	father = heimthor_1000
+	trait = giant
+	trait = furstock_suthay_raht
+	3422.1.1 = { birth = yes }
+	3486.1.1 = { death = yes }
+}
+
+heimthor_1002 = {
+	name = "Zan'hi"
+	dynasty_house =  khaspoor_central
+	culture = pellitinian
+	religion = twomoonsdance
+	father = heimthor_1001
+	trait = giant
+	trait = furstock_suthay_raht
+	3482.1.1 = { birth = yes }
+	3556.1.1 = { death = yes }
+}
+
+
+#Dukes of Ne Quin Al in Orcrest
+
+rasiniit_1000 = {
+	name = "Fa'dran"
+	culture = anequinan
+	religion = twomoonsdance
+	dynasty = 1110010
+
+	father = rasiniit_004
+	trait = furstock_tojay_raht
+	3379.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+
+}
+
+rasiniit_1001 = {
+	name = "Ab'jihad"
+	culture = anequinan
+	religion = twomoonsdance
+	dynasty = 1110010
+	trait = cynical
+	father = rasiniit_1000
+	trait = furstock_tojay_raht
+
+	3429.1.1 = { birth = yes }
+	3459.1.1 = { 
+			effect = {
+			add_pressed_claim = title:k_orcrest
+			add_pressed_claim = title:d_orcrest
+			add_pressed_claim = title:c_orcrest
+		}
+	}
+	3459.10.1. = {
+		effect = {
+			add_opinion = {
+				target = character:anequina_69007 # Demands the leadership of Orcrest
+				modifier = hate_opinion
+				opinion = -80
+			}
+		}
+	}
+	3460.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3480.1.1 = { death = yes }
+
+}
+
+rasiniit_1002 = {
+	name = "Jathim"
+	culture = anequinan
+	religion = twomoonsdance
+	dynasty = 1110010
+	father = rasiniit_1001
+	
+	trait = physique_good_1
+	trait = furstock_tojay_raht
+	3449.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+
+}
+
+rasiniit_1003 = {
+	name = "Shausa"
+	female = yes
+	culture = anequinan
+	religion = twomoonsdance
+	dynasty = 1110010
+	father = rasiniit_1001
+	trait = furstock_tojay_raht
+	trait = physique_good_1
+	
+	3451.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+
+}
+
+#Darkarn Dukes Ribasti Cadets
+
+darkarn_1000 = {
+	name = "Baathri_dar"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty_house = ribasti_drobasti
+	father = darkarn_002
+
+	3376.1.1 = {birth = yes}
+	3440.1.1 = {death = yes}
+}
+
+darkarn_1001 = {
+	name = "Baathri_dar"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty_house = ribasti_drobasti
+	father = darkarn_1000
+
+	3416.1.1 = {birth = yes}
+	3480.1.1 = {death = yes}
+}
+
+darkarn_1002 = {
+	name = "Baathri_dar"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty_house = ribasti_drobasti
+	father = darkarn_1001
+
+	3436.1.1 = {birth = yes}
+	3510.1.1 = {death = yes}
+}
+
+darkarn_1003 = {
+	name = "Keshazh"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty_house = ribasti_drobasti
+	father = darkarn_1001
+
+	3441.1.1 = {birth = yes}
+	3520.1.1 = {death = yes}
+}
+
+darkarn_1004 = {
+	name = "Keshazh"
+	female = yes
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty_house = ribasti_drobasti
+	father = darkarn_1001
+
+	3442.1.1 = {birth = yes}
+	3520.1.1 = {death = yes}
+}
+
+#Ah'ajbi Dukes (cousin of Alabaster King) Dynasty Ribasti
+
+ahjabi_1000 = {
+	name = "Marakar"
+	dynasty = 1100006
+	culture = pellitinian
+	religion = twomoonsdance
+
+	#furstock
+	trait = furstock_pahmar
+	trait = clubfooted
+
+
+	mother = ahjabi_002
+
+	3380.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+
+ahjabi_1001 = {
+	name = "Marakar"
+	dynasty = 1100006
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = ambitious
+	#furstock
+	trait = furstock_pahmar
+
+
+	father = ahjabi_1000
+
+	3420.1.1 = { birth = yes }
+		3459.1.1 = { 
+			effect = {
+			add_pressed_claim = title:k_alabaster
+			add_pressed_claim = title:d_alabaster
+			add_pressed_claim = title:c_alabaster
+		}
+	}
+	3480.1.1 = { death = yes }
+}
+
+ahjabi_1002 = {
+	name = "Ranarr_Jo"
+	dynasty = 1100006
+	culture = pellitinian
+	religion = twomoonsdance
+
+	#furstock
+	trait = furstock_pahmar
+
+
+	father = ahjabi_1001
+
+	3440.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+ahjabi_1003 = {
+	name = "Amu"
+	dynasty = 1100006
+	culture = pellitinian
+	religion = twomoonsdance
+
+	#furstock
+	trait = furstock_pahmar
+
+
+	father = ahjabi_1001
+	
+	3443.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+ahjabi_1004 = {
+	name = " Adusaar"
+	dynasty = 1100006
+	culture = pellitinian
+	religion = twomoonsdance
+
+	#furstock
+	trait = furstock_pahmar
+	trait = intellect_good_1
+
+	father = ahjabi_1002
+
+	3480.1.1 = { birth = yes }
+	3550.1.1 = { death = yes }
+}
+
+##Alabaster Rulers Ribasti Cadets
+
+
+alabaster_1000 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+
+	father = forsaken_cape_1000
+	mother = forsaken_cape_1000_wife
+
+
+	3380.11.05 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+
+alabaster_1001 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+	father = alabaster_1000
+
+	3414.11.05 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+
+
+alabaster_1002 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+	father = alabaster_1001
+
+	3434.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+alabaster_1003 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+	father = alabaster_1002
+
+	3454.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+alabaster_1004 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+	father = alabaster_1003
+
+	3494.1.1 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+
+alabaster_1005 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+	father = alabaster_1004
+
+	3534.1.1 = { birth = yes }
+	3620.1.1 = { death = yes }
+}
+
+
+alabaster_1006 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+	father = alabaster_1005
+
+	3584.1.1 = { birth = yes }
+	3670.1.1 = { death = yes }
+}
+
+alabaster_1007 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+	father = alabaster_1006
+
+	3634.1.1 = { birth = yes }
+	3700.1.1 = { death = yes }
+}
+
+alabaster_1008 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+	father = alabaster_1007
+
+	3675.1.1 = { birth = yes }
+	3750.1.1 = { death = yes }
+}
+
+alabaster_1009 = {
+	name = "Ma'randru-jo"
+	dynasty = rimapiiti
+	culture = pellitinian
+	religion = twomoonsdance
+	father = alabaster_1008
+
+	3725.1.1 = { birth = yes }
+	3800.1.1 = { death = yes }
+}
+
+
+#Dune royal family
+
+shabu_69100 = {
+	name = "Ri'saad"
+	dynasty = 1110016
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = shabu_001
+	3351.1.1 = { birth = yes }
+	3390.1.1 = { add_spouse = 69300 }
+	3430.1.1 = { death = yes }
+}
+shabu_69101 = {
+	name = "J'baana"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69100
+	mother = jakar_69300
+	3395.1.1 = { birth = yes }
+	3449.1.1 = { death = yes }
+}
+shabu_69102 = {
+	name = "Ma'zaka"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69101
+	martial = 9
+	prowess = 10
+	trait = education_martial_3
+	trait = blademaster_2
+	trait = furstock_tojay_raht
+	disallow_random_traits = yes
+	
+	3420.1.1 = { birth = yes }
+	3425.1.1 = { effect = { add_trait = diligent } }
+	3429.1.1 = { effect = { add_trait = brave } }
+	3434.1.1 = { effect = { add_trait = zealous } }
+	3436.1.1 = { effect = { add_trait = education_magical_3 } }
+	3439.1.1 = { effect = { add_trait = wrathful } }
+	3501.1.1 = { death = yes }
+	dna = shabu_001_dna_entry
+}
+
+shabu_69102a = {
+	name = "Jo'Ren-Dar"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	trait = education_diplomacy_3
+	trait = blademaster_1
+	trait = furstock_suthay
+	trait = legitimized_bastard
+	trait = skooma_drinker
+	trait = strong
+	
+	3440.1.1 = { birth = yes }
+	3501.1.1 = { death = { death_reason = death_battle } }
+}
+shabu_69103 = {
+	name = "Cherim"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69102
+	trait = intellect_good_2
+	3470.1.1 = { birth = yes }
+	3478.1.1 = { effect = { add_trait = shy } }
+	3481.1.1 = { 
+		effect = {
+		add_trait = gluttonous
+		add_trait = cynical
+	} }
+	3485.1.1 = { effect = { add_trait = diligent } }
+	3486.1.1 = { effect = { add_trait = education_magical_2 } }
+	#3494.1.1 = { add_spouse = 70128 }
+	3528.1.1 = { death = yes }
+}
+shabu_69104 = {
+	name = "Nezashun"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69103
+	mother = 70128
+	3506.1.1 = { birth = yes }
+	3575.1.1 = { death = yes }
+}
+shabu_69105 = {
+	name = "Khariz"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69104
+	3533.1.1 = { birth = yes }
+	3585.1.1 = { death = yes }
+}
+shabu_69106 = {
+	name = "Ri'Bassa" 
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69105
+	3562.1.1 = { birth = yes }
+	3629.1.1 = { death = yes }
+}
+shabu_69107 = {
+	name = "Zargal"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69106
+	3601.1.1 = { birth = yes }
+	3664.1.1 = { death = yes }
+}
+shabu_69108 = {
+	name = "Iduthal"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69107
+	3620.1.1 = { birth = yes }
+	3688.1.1 = { death = yes }
+}
+shabu_69109 = {
+	name = "Lakurr-ra"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69108
+	3645.1.1 = { birth = yes }
+	3720.1.1 = { death = yes }
+}
+shabu_69110 = {
+	name = "Marami"
+	female = yes
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69108
+	3661.1.1 = { birth = yes }
+	3732.1.1 = { death = yes }
+}
+shabu_69111 = {
+	name = "J'Zamha"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69109
+	3674.1.1 = { birth = yes }
+	3739.1.1 = { death = yes }
+}
+shabu_69112 = {
+	name = "J'zaraer"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69111
+	3703.1.1 = { birth = yes }
+	3762.1.1 = { death = yes }
+}
+shabu_69113 = {
+	name = "J'zaraer"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69112
+	3740.1.1 = { birth = yes }
+	3799.1.1 = { death = yes }
+}
+shabu_69114 = {
+	name = "Munalur"
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69113
+	3767.1.1 = { birth = yes }
+	3824.1.1 = { death = yes }
+}
+shabu_69115 = {
+	name = "Lazami"
+	female = yes
+	dynasty = 1110016
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = shabu_69114
+	3787.1.1 = { birth = yes }
+	3833.1.1 = { death = yes }
+}
+
+shabu_line = {
+	name = "Darloc"
+	dynasty = 1110016
+	culture = anequinan
+	religion = manypathsdance
+	trait = line_of_x
+	father = anequina_001
+	disallow_random_traits = yes
+	500.1.1 = { birth = yes }
+	3000.1.1 = { give_nickname = nick_line_of }
+	3240.1.1 = { death = yes }
+}
+
+#Mahma (Masdorn) counts
+
+mahma_69201 = {
+	name = "Jodhur"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = mahma_002 # Sholani Mahma
+	trait = furstock_suthay_raht
+	3392.1.1 = { birth = yes }
+	3449.1.1 = { death = yes }
+}
+mahma_69202 = {
+	name = "Shavari"
+	dynasty = 1110018
+	culture = anequinan
+	religion = twomoonsdance
+	
+	father = mahma_002 # Sholani Mahma
+	female = yes
+	trait = furstock_suthay_raht
+	3398.1.1 = { birth = yes }
+	3458.1.1 = { death = yes }
+}
+mahma_69203 = {
+	name = "Ranarr-Jo"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	
+	father = mahma_69201 # Jodhur Mahma
+	trait = furstock_suthay_raht
+	3435.1.1 = { birth = yes }
+	3470.1.1 = { add_spouse = raispoor_69553 } # Anurassa Raispoor
+	3496.1.1 = { death = yes }
+}
+
+mahma_69203a = {
+	name = "Dro'Sakhar"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = generous
+	trait = education_magical_3
+	trait = education_learning_4
+	trait = battlemage
+	trait = arcana_good_3
+	father = mahma_69201 # Jodhur Mahma
+	trait = furstock_suthay_raht
+	3439.1.1 = { birth = yes }
+	3458.1.1 = {
+				effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = alteration_journeyman_perk
+			add_perk = restoration_novice_perk
+			add_perk = restoration_apprentice_perk
+			add_perk = restoration_journeyman_perk
+			add_perk = restoration_expert_perk
+			add_perk = restoration_master_perk
+		}
+	}
+	3496.1.1 = { death = yes }
+}
+mahma_69204 = {
+	name = "Gi'Nanth" # Nanaki!!
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	
+	trait = twin
+	trait = education_magical_4
+	trait = genius
+	trait = weak
+	trait = diligent
+	trait = impatient
+	
+	father = mahma_69203 # Ranarr-Jo Mahma
+	mother = raispoor_69553 # Anurassa Raispoor
+	3480.1.1 = { birth = yes }
+	3516.1.1 = { add_spouse = mahma_71001 }
+	3575.1.1 = { death = yes }
+}
+
+mahma_71001 = {
+	name = "Mazduni-daro"
+	female = yes
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	
+	3497.1.1 = { birth = yes }
+	3563.1.1 = { death = yes }
+}
+
+mahma_69205 = {
+	name = "Nahsi"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	
+	trait = twin
+	trait = education_martial_4
+	trait = physique_good_3
+	trait = dull
+	trait = lazy
+	trait = patient
+	father = mahma_69203 # Ranarr-Jo Mahma
+	mother = raispoor_69553 # Anurassa Raispoor
+	3480.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+mahma_69206 = {
+	name = "Baezad-dro"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	father = mahma_69204
+	mother = 71001
+	3521.1.1 = { birth = yes }
+	3585.1.1 = { death = yes }
+}
+mahma_69207 = {
+	name = "Khasha"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	father = mahma_69206
+	3557.1.1 = { birth = yes }
+	3622.1.1 = { death = yes }
+}
+mahma_69208 = {
+	name = "Enik-ja"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	father = mahma_69207
+	3580.1.1 = { birth = yes }
+	3638.1.1 = { death = yes }
+}
+mahma_69209 = {
+	name = "Shamaea"
+	female = yes
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	father = mahma_69208
+	3624.1.1 = { birth = yes }
+	3696.1.1 = { death = yes }
+}
+mahma_69210 = {
+	name = "Zazabhuki"
+	female = yes
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	mother = mahma_69209
+	3647.1.1 = { birth = yes }
+	3702.1.1 = { death = yes }
+}
+mahma_69211 = {
+	name = "Ra'darri"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	mother = mahma_69210
+	3673.1.1 = { birth = yes }
+	3727.1.1 = { death = yes }
+}
+mahma_69212 = {
+	name = "Felira"
+	female = yes
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	father = mahma_69211
+	3699.1.1 = { birth = yes }
+	3772.1.1 = { death = yes }
+}
+mahma_69213 = {
+	name = "J'Reeza"
+	female = yes
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	mother = mahma_69212
+	3728.1.1 = { birth = yes }
+	3794.1.1 = { death = yes }
+}
+mahma_69214 = {
+	name = "Karzik"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	mother = mahma_69213
+	3750.1.1 = { birth = yes }
+	3808.1.1 = { death = yes }
+}
+mahma_69215 = {
+	name = "Kunerr-jo"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	father = mahma_69214
+	3776.1.1 = { birth = yes }
+	3835.1.1 = { death = yes }
+}
+mahma_69216 = {
+	name = "Rainazh"
+	dynasty = 1110018
+	culture = anequinan
+	religion = manypathsdance
+	trait = furstock_suthay_raht
+	father = mahma_69215
+	3807.1.1 = { birth = yes }
+	3876.1.1 = { death = yes }
+}
+
+#Tardorn/Seaplace rulers Vethkel Dynasty 
+redrose_1000 = {
+	name = "Mazirul"
+	dynasty = 1110023
+	culture = anequinan
+	religion = manypathsdance
+	mother = redrose_001
+
+	#furstock
+	trait = furstock_cathay
+
+	3371.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+redrose_1001 = {
+	name = "Hazazkheran"
+	dynasty = 1110023
+	culture = anequinan
+	religion = manypathsdance
+	father = redrose_1000
+
+	#furstock
+	trait = furstock_cathay
+
+	3399.1.1 = { birth = yes }
+	3460.1.1 = { death = yes }
+}
+
+redrose_1002 = {
+	name = "Zaorir"
+	dynasty = 1110023
+	culture = anequinan
+	religion = manypathsdance
+	father = redrose_1001
+
+	#furstock
+	trait = furstock_cathay
+
+	3423.1.1 = { birth = yes }
+	3460.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3480.1.1 = { death = yes }
+}
+redrose_1003 = {
+	name = "Shaasharr"
+	dynasty = 1110023
+	culture = anequinan
+	religion = manypathsdance
+	father = redrose_1002
+
+	#furstock
+	trait = furstock_cathay
+
+	3443.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+
+redrose_2000 = {
+	name = "Mazag"
+	dynasty = 1110023
+	culture = anequinan
+	religion = twomoonsdance
+
+	father = redrose_001
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3371.1.1 = { birth = yes }
+	3431.1.1 = { death = yes  }
+}
+
+redrose_2001 = {
+	name = "Marunji"
+	dynasty = 1110023
+	culture = anequinan
+	religion = twomoonsdance
+
+	father = redrose_2000
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3422.1.1 = { birth = yes }
+	3485.1.1 = { death = yes  }
+}
+
+redrose_2001a = {
+	name = "Minshak"
+	dynasty = 1110023
+	culture = anequinan
+	religion = twomoonsdance
+	sexuality = homosexual
+	trait = deviant
+	
+	father = redrose_2000
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3442.1.1 = { birth = yes }
+	3485.1.1 = { death = yes  }
+}
+
+redrose_2002 = {
+	name = "Fa'dran"
+	dynasty = 1110023
+	culture = anequinan
+	religion = twomoonsdance
+	trait = patient
+	trait = gregarious
+	trait = beauty_good_3
+	father = redrose_2001
+	
+	#furstock
+	trait = furstock_suthay_raht
+
+	3441.1.1 = { birth = yes }
+	3515.1.1 = { death = yes  }
+}
+
+redrose_2003 = {
+	name = "Baa'jhan"
+	dynasty = 1110023
+	culture = anequinan
+	religion = twomoonsdance
+	trait = beauty_good_2
+	trait = arcana_good_1
+	father = redrose_2002
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3458.1.1 = { birth = yes }
+	3535.1.1 = { death = yes  }
+}
+
+redrose_2003a = {
+	name = "Azdazi"
+	female = yes
+	dynasty = 1110023
+	culture = anequinan
+	religion = twomoonsdance
+	trait = beauty_good_1
+	trait = arcana_good_3
+	father = redrose_2002
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3459.1.1 = { birth = yes }
+	3535.1.1 = { death = yes  }
+}
+#Darglade rulers Goldrose 
+
+goldrose_1000 = {
+	name = "Koweyr"
+	dynasty_house = goldrose
+	culture = anequinan
+	religion = twomoonsdance
+
+	father = goldrose_001
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3372.1.1 = { birth = yes }
+	3431.1.1 = { death = yes  }
+}
+
+goldrose_1001 = {
+	name = "Kasam-dar"
+	dynasty_house = goldrose
+	culture = anequinan
+	religion = twomoonsdance
+
+	father = goldrose_1000
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3422.1.1 = { birth = yes }
+	3485.1.1 = { death = yes  }
+}
+
+goldrose_1001a = {
+	name = "Raka-sus"
+	dynasty_house = goldrose
+	culture = anequinan
+	religion = twomoonsdance
+	sexuality = homosexual
+	trait = deviant
+	
+	father = goldrose_1000
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3442.1.1 = { birth = yes }
+	3485.1.1 = { death = yes  }
+}
+
+goldrose_1002 = {
+	name = "Jinninji-ri"
+	dynasty_house = goldrose
+	culture = anequinan
+	religion = twomoonsdance
+	trait = diligent
+	trait = blademaster_2
+	trait = strong
+	father = goldrose_1001
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3444.1.1 = { birth = yes }
+	3515.1.1 = { death = yes  }
+}
+
+goldrose_1003 = {
+	name = "Dro'Zakar"
+	dynasty_house = goldrose
+	culture = anequinan
+	religion = twomoonsdance
+	trait = physique_good_2
+	
+	father = goldrose_1002
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3460.1.1 = { birth = yes }
+	3535.1.1 = { death = yes  }
+}
+
+#Tenmori caravan
+
+whiterose_1000 = {
+	name = "Mazag"
+	dynasty_house = whiterose
+	culture = baandari
+	religion = baandari
+
+	father = whiterose_001
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3371.1.1 = { birth = yes }
+	3431.1.1 = { death = yes  }
+}
+
+whiterose_1001 = {
+	name = "Marunji"
+	dynasty_house = whiterose
+	culture = baandari
+	religion = baandari
+
+	father = whiterose_1000
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3422.1.1 = { birth = yes }
+	3485.1.1 = { death = yes  }
+}
+
+whiterose_1001a = {
+	name = "Minshak"
+	dynasty_house = whiterose
+	culture = baandari
+	religion = baandari
+	sexuality = homosexual
+	trait = deviant
+	
+	father = whiterose_1000
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3442.1.1 = { birth = yes }
+	3485.1.1 = { death = yes  }
+}
+
+whiterose_1002 = {
+	name = "Fa'dran"
+	dynasty_house = whiterose
+	culture = baandari
+	religion = baandari
+	trait = patient
+	trait = gregarious
+	trait = beauty_good_3
+	father = whiterose_1001
+	
+	#furstock
+	trait = furstock_suthay_raht
+
+	3441.1.1 = { birth = yes }
+	3515.1.1 = { death = yes  }
+}
+
+whiterose_1003 = {
+	name = "Baa'jhan"
+	dynasty_house = whiterose
+	culture = baandari
+	religion = baandari
+	trait = beauty_good_2
+	trait = arcana_good_1
+	father = whiterose_1002
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3458.1.1 = { birth = yes }
+	3535.1.1 = { death = yes  }
+}
+
+whiterose_1003a = {
+	name = "Azdazi"
+	female = yes
+	dynasty_house = whiterose
+	culture = baandari
+	religion = baandari
+	trait = beauty_good_1
+	trait = arcana_good_3
+	father = whiterose_1002
+
+	#furstock
+	trait = furstock_suthay_raht
+
+	3459.1.1 = { birth = yes }
+	3535.1.1 = { death = yes  }
+}
+
+##Verkarth Dukes under Dune
+
+verkarth_1000 = {
+	name = "Ra'kothah"
+	dynasty = 1110019
+	culture = anequinan
+	religion = twomoonsdance
+	father = verkarth_001
+	#furstock
+	trait = furstock_dagi_raht
+	trait = intellect_good_3
+
+	3375.1.1 = { birth = yes }
+	3438.1.1 = { death = yes }
+}
+	
+	
+verkarth_1001 = {
+	name = "Ra'kothah"
+	dynasty = 1110019
+	culture = anequinan
+	religion = twomoonsdance
+	father = verkarth_1000
+	#furstock
+	trait = furstock_dagi_raht
+	trait = intellect_good_1
+
+	3420.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+verkarth_1002 = {
+	name = "Maj'ha-dro"
+	dynasty = 1110019
+	culture = anequinan
+	religion = twomoonsdance
+	father = verkarth_1001
+	#furstock
+	trait = furstock_dagi_raht
+	trait = intellect_good_1
+
+	3443.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }
+}
+
+verkarth_3460 = {
+	name = "Ra'kothah"
+	dynasty = 1110019
+	culture = anequinan
+	religion = twomoonsdance
+	father = verkarth_1000
+	#furstock
+	trait = furstock_dagi_raht
+	trait = intellect_good_1
+
+	3450.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+verkarth_1003 = {
+	name = "S'rathzo"
+	dynasty = 1110019
+	culture = anequinan
+	religion = twomoonsdance
+	father = verkarth_1001
+	#furstock
+	trait = furstock_dagi_raht
+	trait = intellect_good_1
+
+	3460.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+##Dakhe
+
+dakhe_1000 = {
+	name = "Zavshi"
+	religion = twomoonsdance
+	culture = anequinan
+	dynasty_house = dakhe
+	sexuality = homosexual
+	father = dakhe_1
+	trait = lustful
+	trait = generous
+	trait = fickle
+	trait = deviant
+	trait = education_learning_3
+
+	3385.1.1 = { birth = yes }
+	3440.1.7 = { death = yes }
+}
+
+dakhe_1001 = {
+	name = "Zavshi"
+	religion = twomoonsdance
+	culture = anequinan
+	dynasty_house = dakhe
+	sexuality = homosexual
+	father = dakhe_1000
+	trait = lustful
+	trait = generous
+	trait = fickle
+	trait = deviant
+	trait = education_learning_3
+
+	3435.1.1 = { birth = yes }
+	3520.1.7 = { death = yes }
+}
+
+dakhe_1002 = {
+	name = "Zavshi"
+	religion = twomoonsdance
+	culture = anequinan
+	dynasty_house = dakhe
+	sexuality = homosexual
+	father = dakhe_1001
+	trait = lustful
+	trait = generous
+	trait = fickle
+	trait = deviant
+	trait = education_learning_3
+
+	3435.1.1 = { birth = yes }
+	3510.1.7 = { death = yes }
+}
+
+dakhe_1003 = {
+	name = "Zavshi"
+	religion = twomoonsdance
+	culture = anequinan
+	dynasty_house = dakhe
+	sexuality = homosexual
+	father = dakhe_1002
+	trait = lustful
+	trait = generous
+	trait = fickle
+	trait = deviant
+	trait = education_learning_3
+
+	3455.1.1 = { birth = yes }
+	3540.1.7 = { death = yes }
+}
+
+## Khenarthi lineage
+
+
+khenarthi_1000 = {
+	name = "Ma'tasarr"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100002
+	trait = furstock_pahmar
+	father = khenarthi_004
+
+	3376.1.1 = {birth = yes}
+	3420.1.1 = {death = yes}
+}
+
+khenarthi_1001 = {
+	name = "Barros"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100002
+	trait = furstock_pahmar
+	father = khenarthi_1000
+
+	3410.1.1 = {birth = yes}
+	3460.1.1 = {death = yes}
+}
+
+khenarthi_1002 = {
+	name = "Bahzahar"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100002
+	trait = schoomadrinker
+	trait = trusting
+	trait = cynical
+	trait = greedy
+	trait = callous
+	trait = furstock_pahmar
+	father = khenarthi_1001
+	trait = blademaster_2
+	trait = battlemage
+	trait = education_intrigue_2
+	trait = physique_good_2
+	
+	3444.1.1 = { birth = yes }
+	3460.1.1 = { give_nickname = nick_the_bull }
+	3503.1.1 = { death = yes }
+}
+
+khenarthi_1002 = {
+	name = "Fa'ren-dar"
+	culture = pellitinian
+	religion = twomoonsdance
+	dynasty = 1100002
+	trait = furstock_pahmar
+	trait = cynical
+	trait = greedy
+	
+	#pahmar
+	father = khenarthi_1001
+	3484.1.1 = {birth = yes}
+	3550.1.1 = {death = yes}
+}
+##Dakarn clan in Valenwood
+
+dakarn_1 = { # Arenthia
+	name = "Jbarza"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+
+
+	3325.7.4 = { birth = yes }
+	3377.6.4 = { death = yes }
+}
+
+dakarn_1000 = { # Arenthia
+	name = "Raynan"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1
+	trait = furstock_pahmar_raht
+	3375.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+
+dakarn_1001 = { # Arenthia
+	name = "Kirrdul"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1000
+	trait = furstock_pahmar
+	trait = greedy
+	trait = schoomadrinker
+	3425.1.1 = { birth = yes }
+	3438.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1 } } }
+	3447.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1000 } } }
+	3490.1.1 = { death = yes }
+}
+
+dakarn_1002 = { # Arenthia
+	name = "Huzdargo"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1001
+	trait = vengful
+	trait = furstock_pahmar
+	3442.1.1 = { birth = yes }
+	3447.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1000 } } }
+	3530.1.1 = { death = yes }
+}
+
+dakarn_1003 = { # Arenthia
+	name = "Dorahin"
+	female = yes
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1001
+	trait = furstock_pahmar
+	3445.1.1 = { birth = yes }
+	3447.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1001 } } }
+	3530.1.1 = { death = yes }
+}
+
+dakarn_1000a = { # Arenthia
+	name = "Malihaz-do"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1
+
+	3375.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+
+dakarn_1001a = { # Arenthia
+	name = "Atirr"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1000a
+	trait = furstock_pahmar
+	3425.1.1 = { birth = yes }
+	3438.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1 } } }
+	3447.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1002 } } }
+	3490.1.1 = { death = yes }
+}
+
+dakarn_1002a = { # Arenthia
+	name = "Narbhulad-do"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1001a
+	trait = furstock_pahmar
+	3443.1.1 = { birth = yes }
+	3447.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1005 } } }
+	3530.1.1 = { death = yes }
+}
+
+dakarn_1003a = { # Arenthia
+	name = "Sezera"
+	female = yes
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1001a
+	trait = furstock_pahmar
+	3446.1.1 = { birth = yes }
+	3447.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1002 } } }
+	3530.1.1 = { death = yes }
+}
+
+dakarn_1000b = { # Arenthia
+	name = "Zandal"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1
+	trait = furstock_pahmar
+	3375.1.1 = { birth = yes }
+	3438.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1 } } }
+	3447.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1003 } } }
+	3440.1.1 = { death = yes }
+}
+
+dakarn_1001b = { # Arenthia
+	name = "Ma'jidid"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1000b
+	trait = furstock_pahmar
+	3425.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+dakarn_1002b = { # Arenthia
+	name = "Halinargo"
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1001b
+	trait = furstock_pahmar
+	3443.1.1 = { birth = yes }
+		3447.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1004 } } }
+	3530.1.1 = { death = yes }
+}
+
+dakarn_1003b = { # Arenthia
+	name = "Kalari"
+	female = yes
+	dynasty = 1110001
+	religion = twomoonsdance
+	culture = anequinan
+	father = dakarn_1001b
+	trait = furstock_pahmar
+	3446.1.1 = { birth = yes }
+	3447.1.1 = { effect = { set_relation_rival = { reason = rival_historical target = character:vinedusk_1005 } } }
+	3530.1.1 = { death = yes }
+}
+
+
+###Razum-Dar Cadets of Zatani
+
+razumdar_1000 = { 
+	name = "Dro'Zira"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	mother = pelletine_002a
+	trait = skooma_drinker
+	trait = furstock_suthay
+	trait = brave
+	trait = avaricious
+	3245.1.1 = { birth = yes }
+	3319.1.1 = { death = { death_reason = death_battle } }
+}
+
+razumdar_1001 = {
+	name = "Ma'rashirr"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	father = razumdar_1000
+	trait = brave
+	trait = ill
+	3305.1.1 = { birth = yes }
+	3379.1.1 = { death = { death_reason = death_battle } }
+}
+
+razumdar_father = {
+	name = "Dro'marash"
+	dynasty_house = zatani_tasluz 
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = just
+	trait = brave
+	trait = furstock_suthay_raht
+	father = razumdar_1001
+	3375.1.1 = { birth = yes }
+	3459.1.1 = { death = { death_reason = death_battle } }
+}
+razum_dar = {
+	name = "Razum-Dar" #Eye of Ayrenn
+	dynasty_house = zatani_razumdar
+	culture = pellitinian
+	father = razumdar_father
+	religion = twomoonsdance
+	trait = brave
+	trait = generous
+	trait = diligent
+	trait = gregarious
+	trait = patient
+	trait = education_intrigue_4
+	trait = rowdy
+	trait = furstock_pahmar_raht
+	prowess = 13
+	intrigue = 15
+	martial = 13
+	
+	trait = intellect_good_2
+	trait = beauty_good_1
+	disallow_random_traits = yes
+
+	3459.12.12 = { 
+		birth = yes 
+		effect = { #cunning sob
+			add_prestige_level = 2
+		}
+	}
+	3460.1.1 = { employer = mane_003 }
+	3485.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3488.1.1 = {
+				effect = {
+			add_perk = illusion_novice_perk
+			add_perk = illusion_apprentice_perk
+			add_perk = illusion_journeyman_perk
+			add_perk = illusion_expert_perk
+			add_perk = illusion_master_perk
+		}
+	}
+	3490.1.1 = { effect = { add_trait = adventurer add_trait = blademaster_3 add_trait = schemer add_trait = education_martial_prowess_4 add_trait = diplomat remove_trait rowdy add_trait content } }
+	3491.1.1 = {set_relation_friend = { reason = friend_generic_history target = character:arana_1001 } }
+	3502.1.1 = { employer = arana_1001 }
+	3529.1.1 = { death = yes }
+}
+
+##Placeholders or Moon Bishops
+
+argolis_3460 = {
+	name = "Maiq"
+	culture = anequinan
+	religion = twomoonsdance
+	trait = adventurer
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes give_nickname = nick_the_liar  }
+	3533.1.1 = { death = yes }
+}
+jodirr_3460 = {
+	name = "Maiq"
+	culture = anequinan
+	religion = manypathsdance
+	
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes  }
+	3533.1.1 = { death = yes }
+}
+
+kenarthi_breath_3460 = {
+	name = "Maiq"
+	culture = pellitinian
+	religion = manypathsdance
+	trait = adventurer
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes give_nickname = nick_the_liar  }
+	3533.1.1 = { death = yes }
+}
+
+buriik_3460 = {
+	name = "Maiq"
+	culture = anequinan
+	religion = twomoonsdance
+	trait = adventurer
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes give_nickname = nick_the_liar  }
+	3533.1.1 = { death = yes }
+}
+
+nicandra_3460 = {
+	name = "Maiq"
+	culture = anequinan
+	religion = twomoonsdance
+	trait = adventurer
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes give_nickname = nick_the_liar  }
+	3533.1.1 = { death = yes }
+}
+
+agamanus_3460 = {
+	name = "Maiq"
+	culture = anequinan
+	religion = twomoonsdance
+	trait = adventurer
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes give_nickname = nick_the_liar  }
+	3533.1.1 = { death = yes }
+}
+
+mjraan_3460 = {
+	name = "Maiq"
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = adventurer
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes give_nickname = nick_the_liar  }
+	3533.1.1 = { death = yes }
+}
+
+zazaradi_3460 = {
+	name = "Ezzag"
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = education_stewardship_4
+	trait = just
+	#furstock
+	#trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes  }
+	3533.1.1 = { death = yes }
+}
+
+khatch_3460 = {
+	name = "Maiq"
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = adventurer
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes give_nickname = nick_the_liar  }
+	3533.1.1 = { death = yes }
+}
+
+moonlit_cove_3460 = {
+	name = "Maiq"
+	culture = pellitinian
+	religion = twomoonsdance
+	trait = adventurer
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes give_nickname = nick_the_liar  }
+	3533.1.1 = { death = yes }
+}
+
+starhaven_3460 = { 
+	name = "Maiq"
+	culture = anequinan
+	religion = twomoonsdance
+	trait = adventurer
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3442.1.1 = { birth = yes give_nickname = nick_the_liar  }
+	3533.1.1 = { death = yes }
+}
+
+chasemoor_3460 = { 
+	name = "Aruda"
+	female = yes
+	culture = anequinan
+	religion = twomoonsdance
+	trait = seducer
+	trait = lunatic
+	trait = lustful
+	trait = deceitful
+	#furstock
+	trait = furstock_pahmar_raht
+	sexuality = bisexual
+	
+	3442.1.1 = { birth = yes give_nickname = nick_the_lustful }
+	3533.1.1 = { death = yes }
+}
+
+srendar_3460 = { 
+	name = "Mina-diir"
+	female = yes
+	culture = anequinan
+	religion = twomoonsdance
+	trait = torturer
+	trait = shrewd
+	trait = lustful
+	trait = deceitful
+	sexuality = homosexual
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3443.1.1 = { birth = yes give_nickname = nick_the_depraved }
+	3533.1.1 = { death = yes }
+}
+
+argolis_3460 = { 
+	name = "Khana"
+	female = yes
+	culture = anequinan
+	religion = twomoonsdance
+	trait = seducer
+	trait = shrewd
+	trait = lustful
+	trait = deceitful
+	trait = beauty_good_1
+	trait = sadistic
+	sexuality = bisexual
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3443.1.1 = { birth = yes give_nickname = nick_the_wicked }
+	3533.1.1 = { death = yes }
+}
+jode_3460 = { 
+	name = "Dro-Marra"
+	culture = anequinan
+	religion = manypathsdance
+	trait = education_diplomacy_3
+	#furstock
+	trait = furstock_pahmar_raht
+
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+starlight_3460 = { 
+	name = "Dro-Makam"
+	culture = anequinan
+	religion = manypathsdance
+	#furstock
+	trait = furstock_suthay_raht
+
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+do_rajiin_3460 = { 
+	name = "Zunash"
+	culture = anequinan
+	religion = manypathsdance
+	#furstock
+	trait = furstock_suthay_raht
+	trait = zealous
+	
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+durres_3460 = { 
+	name = "Zargal"
+	culture = baandari
+	religion = baandari
+	#furstock
+	trait = furstock_suthay_raht
+	trait = education_intrigue_3
+	trait = dull
+	
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+daryaj_3460 = { 
+	name = "Dro-Makam"
+	culture = baandari
+	religion = baandari
+	#furstock
+	trait = furstock_suthay_raht
+
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+windscar_3460 = { 
+	name = "Dro-Makam"
+	culture = baandari
+	religion = baandari
+	#furstock
+	trait = peasant_leader
+
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+darkpool_3460 = { 
+	name = "Ravso-dar"
+	culture = anequinan
+	religion = manypathsdance
+	#furstock
+	trait = furstock_suthay_raht
+	trait = zealous
+	
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+srenja_3460 = { 
+	name = "Nibihu"
+	culture = anequinan
+	religion = manypathsdance
+	#furstock
+	trait = furstock_dagi_raht
+	trait = cynical
+	
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+khajay_3460 = {
+	name = "Kuldargo"
+	culture = pellitinian
+	religion = twomoonsdance
+	#furstock
+	trait = furstock_suthay_raht
+	trait = giant
+	trait = strong
+	
+	3442.1.1 = { birth = yes give_nickname = nick_the_giant  }
+	3533.1.1 = { death = yes }
+}
+
+meryvale_3460 = { 
+	name = "Azazi"
+	culture = anequinan
+	religion = manypathsdance
+	#furstock
+	trait = furstock_dagi_raht
+	
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+meirvale_3460 = { 
+	name = "Lakjo"
+	culture = anequinan
+	religion = manypathsdance
+	#furstock
+	trait = furstock_dagi_raht
+	
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+areztzx_vale_3460 = { 
+	name = "S'rathzo"
+	culture = anequinan
+	religion = manypathsdance
+	#furstock
+	trait = furstock_suthay_raht
+	trait = arrogant
+	trait = callous
+	
+	3444.1.1 = { birth = yes }
+	3533.1.1 = { death = yes }
+}
+
+porneu_3460 = {
+	name = "Kuldargo"
+	dynasty_house = khaspoor_south
+	culture = pellitinian
+	religion = twomoonsdance
+	father = portneu_1000	
+	trait = furstock_suthay_raht
+	trait = giant
+	trait = physique_good_1
+	trait = albino
+	trait = sadistic
+	3444.1.1 = { birth = yes give_nickname = nick_the_monster  }
+	3533.1.1 = { death = yes }
+}
+
+porneu_3460a = {
+	name = "Sarshar"
+	dynasty_house = khaspoor_south
+	culture = pellitinian
+	religion = twomoonsdance
+	father = portneu_1000	
+	trait = furstock_suthay_raht
+	trait = dwarf
+	trait = physique_good_1
+	trait = blademaster_2
+	
+	trait = education_learning_4
+	3443.1.1 = { birth = yes give_nickname = nick_the_short  }
+	3533.1.1 = { death = yes }
+}
+
+porneu_3460b = {
+	name = "Sarshar"
+	dynasty_house = khaspoor_south
+	culture = pellitinian
+	religion = twomoonsdance
+	father = portneu_1000	
+	trait = furstock_suthay_raht
+	trait = bastard
+	trait = intellect_good_1
+	trait = zealous
+	trait = gregarious
+	trait = skooma_drinker
+	trait = lazy
+	sexuality = bisexual
+	trait = august
+	
+	trait = education_learning_4
+	3440.1.1 = { birth = yes give_nickname = nick_the_bastard }
+	3533.1.1 = { death = yes }
+}
+
+maw_of_lorkaj_bastard = {
+	name = "Kulan-dro"
+	culture = anequinan
+	religion = darkmoondance
+	dynasty = maw_of_lorkaj_eso
+	trait = furstock_suthay_raht
+	trait = intellect_good_1
+	trait = zealous #monk
+	trait = gregarious #never stfu
+	trait = vengful	#constantly prattles about killing you
+	trait = education_magical_4 #mofo summons rakkhat
+	trait = education_learning_4 #monk
+	trait = champion_namira #need a thing for dromathra but whatever
+	trait = devoted
+	trait = witch
+	trait = education_learning_4
+	
+	3440.1.1 = { birth = yes give_nickname = nick_the_monk }
+	3458.1.1 = {
+				effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = alteration_journeyman_perk
+			add_perk = conjuration_novice_perk
+			add_perk = conjuration_apprentice_perk
+			add_perk = conjuration_journeyman_perk
+			add_perk = conjuration_expert_perk
+			add_perk = conjuration_master_perk
+		}
+	}
+	3503.1.1 = { death = yes }
+}
