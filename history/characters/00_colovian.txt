@@ -3503,7 +3503,6 @@ aquilarios_1001 = {
 	trait = honest
 	trait = education_diplomacy_3
 	trait = shrewd
-	trait = disinherited
 
 	father = aquilarios_998
 
@@ -3532,6 +3531,14 @@ dugal_1000 = {
 	trait = physique_good_1
 
 	3462.2.10 = { birth = yes }
+	3502.1.1 = { 
+		effect = {
+			imprison = {
+				target = character:benirus_1000
+				type = house_arrest
+			}
+		}
+	}
     3503.12.12 = { death = yes }
 }
 

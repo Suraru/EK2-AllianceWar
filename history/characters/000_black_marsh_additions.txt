@@ -1,0 +1,1656 @@
+
+###Blackroot Tribe Many are shadowscales so high intrigue focus
+
+
+blacktongue_1000 = {
+	name = "Jram_Hei"
+	religion = hist
+	culture = hapsleet
+	dynasty = 1080000
+	father = blacktongue_101
+	trait = education_intrigue_3
+	trait = deceitful
+	
+	3400.1.1 = { birth = yes }
+	3470.1.1 = { death = yes }
+}
+
+blacktongue_1000a = {
+	name = "Jram_Hei"
+	religion = hist
+	culture = hapsleet
+	dynasty = 1080000
+	father = blacktongue_100
+	trait = education_intrigue_3
+	trait = deceitful
+	
+	3400.1.1 = { birth = yes }
+	3470.1.1 = { death = yes }
+}
+
+blacktongue_1001 = {
+	name = "Jram_Hei"
+	religion = hist
+	culture = hapsleet
+	dynasty = 1080000
+	father = blacktongue_1000
+	
+	3430.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+blacktongue_1002 = {
+	name = "Deer-Xol"
+	religion = hist
+	culture = hapsleet
+	dynasty = 1080000
+	father = blacktongue_1001
+	trait = drunkard
+	3457.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+blacktongue_1003 = {
+	name = "Bijum-Loh"
+	female = yes
+	religion = hist
+	culture = hapsleet
+	dynasty = 1080000
+	father = blacktongue_1001
+	trait = drunkard
+	3457.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+blacktongue_1003a = {
+	name = "Slips-down-Hard" #ritual prowess supposedly
+	religion = hist
+	culture = hapsleet
+	dynasty = 1080000
+	trait = intellect_bad_2
+	trait = arrogant
+	trait = lazy
+	trait = gallant
+	trait = wrathful
+	trait = deceitful
+	
+	3460.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+blacktongue_1004 = {
+	name = "Waku-Mat" #ritual prowess supposedly
+	religion = hist
+	culture = hapsleet
+	dynasty = 1080000
+	father = blacktongue_1000a
+	trait = mystic_3
+	trait = herbalist
+	trait = scholar
+	trait = lustful
+	trait = seducer
+	trait = fecund
+	
+	3459.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+blacktongue_1004a = {
+	name = "Aoomee-Ru"
+	female = yes
+	religion = hist
+	culture = hapsleet
+	dynasty = 1080000
+	father = blacktongue_1000a
+	
+	3460.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+blacktongue_1005 = {
+	name = "Ruxol" #died during ritual
+	religion = hist
+	culture = hapsleet
+	dynasty = 1080000
+	father = blacktongue_1001
+	trait = infirm
+	
+	3449.1.1 = { birth = yes }
+	3502.1.1 = { death = yes }
+}
+
+###Bright-Throat Tribe dont deal with the  Veeskhleel rivals perhaps
+
+	
+
+brightthroat_1001 = {
+	name = "Derkeehez"
+	religion = hist
+	culture = hapsleet
+	dynasty = bright_throat
+	father = brightthroat_1000
+	trait = education_martial_2
+	trait = sadistic
+
+	3390.1.1 = { birth = yes }
+	3460.1.1 = { death = yes }	
+}
+
+brightthroat_1002 = {
+	name = "Cheesh-Nassa"
+	religion = hist
+	culture = hapsleet
+	dynasty = bright_throat
+	father = brightthroat_1001
+	
+	trait = education_martial_2
+	trait = sadistic
+
+	3440.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }	
+}
+
+brightthroat_1003 = {
+	name = "Pavu"
+	female = yes
+	religion = hist
+	culture = hapsleet
+	dynasty = bright_throat
+	father = brightthroat_1002
+	
+	trait = education_learning_2
+	trait = diligent
+	trait = zealous
+	trait = mystic_2
+
+	3460.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }	
+}
+
+brightthroat_2000 = {
+	name = "Uzeialus"
+	religion = hist
+	culture = hapsleet
+	dynasty = bright_throat
+
+	3460.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }	
+}
+
+brightthroat_2000a = {
+	name = "Vetra-Jat"
+	female = yes
+	religion = hist
+	culture = hapsleet
+	dynasty = bright_throat
+
+	3460.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }	
+}
+
+brightthroat_2000b = {
+	name = "Klor"
+	religion = hist
+	culture = hapsleet
+	dynasty = bright_throat
+
+	3460.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }	
+}
+
+brightthroat_2000c = {
+	name = "Meena"
+	female = yes
+	religion = hist
+	culture = hapsleet
+	dynasty = bright_throat
+	trait = mystic_2
+	trait = just
+	
+	3460.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }	
+}
+
+brightthroat_2000d = {
+	name = "Aliskeeh"
+	religion = hist
+	culture = hapsleet
+	dynasty = bright_throat
+
+	3460.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }	
+}
+
+brightthroat_2000e = {
+	name = "Kas-Jas"
+	female = yes
+	religion = hist
+	culture = hapsleet
+	dynasty = bright_throat
+
+	3460.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }	
+}
+
+##Bogwraiths
+
+
+bogwraith_1000  = {
+	name = "Yelus"
+	dynasty = seetul
+	culture = hapsleet
+	religion = hist
+	father = bogwraith_102
+
+	3410.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+
+bogwraith_1001  = {
+	name = "Skeewul"
+	dynasty = seetul
+	culture = hapsleet
+	religion = hist
+	father = bogwraith_1000
+
+	3430.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+
+bogwraith_1001a  = {
+	name = "Seemarz"
+	dynasty = seetul
+	culture = hapsleet
+	religion = hist
+	father = bogwraith_1001
+
+	3446.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+bogwraith_1001b  = {
+	name = "Pacheeva"
+	dynasty = seetul
+	culture = hapsleet
+	religion = hist
+	father = bogwraith_1001a
+	trait = mystic_2
+	trait = arcana_good_1
+	
+	3460.1.1 = { birth = yes }
+	3550.1.1 = { death = yes }
+}
+
+bogwraith_1002  = {
+	name = "Cukka-Jekka"
+	dynasty = seetul
+	culture = hapsleet
+	religion = hist
+	father = bogwraith_101
+
+	3412.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+
+bogwraith_1002a  = {
+	name = "Haj-Ru"
+	dynasty = seetul
+	culture = hapsleet
+	religion = hist
+	father = bogwraith_1002
+
+	3442.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+bogwraith_1002b  = {
+	name = "Dergla"
+	female = yes
+	dynasty = seetul
+	culture = hapsleet
+	religion = hist
+	father = bogwraith_1002
+
+	3443.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+bogwraith_1002c  = {
+	name = "Jukka"
+	female = yes
+	dynasty = seetul
+	culture = hapsleet
+	religion = hist
+	father = bogwraith_1002
+
+	3444.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+### voseihleel dukes in Thorn
+
+voseihleel_1003 = {
+	name = "Teinaava"
+	dynasty = 1000003 
+	religion = hist
+    culture = hleel
+
+	trait = pensive
+
+	mother = voseihleel_1002
+
+	3358.1.1 = { birth = yes }
+    3423.1.1 = { death = { death_reason = death_old_age } }
+}
+
+voseihleel_2000 = {
+	name = "Hel-Nah"
+	dynasty = 1000003 
+	religion = hist
+    culture = hleel
+	trait = intellect_bad_2
+	father = voseihleel_1003
+
+	3398.1.1 = { birth = yes }
+    3460.1.1 = { death = { death_reason = death_old_age } }
+}
+
+voseihleel_2001 = {
+	name = "Ajai-Tee"
+	dynasty = 1000003 
+	religion = hist
+    culture = hleel
+	trait = intellect_good_2
+	father = voseihleel_2000
+
+	3420.1.1 = { birth = yes }
+    3510.1.1 = { death = { death_reason = death_old_age } }
+}
+
+voseihleel_2002 = {
+	name = "Teinaava"
+	dynasty = 1000003 
+	religion = hist
+    culture = hleel
+	trait = strong
+	trait = stubborn
+	trait = mystic_2
+	
+	father = voseihleel_2001
+
+	3440.1.1 = { birth = yes }
+    3530.1.1 = { death = { death_reason = death_old_age } }
+}
+
+voseihleel_2001a = {
+	name = "Visskar"
+	dynasty = 1000003 
+	religion = hist
+    culture = hleel
+
+	father = voseihleel_2000
+
+	3428.1.1 = { birth = yes }
+    3506.1.1 = { death = { death_reason = death_old_age } }
+}
+
+#Juaneius Dynasty (1020008)
+
+#House Juaneius
+juaneius_1000 = {
+    name = "Ukawei"
+	dynasty = 1020008
+    religion = hist
+    culture = naga
+
+	trait = ambitious
+	trait = callous
+	trait = arrogant
+	trait = education_diplomacy_3
+	
+    3332.1.1 = { birth = yes }
+    3399.1.1 = { death = { death_reason = death_old_age } }
+}
+
+juaneius_2000 = {
+    name = "Jin-Ei"
+	dynasty = 1020008
+    religion = hist
+    culture = naga
+	father = juaneius_1000
+	trait = ambitious
+	trait = sadistic
+	trait = arrogant
+	trait = education_diplomacy_3
+	
+    3392.1.1 = { birth = yes }
+    3460.1.1 = { death = { death_reason = death_old_age } }
+}
+juaneius_2001 = {
+    name = "Jin-Ei"
+	dynasty = 1020008
+    religion = hist
+    culture = naga
+	father = juaneius_2000
+	trait = ambitious
+	trait = sadistic
+	trait = arrogant
+	trait = education_stewardship_3
+	
+    3442.1.1 = { birth = yes }
+    3530.1.1 = { death = { death_reason = death_old_age } }
+}
+
+juaneius_2002 = {
+    name = "Jeeba-Eius"
+	dynasty = 1020008
+    religion = hist
+    culture = naga
+	father = juaneius_2000
+	trait = physique_good_1
+	trait = sadistic
+	trait = wrathful
+	trait = education_stewardship_3
+	
+    3444.1.1 = { birth = yes }
+    3530.1.1 = { death = { death_reason = death_old_age } }
+}
+### Juseuis Helstrom kings
+
+juseius_2000 = {
+	name = "Sejaijilax"
+	dynasty = 1020003
+	religion = hist
+	culture = naga
+
+	trait = patient
+	trait = ambitious
+	trait = brave
+	trait = fickle
+
+	father = juseius_1001
+
+	3443.1.1 = { birth = yes }
+    3530.1.1 = { death = { death_reason = death_old_age } }
+}
+
+juseius_2000a = {
+	name = "Gulum_Ei"
+	dynasty = 1020003
+	religion = hist
+	culture = naga
+	trait = mystic_3
+	trait = patient
+	trait = physique_good_1
+
+	father = juseius_2000
+
+	3483.1.1 = { birth = yes }
+    3560.1.1 = { death = { death_reason = death_old_age } }
+}
+
+juseius_2001 = {
+	name = "Uzeialus"
+	dynasty = 1020003
+	religion = hist
+	culture = naga
+
+	trait = patient
+	trait = forgiving
+	trait = just
+	trait = education_stewardship_4
+
+	father = juseius_1008
+
+	3423.1.1 = { birth = yes }
+    3510.1.1 = { death = { death_reason = death_old_age } }
+}
+
+juseius_3000 = {
+	name = "Gulum_Ei"
+	dynasty = 1020003
+	religion = hist
+	culture = naga
+
+	trait = vengeful
+	trait = ambitious
+	trait = brave
+	trait = stubborn
+
+	father = juseius_1003
+
+	3434.1.1 = { birth = yes }
+    3520.1.1 = { death = { death_reason = death_old_age } }
+}
+
+juseius_3000a = {
+	name = "Gulum_Ei"
+	dynasty = 1020003
+	religion = hist
+	culture = naga
+
+	trait = diligent
+	trait = ambitious
+	trait = physique_good_1
+	trait = patient
+	trait = education_martial_3
+	father = juseius_1004
+
+	3440.1.1 = { birth = yes }
+    3515.1.1 = { death = { death_reason = death_old_age } }
+}
+
+juseius_4000 = {
+	name = "Gulum_Ei"
+	dynasty = 1020003
+	religion = hist
+	culture = naga
+
+	trait = vengeful
+	trait = wrathful
+	trait = lazy
+	trait = stubborn
+
+	father = juseius_1003
+
+	3434.1.1 = { birth = yes }
+    3520.1.1 = { death = { death_reason = death_old_age } }
+}
+
+juseius_5000 = {
+	name = "Gulum_Ei"
+	dynasty = 1020003
+	religion = hist
+	culture = naga
+
+	trait = sadistic
+	trait = calm
+	trait = patient
+	trait = gregarious
+	trait = intellect_good_1
+	father = juseius_1009
+
+	3444.1.1 = { birth = yes }
+    3520.1.1 = { death = { death_reason = death_old_age } }
+}
+juseius_6000 = {
+	name = "Vozei"
+	dynasty = 1020003
+	religion = hist
+	culture = naga
+
+	trait = vengeful
+	trait = temperate
+	trait = callous
+	trait = greedy
+	trait = beauty_good_2
+
+	father = juseius_1009
+
+	3444.1.1 = { birth = yes }
+    3520.1.1 = { death = { death_reason = death_old_age } }
+}
+
+## Nikeius branch
+
+juseius_1011 = {
+	name = "Haxara"
+	female = yes
+	dynasty_house = nikeius
+	religion = hist
+	culture = naga
+
+	trait = brave
+	trait = arrogant
+	trait = compassionate
+	trait = education_martial_2
+
+	father = juseius_904b
+
+	3340.1.1 = { birth = yes }
+	3359.1.1 = { set_relation_rival = { reason = rival_historical target = character:juseius_1012 } }
+    3403.1.1 = { death = { death_reason = death_old_age } }
+}
+
+nikeius_1000 = {
+	name = "Cholzei"
+	dynasty_house = nikeius
+	religion = hist
+	culture = naga
+
+	trait = brave
+	trait = arrogant
+	trait = gregarious
+	trait = education_martial_3
+
+	father = juseius_1012
+
+	3390.1.1 = { birth = yes }
+	3459.1.1 = { set_relation_rival = { reason = rival_historical target = character:juseius_2000} }
+    3473.1.1 = { death = { death_reason = death_old_age } }
+}
+
+nikeius_1001 = {
+	name = "Ree-Kia"
+	dynasty_house = nikeius
+	religion = hist
+	culture = naga
+
+	trait = arrogant
+	trait = gregarious
+	trait = diligent
+	trait = education_stewardship_3
+
+	father = nikeius_1000
+
+	3440.1.1 = { birth = yes }
+	3459.1.1 = { set_relation_rival = { reason = rival_historical target = character:juseius_3000 } }
+    3525.1.1 = { death = { death_reason = death_old_age } }
+}
+
+nikeius_1001a = {
+	name = "Ahaht-Naat"
+	dynasty_house = nikeius
+	religion = hist
+	culture = naga
+
+	father = nikeius_1000
+
+	3440.1.1 = { birth = yes }
+	3525.1.1 = { death = { death_reason = death_old_age } }
+}
+
+##neius
+
+neius_1000 = {
+    name = "Tunbam-Kahz" 
+    dynasty = 1050009
+    religion = hist
+    culture = agaceph
+	father = neius_100
+	
+	trait = patient
+	trait = arrogant
+	trait = scarred
+	trait = cynical
+	trait = education_learning_3
+	disallow_random_traits = yes
+	
+    3384.1.1 = { birth = yes }
+    3465.1.1 = { death = { death_reason = death_old_age } }
+}
+
+neius_1000a = {
+    name = "Chee-Sakka" 
+    dynasty = 1050009
+    religion = hist
+    culture = agaceph
+	father = neius_100
+	
+	
+    3385.1.1 = { birth = yes }
+    3465.1.1 = { death = { death_reason = death_old_age } }
+}
+
+neius_1001 = {
+    name = "Asum" 
+    dynasty = 1050009
+    religion = hist
+    culture = agaceph
+	father = neius_1000
+	
+	trait = calm
+	trait = humble
+	trait = scarred
+	trait = cynical
+	trait = education_diplomacy_3
+	disallow_random_traits = yes
+	
+    3444.1.1 = { birth = yes }
+    3535.1.1 = { death = { death_reason = death_old_age } }
+}
+
+### Thuxis rulers of Seaspring and Blackrose
+
+
+paatru_thuxis_1000 = {
+	name = "Pejureel"
+	dynasty = 1000005
+	religion = hist
+	culture = paatru
+	father = paatru_thuxis_101
+	
+	3372.1.1 = { birth = yes }
+	3444.1.1 = { death = yes }
+}
+
+paatru_thuxis_1002 = {
+	name = "Kills-them-All"
+	dynasty = 1000005
+	religion = hist
+	culture = paatru
+	father = paatru_thuxis_101
+	trait = sadistic
+	trait = content
+	trait = vengeful
+	trait = education_martial_2
+	
+	3373.1.1 = { birth = yes }
+	3462.1.1 = { death = yes }
+}
+
+paatru_thuxis_1001 = {
+	name = "Dar-Jasa"
+	dynasty = 1000005
+	religion = hist
+	culture = paatru
+	father = paatru_thuxis_1000
+	trait = strong
+	trait = brave
+	trait = ambitious
+	trait = wrathful
+	trait = intellect_good_1
+	trait = education_martial_3
+	disallow_random_traits = yes
+	stewardship = 13
+	martial = 8
+	
+	3440.1.1 = { birth = yes }
+	3460.1.1 = {
+		effect = {
+				set_variable = { name = reincarnation_of value = character:thuxis_100b } #Thank you magic code man
+				}
+		add_trait = reincarnation	
+		give_nickname = nick_the_fearless
+		set_relation_rival = { reason = rival_historical target = character:paatru_thuxis_1002 }
+	}
+	3520.1.1 = { death = yes }
+}
+
+paatru_thuxis_1003 = {
+	name = "Deekonus"
+	dynasty = 1000005
+	religion = hist
+	culture = paatru
+	father = paatru_thuxis_1000
+	trait = lustful
+	
+	3444.1.1 = { birth = yes }
+	3512.1.1 = { death = yes }
+}
+
+## Thuxis
+
+
+thuxis_1000 = {
+	name = "Dar_Jasa"
+	dynasty_house = thuxis_thuxleel
+	religion = hist
+	culture = paatru
+	father = thuxis_101
+	trait = strong
+	
+	3371.1.1 = { birth = yes }
+	3424.1.1 = { death = yes }
+}
+
+
+thuxis_1001 = {
+	name = "Drowaj"
+	dynasty_house = thuxis_thuxleel
+	religion = hist
+	culture = paatru
+	father = thuxis_1000
+	trait = strong
+	
+	3400.1.1 = { birth = yes }
+	3454.1.1 = { death = yes }
+}
+
+thuxis_1002 = {
+	name = "Dar_Jasa"
+	dynasty_house = thuxis_thuxleel
+	religion = hist
+	culture = paatru
+	father = thuxis_1001
+	trait = physique_good_1
+	
+	disallow_random_traits = yes
+	trait = strong
+	trait = intellect_good_1
+	trait = education_martial_3
+	trait = honest
+	trait = brave
+	trait = wrathful
+	trait = diligent
+	trait = beserker
+	stewardship = 13
+	martial = 7
+	diplomacy = 12
+	disallow_random_traits = yes
+	3440.1.1 = { birth = yes }
+	3460.1.1 = {
+		effect = {
+				set_variable = { name = reincarnation_of value = character:thuxis_100b } #Thank you magic code man
+				}
+		add_trait = reincarnation	
+		give_nickname = nick_the_conquerer
+		set_relation_rival = { reason = rival_historical target = character:paatru_thuxis_1001 }
+	}
+	3524.1.1 = { death = yes }
+}
+
+thuxis_1003a = {
+	name = "Dar_Jasa"
+	dynasty_house = thuxis_thuxleel
+	religion = hist
+	culture = paatru
+	father = thuxis_1002
+	trait = intellect_good_1
+	trait = physique_good_2
+	trait = brave
+	trait = education_magical_3
+	trait = education_martial_4
+	3484.1.1 = { birth = yes }
+	3564.1.1 = { death = yes }
+}
+
+thuxis_1003b = {
+	name = "Aska"
+	female = yes
+	dynasty_house = thuxis_thuxleel
+	religion = hist
+	culture = paatru
+	father = thuxis_1002
+	trait = intellect_good_1
+	trait = brave
+	trait = physique_good_1
+	
+	3489.1.1 = { birth = yes }
+	3564.1.1 = { death = yes }
+}
+
+thuxis_1002a = {
+	name = "Dosu-Nur"
+	female = yes
+	dynasty_house = thuxis_thuxleel
+	religion = hist
+	culture = paatru
+	father = thuxis_1001
+	trait = intellect_good_1
+	trait = twin
+	
+	3444.1.1 = { birth = yes }
+	3534.1.1 = { death = yes }
+}
+
+thuxis_1002b = {
+	name = "Hul-El"
+	female = yes
+	dynasty_house = thuxis_thuxleel
+	religion = hist
+	culture = paatru
+	father = thuxis_1001
+	trait = beauty_good_3
+	trait = twin
+	3444.1.1 = { birth = yes }
+	3534.1.1 = { death = yes }
+}
+
+thuxis_1003 = {
+	name = "Drarax"
+	dynasty_house = thuxis_thuxleel
+	culture = hapsleet
+	religion = xanmeer
+	father = thuxis_1000
+	trait = strong
+	trait = cynical
+	trait = necromancer
+	trait = education_learning_2
+	trait = education_magical_2
+	trait = disinherited
+	trait = lifespan_1
+	3405.1.1 = { birth = yes }
+	3460.1.1 = { give_nickname = nick_the_outcast }
+	3524.1.1 = { death = yes }
+}
+
+## Tharumee
+
+
+tharumee_1000 = {
+	name = "Milos"
+	religion = hist
+	culture = hapsleet
+	dynasty = tharumee
+	father = tharumee_105
+
+	trait = education_martial_2
+	trait = vengeful
+	trait = stubborn
+	trait = arrogant
+	
+	3410.1.1 = { birth = yes }
+	3470.1.1 = { death = yes }
+}
+
+tharumee_1001 = {
+	name = "Thar-Ja"
+	dna = tharumee_105_dna_entry
+	religion = hist
+	culture = hapsleet
+	dynasty = tharumee
+	father = tharumee_1000
+	trait = education_martial_4
+	trait = deceitful
+	trait = patient
+	trait = brave
+	trait = flexible_leader
+	trait = holy_warrior
+	trait = intellect_good_1
+	disallow_random_traits = yes
+	
+	3440.1.1 = { birth = yes }
+	3459.1.1 = {
+		effect = {
+			add_prestige_level = 1
+		}
+	}
+	3460.1.1 = {
+		effect = {
+				set_variable = { name = reincarnation_of value = character:tharumee_100 } #Thank you magic code man
+				}
+		add_trait = reincarnation	
+		give_nickname = nick_the_shadow
+		set_relation_rival = { reason = rival_historical target = character:tharumee_1000 }
+	}
+	3540.1.1 = { death = yes }
+}
+
+tharumee_1001a = {
+	name = "Mia"
+	female = yes
+	religion = hist
+	culture = hapsleet
+	dynasty = tharumee
+	father = tharumee_1000
+	trait = physique_good_1
+	trait = chaste
+	trait = education_stewardship_4
+	trait = just
+	trait = diligent
+	trait = patient
+	
+	3440.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+tharumee_1002a = {
+	name = "Wuleen-Jush"
+	female = yes
+	religion = hist
+	culture = hapsleet
+	dynasty = tharumee
+	mother = tharumee_1001a
+	trait = physique_good_1
+	trait = chaste
+	trait = education_stewardship_3
+	trait = just
+	trait = diligent
+	
+	3490.1.1 = { birth = yes }
+	3560.1.1 = { death = yes }
+}
+
+#Suzahleel
+
+suzahleel_2000 = {
+	name = "Yokul" #Chieftain of Alten Corimont and Tormont near Stormhold. Renegade slave from Stormhold
+	dynasty = 1000002 
+	religion = hist
+    culture = hleel
+
+	trait = education_stewardship_4
+	trait = scarred
+	trait = compassionate
+	trait = brave
+	trait = honest
+
+	father = suzahleel_1001
+
+	3400.1.1 = { birth = yes }
+	3460.1.1 = { death = { death_reason = death_battle killer = drethan_104 } }
+}
+
+suzahleel_2001= {
+	name = "Huzdul"
+	dynasty = 1000002 
+	religion = hist
+    culture = hleel
+	trait = patient
+	trait = ambitious
+	trait = zealous
+	trait = education_martial_3
+	trait = peasant_leader
+	father = suzahleel_2000
+
+	3425.1.1 = { birth = yes }
+	3459.1.1 = {
+		effect = {
+			add_prestige_level = 1
+		}
+	}
+	3480.1.1 = { death = { death_reason = death_battle killer = drethan_104 } }
+}
+
+heita_meen = {
+	name = "Heita-Meen" #Pact Leader give stormhold was leader of the shellbacks and took thornmarch
+	female = yes #rival of glathis dres
+	dynasty = 1000002 
+	religion = hist
+    culture = hleel
+
+	trait = education_martial_4
+	trait = scarred
+	trait = vengeful
+	trait = brave
+	trait = honest
+	trait = just
+	trait = holy_warrior
+	trait = physique_good_2
+	trait = blademaster_2
+	
+	disallow_random_traits = yes
+	father = suzahleel_2001
+
+	3472.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+suzahleel_2002 = {
+	name = "Vozei" 
+	dynasty = 1000002 
+	religion = hist
+    culture = hleel
+	trait = sadistic
+	trait = education_intrigue_3
+	trait = intellect_good_1
+	father = suzahleel_2001
+
+	3474.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+
+suzahleel_2003 = {
+	name = "Azinar" 
+	dynasty = 1000002 
+	religion = hist
+    culture = hleel
+
+	father = suzahleel_2001
+
+	3479.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+### Oh a pirates life
+
+# Red Bramman
+bramman_1000 = {
+	name = "Bramman"
+	religion = hist
+	culture = hapsleet
+	dynasty = bramman
+		trait = education_martial_4
+		trait = forder
+		trait = jungle_stalker
+		trait = ambitious
+		trait = sadistic
+		trait = lustful
+		trait = pirate
+	1000.1.1 = { birth = yes }
+	1016.1.1 = {
+		give_nickname = nick_red
+	}
+	1033.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = alessian_107
+		}
+	}
+}
+
+bramman_1000a = {
+	name = "Red Bramman"
+	religion = hist
+	culture = hapsleet
+	dynasty = bramman
+	father = bramman_1000
+	trait = line_of_x
+	disallow_random_traits = yes
+	1018.1.1 = { birth = yes}
+	1680.1.1 = { give_nickname = nick_line_of }
+	3250.1.1 = { death = { death_reason = death_vanished } }
+}
+
+bramman_1001 = {
+	name = "Deep-in-Cups"
+	religion = hist
+	culture = hapsleet
+	dynasty = bramman
+	father = bramman_1000a
+	trait = ambitious
+		trait = drunkard
+		trait = lustful
+		trait = pirate
+	3250.1.1 = { birth = yes }
+	3330.1.1 = { death = yes }
+}
+
+bramman_1002 = {
+	name = "Steals-it-All"
+	religion = hist
+	culture = hapsleet
+	father = bramman_1001
+	dynasty = bramman
+		trait = ambitious
+		trait = greedy
+		trait = lustful
+		trait = pirate
+	3310.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }
+}
+
+bramman_1003 = {
+	name = "Bathes-in-Public"
+	religion = hist
+	culture = hapsleet
+	dynasty = bramman
+	father = bramman_1002
+		trait = rakish
+		trait = seducer
+		trait = lustful
+		trait = pirate
+	3371.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+
+bramman_1004 = {
+	name = "Eager-to-Leave"
+	religion = hist
+	culture = hapsleet
+	father = bramman_1003
+	dynasty = bramman
+		trait = shy
+		trait = reclusive
+		trait = craven
+		trait = impatient
+		trait = pirate
+	3410.1.1 = { birth = yes }
+	3460.1.1 = { death = yes }
+}
+
+bramman_1005 = {
+	name = "Basks-in-Darkness"
+	religion = hist
+	culture = hapsleet
+	father = bramman_1004
+	dynasty = bramman
+		trait = education_intrigue_3
+		trait = schemer
+		trait = education_magical_3
+		trait = diligent
+		trait = pirate
+		trait = gregarious
+		trait = greedy
+		trait = arcana_good_2
+		trait = strong
+		trait = battlemage
+		trait = twin
+	3440.1.1 = { birth = yes }
+	3460.1.1 = {
+		effect = {
+			add_prestige_level = 1
+		}
+	}
+	3510.1.1 = { death = yes }
+}
+
+bramman_1006 = {
+	name = "Deep-in-Cups"
+	religion = hist
+	culture = hapsleet
+	father = bramman_1005
+	dynasty = bramman
+		trait = education_martial_3
+		trait = drunkard
+		trait = education_magical_3
+		trait = diligent
+		trait = pirate
+		trait = gregarious
+		trait = gluttonous
+		trait = patient
+		trait = arcana_good_2
+		trait = physique_good_2
+		trait = battlemage
+		trait = blademaster_2
+		disallow_random_traits = yes
+		stewardship = 14
+		martial = 7
+		diplomacy = 9
+		learning = 13
+		intrigue = 10
+		prowess = 9
+	3485.1.1 = { birth = yes }
+	3502.1.1 = {
+		effect = {
+			add_prestige_level = 1
+		}
+	}
+	3570.1.1 = { death = yes }
+}
+
+bramman_1005a = {
+	name = "Rides-the-River"
+	religion = hist
+	culture = hapsleet
+	father = bramman_1004
+	dynasty = bramman
+		trait = education_diplomacy_3
+		trait = gregarious
+		trait = mystic_2
+		trait = greedy
+		trait = pirate
+		trait = arcana_good_2
+		trait = battlemage
+		trait = shrewd
+		trait = education_magical_3
+		trait = twin
+	3460.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }
+}
+
+### Dan-kur the Black fin Dynasty EK1 export
+
+#Dan-kur
+dankur_60000 = {
+	name = "Nelix" #Duke of Sarpa (Interregnum)
+	dynasty = dankur
+	culture = sarpa 
+	religion = hist
+	
+	3341.1.1 = { birth = yes }
+	3412.1.1 = { death = yes }
+}
+dankur_60001 = {
+	name = "Reemukeeus" #Duke of Sarpa
+	dynasty = dankur
+	culture = sarpa 
+	religion = hist
+	
+	father = dankur_60000
+	3389.1.1 = { birth = yes }
+	3460.1.1 = { death = yes }
+}
+dankur_60002 = {
+	name = "Busheeus" #Duke of Sarpa (Reachman and Knahaten Flu)
+	dynasty = dankur
+	culture = sarpa 
+	religion = hist
+	
+	father = dankur_60001
+	3442.1.1 = { birth = yes }
+	3488.1.1 = { death = yes }
+}
+dankur_60003 = {
+	name = "Keerasa-Tan"
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	learning = 22
+	father = dankur_60001
+	trait = necromancer
+	trait = education_magical_4
+	trait = blind
+	trait = sadistic
+	trait = ambitious
+	trait = diligent
+	3433.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+dankur_60004 = {
+	name = "Milos" #Count of Helstrom (Kamal and Three Banners)
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	father = dankur_60002
+	
+	3458.1.1 = { birth = yes }
+	3519.1.1 = { death = yes }
+}
+dankur_60005 = {
+	name = "Gah" #Count of Gideon (Kamal and Three Banners)
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	father = dankur_60002
+	
+	3465.1.1 = { birth = yes }
+	3502.1.1 = { add_matrilineal_spouse = dankur_60028 } #Keshu
+	3532.1.1 = { death = yes }
+}
+dankur_60006 = {
+	name = "Peeradeeh" #Count of Tenmar Wall (Kamal and Three Banners)
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	father = dankur_60002
+	
+	3466.1.1 = { birth = yes }
+	3522.1.1 = { death = yes }
+}
+dankur_60007 = {
+	name = "Okaw"
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	father = dankur_60004
+	
+	3488.1.1 = { birth = yes }
+	3522.1.1 = { add_spouse = dankur_60009 }
+	3561.1.1 = { death = yes }
+}
+dankur_60008 = {
+	name = "Deeja"
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	female = yes
+	father = dankur_60004
+	
+	3498.1.1 = { birth = yes }
+	3572.1.1 = { death = yes }
+}
+dankur_60009 = {
+	name = "Gideelar"
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	father = dankur_60005
+	mother = dankur_60028
+	female = yes
+	
+	3505.1.1 = { birth = yes }
+	3568.1.1 = { death = yes }
+}
+dankur_60010 = {
+	name = "Vistha-Kai"
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	father = dankur_60006
+	
+	3496.1.1 = { birth = yes }
+	3571.1.1 = { death = yes }
+}
+
+dankur_60011 = {
+	name = Ghekuknaza
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	female = yes
+	father = dankur_60007
+	3522.1.1 = { birth = yes }
+	3591.1.1 = { death = yes }
+}
+dankur_60012 = {
+	name = Onurai-Maht
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60011
+	female = yes
+	3539.1.1 = { birth = yes }
+	3608.1.1 = { death = yes }
+}
+dankur_60013 = {
+	name = Dee-Nur
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60012
+	female = yes
+	3563.1.1 = { birth = yes }
+	3635.1.1 = { death = yes }
+}
+dankur_60014 = {
+	name = Ezei
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60013
+	female = yes
+	3581.1.1 = { birth = yes }
+	3654.1.1 = { death = yes }
+}
+dankur_60015 = {
+	name = Xil-Zish
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60014
+	female = yes
+	3606.1.1 = { birth = yes }
+	3678.1.1 = { death = yes }
+}
+dankur_60016 = {
+	name = Deyapa
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60015
+	female = yes
+	3641.1.1 = { birth = yes }
+	3798.1.1 = { death = yes }
+}
+dankur_60017 = {
+	name = Wenaxi
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	trait = education_magical_4
+	trait = arcana_good_2
+	mother = dankur_60016
+	female = yes
+	3672.1.1 = { birth = yes }
+	3745.1.1 = { death = yes }
+}
+dankur_60018 = {
+	name = Kal-Mei
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60017
+	female = yes
+	3694.1.1 = { birth = yes }
+	3769.1.1 = { death = yes }
+}
+
+dankur_60019 = {
+	name = Hikinu
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	father = dankur_60010
+	female = yes
+	3522.1.1 = { birth = yes }
+	3598.1.1 = { death = yes }
+}
+dankur_60020 = {
+	name = Witseidutsei
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60019
+	female = yes
+	3555.1.1 = { birth = yes }
+	3633.1.1 = { death = yes }
+}
+dankur_60021 = {
+	name = Chee-Dum
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60020
+	female = yes
+	3577.1.1 = { birth = yes }
+	3642.1.1 = { death = yes }
+}
+dankur_60022 = {
+	name = Pad-Maxath
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60021
+	female = yes
+	3602.1.1 = { birth = yes }
+	3674.1.1 = { death = yes }
+}
+dankur_60023 = {
+	name = Villa
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60022
+	female = yes 
+	3624.1.1 = { birth = yes }
+	3697.1.1 = { death = yes }
+}
+dankur_60024 = {
+	name = Luraxith
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60023
+	female = yes
+	3648.1.1 = { birth = yes }
+	3718.1.1 = { death = yes }
+}
+dankur_60025 = {
+	name = "Sisar"
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60024
+	female = yes
+	3671.1.1 = { birth = yes }
+	3741.1.1 = { death = yes }
+}
+dankur_60026 = {
+	name = Xil-Go
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60025
+	female = yes
+	3700.1.1 = { birth = yes }
+	3770.1.1 = { death = yes }
+}
+dankur_60027 = {
+	name = Chimatei
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	mother = dankur_60026
+	female = yes
+	3726.1.1 = { birth = yes }
+	3802.1.1 = { death = yes }
+}
+
+dankur_60028 = {
+	name = "Keshu" #Friends with Jorunn
+	dynasty = dankur
+	culture = "paatru"
+	religion = hist
+	trait = physique_good_2
+	trait = intellect_good_2
+	trait = schemer
+	father = dankur_60003
+	female = yes
+	
+	3475.1.1 = { birth = yes 
+		effect = {
+		add_pressed_claim = title:d_gideon
+		add_pressed_claim = title:c_gideon
+		add_pressed_claim = title:c_silent_hills
+		add_pressed_claim = title:c_thtacreexuxalt
+		add_pressed_claim = title:c_giovesse
+		add_pressed_claim = title:c_rockguard
+		}
+	}
+	3486.1.1 = { effect = {
+		add_trait = education_martial_2 
+		give_nickname = "nick_black_fin"
+	} }
+	3490.1.1 = {
+		effect = {
+		remove_trait = education_martial_2
+		add_trait = education_martial_3
+		add_trait = gregarious
+		add_trait = shadowscale
+	} }
+	3492.3.11 = {
+		effect = {
+		remove_trait = education_martial_3
+		add_trait = education_martial_4
+		add_trait = brave
+		add_trait = blademaster_2
+	} }
+	3500.1.1 = {
+		effect = {
+		remove_trait = blademaster_2
+		add_trait = blademaster_3
+		add_trait = scarred
+	} }
+	3552.1.1 = { death = yes }
+}
+
+dankur_60029 = {
+	name = "Mahei-Jee"
+	dynasty = dankur
+	culture = sarpa
+	religion = hist
+	
+	father = dankur_60005
+	mother = dankur_60028
+	female = yes
+	
+	3510.1.1 = { birth = yes }
+	3600.1.1 = { death = yes }
+}
