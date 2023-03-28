@@ -1,0 +1,750 @@
+
+
+##House Redoran additions from ESO
+# Heran, Redas, Sarano, Seran, and Venim Clans of fabled 30 Revered Families and are there own dynasties in base game
+#General Gavryn Redoran was NOT the ruler during eso it was Meriath
+
+
+redoran_meriath = {
+	name = "Meriath" 
+	female = yes
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	father = redoran_999
+	trait = deceitful #Covers up shit
+	
+	3371.1.1 = { birth = yes }
+	3703.1.1 = { death = yes }
+}
+
+redoran_5000 = {
+	name = "Dalarn" #councilor in eso on Vvardenfell
+	female = yes
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	
+	3371.1.1 = { birth = yes }
+	3703.1.1 = { death = yes }
+}
+
+redoran_5001 = {
+	name = "Dolvara" #councilor in eso on Vvardenfell murdered by Naryu Virian
+	female = yes
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	
+	3371.1.1 = { birth = yes }
+	3503.1.1 = { death = yes } 
+}
+
+
+redoran_5002a = {
+	name = "Alsal" #random in Mournhold
+	female = yes
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	
+	3401.1.1 = { birth = yes }
+	3703.1.1 = { death = yes } 
+}
+redoran_5003 = {
+	name = "Aeyne" #Fighters Guild
+	female = yes
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	trait = blademaster_1
+	
+	3371.1.1 = { birth = yes }
+	3703.1.1 = { death = yes } 
+}
+redoran_5004 = {
+	name = "Tredere" #Unseen Council named in eso
+	female = yes
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	mother = redoran_3002
+	
+	3371.1.1 = { birth = yes }
+	3703.1.1 = { death = yes } 
+}
+
+redoran_5005 = {
+	name = "Mondran" #Random in Ebonheart
+	female = yes
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	
+	3371.1.1 = { birth = yes }
+	3703.1.1 = { death = yes } 
+}
+
+##House Malrom Redoran
+
+malrom_1000 = {
+	name = "Brivian" #Malrom was Captain in Balmora killed Ashlanders on orders of Eris
+	dynasty = 1300001
+	culture = gah_julan
+	religion = tribunal_temple
+	trait = blademaster_1
+	trait = callous
+	trait = arbitrary
+	
+	3371.1.1 = { birth = yes }
+	3703.1.1 = { death = yes } 
+}
+
+## House Doronil Redoran
+
+doronil_1000 = {
+	name = "Valec" #Pact officer at Tal'Deic Fortress Redoran loyalist
+	dynasty_house = redoran_boronil
+	culture = gah_julan
+	father = redoril_103
+	religion = tribunal_temple
+	trait = brave
+	trait = zealous
+	
+	3311.1.1 = { birth = yes }
+	3703.1.1 = { death = yes } 
+}
+
+# House Berendas Redoran
+berendas_999 = {
+	name = "Dethisam" #Dethisam Berendas father
+	dynasty_house = redoran_berendas
+	culture = gah_julan
+	religion = tribunal_temple
+	trait = brave
+	
+	3201.1.1 = { birth = yes }
+	3443.1.1 = { death = yes } 
+}
+berendas_1000 = {
+	name = "Dethisam" #Dethisam Berendas Serkamora Leader House Redoran
+	dynasty_house = redoran_berendas
+	culture = gah_julan
+	religion = tribunal_temple
+	father = berendas_999
+	trait = brave
+	
+	3401.1.1 = { birth = yes }
+	3703.1.1 = { death = yes } 
+}
+berendas_1001 = {
+	name = "Aerona" #Dethisam Berendas Sis
+	female = yes
+	father = berendas_999
+	dynasty_house = redoran_berendas
+	culture = gah_julan
+	religion = tribunal_temple
+	trait = brave
+	
+	3401.1.1 = { birth = yes }
+	3703.1.1 = { death = yes } 
+}
+
+###House Venim Redoran
+
+venim_104 = {
+	name = "Raryn" 
+	dynasty = 1300065 
+	culture = gah_julan
+	religion = tribunal_temple
+	father = venim_102
+
+	3400.1.1 = { birth = yes }
+	3544.1.1 = { death = yes }
+}
+
+venim_104a = {
+	name = "Rana" #Captain of Bleakrock ESO 
+	dynasty = 1300065 
+	culture = gah_julan
+	religion = tribunal_temple
+	father = venim_102
+	trait = reckless
+	trait = education_martial_2
+	trait = education_martial_prowess_2
+	trait = stubborn
+	trait = brave
+	trait = diligent
+	3432.1.1 = { birth = yes }
+	3502.1.1 = { set_relation_rival = { reason = rival_historical target = character:snowbourne_102 } } #stole command from her
+	3544.1.1 = { death = yes }
+}
+
+
+###Sarethi vassal
+
+
+
+
+sarethi_102a = {
+	name = "Delmon" 
+	dynasty = 1300059 
+	culture = gah_julan
+	religion = tribunal_temple
+	father = sarethi_102
+	
+	trait = lifespan_3
+
+	3470.1.1 = { birth = yes }
+	3980.1.1 = { death = yes }
+}
+
+#### HOUSE HLAALU ####
+
+hlaalu_ralden = {
+	name = "Ralden"
+	dynasty = 1300002 #Hlaalu leader of Narsis
+	religion = tribunal_temple
+	culture = armun_an
+	trait = lifespan_3
+	trait = diligent #tries to save narsis
+	
+	father = hlaalu_48103
+	
+	3330.1.1 = { birth = yes }
+	3450.1.1 = {
+		effect = {
+		add_pressed_claim = title:d_blackgate
+		add_pressed_claim = title:c_blackgate
+		add_pressed_claim = title:c_serkamora
+		}
+	}
+	3681.1.1 = { death = yes }
+}
+
+hlaalu_rayveth = {
+	name = "Rayveth"
+	dynasty = 1300002 #Hlaalu Councilor
+	religion = tribunal_temple
+	culture = armun_an
+	trait = lifespan_3
+	
+	3371.1.1 = { birth = yes }
+	3681.1.1 = { death = yes }
+}
+
+
+### HOUSE INDORIL ####
+
+#Indoren
+
+indoren_105 = { 
+	name = Endryn
+	dynasty_house = indoril_indoren
+	culture = chuzei
+	religion = tribunal_temple
+	mother = indoren_102
+	
+	trait = lifespan_3
+	
+	3183.1.1 = { birth = yes }
+	3375.1.1 = { death = yes }
+}
+
+indoren_1000 = { 
+	name = Endraro
+	dynasty_house = indoril_indoren
+	culture = chuzei
+	religion = tribunal_temple
+	father = indoren_105
+	trait = intellect_good_2
+	trait = arcana_good_1
+	trait = ambitious
+	trait = sadistic
+	trait = zealous
+	trait = education_magical_ability_2
+	trait = arcana_good_2
+	trait = blademaster_1
+	trait = arrogant
+	trait = lifespan_3
+	
+	3373.1.1 = { birth = yes }
+	3675.1.1 = { death = yes }
+}
+
+
+#House Dorom 
+
+dorom_108 = { 
+	name = Talnus
+	dynasty_house = indoril_dorom
+	culture = chuzei
+	religion = tribunal_temple
+	father = dorom_104
+	
+	trait = lifespan_3
+	
+	3387.1.1 = { birth = yes }
+	3770.1.1 = { death = yes }
+}
+
+## House Saryoni
+
+
+saryoni_1000 = { 
+	name = "Naddu"
+	dynasty_house = indoril_saryoni
+	culture = chuzei
+	religion = tribunal_temple
+	father = saryoni_103
+	
+	3404.1.1 = { birth = yes }
+	3850.1.1 = { death = yes }
+}
+
+saryoni_1001 = { 
+	name = "Naddu"
+	dynasty_house = indoril_saryoni
+	culture = chuzei
+	religion = tribunal_temple
+	father = saryoni_102
+	trait = devoted
+	
+	3376.1 = { birth = yes }
+	3850.1.1 = { death = yes }
+}
+
+
+### House Sadras
+
+sadras_104a = {
+	name = "Dunveril"
+	dynasty = 1300007 #Sadras
+	religion = tribunal_temple
+	culture = armun_an
+	mother = sadras_101
+	
+	3410.1.1 = { birth = yes }
+	3650.1.1 = { death = yes }
+}
+
+
+### HOUSE TELVANNI ###
+telvanni_firuth = {
+	name = "Firuth"
+	dynasty = telvanni
+	culture = chi_addun
+	religion = tribunal_temple
+	father = telvanni_102
+	trait = arrogant
+	trait = callous
+	trait = education_magical_ability_4
+	trait = arcana_good_3
+	trait = lifespan_3
+
+	3380.1.1 = { birth = yes }
+	3587.1.1 = { death = yes }
+}
+
+
+
+
+#Demnevanni cadet in hlaalu territory
+
+
+demnevanni_109 = {
+	name = "Beron" 
+	dynasty_house = telvanni_demnevanni 
+	culture = chi_addun
+	religion = tribunal_temple
+	father = demnevanni_108
+
+	trait = education_magical_ability_2
+	trait = arcana_good_1
+	trait = lifespan_4
+
+	3371.1.1 = { birth = yes }
+	3900.1.1 = { death = yes }
+}
+
+
+#House Arys
+
+arys_1000 = {
+	name = "Dralosa" 
+	dynasty = 1300784 
+	female = yes
+	culture = chuzei
+	religion = tribunal_temple
+	father = arys_100
+	trait = education_learning_3
+	trait = diligent
+	trait = education_magical_ability_2
+	trait = arcana_good_1
+	trait = lifespan_3
+
+	3380.1.1 = { birth = yes }
+	3743.1.1 = { death = yes }
+}
+
+##Sadri
+
+sadri_1000 = {
+	name = "Llayne" 
+	dynasty = 1300012
+	culture = chi_addun
+	religion = tribunal_temple
+
+	trait = lifespan_3
+	trait = education_stewardship_3
+	
+
+	3390.1.1 = { birth = yes }
+	3457.1.1 = { 
+		set_relation_friend = { reason = friend_generic_history target = character:seles_100 }
+	}
+	3710.1.1 = { death = yes } 
+}
+
+###Oren Dynasty (oren)
+
+#House Oren
+
+oren_1000 = {
+	name = "Vaelin"
+	dynasty = oren
+	culture = chi_addun
+	religion = tribunal_temple
+	father = oren_100
+	trait = callous
+	trait = arrogant
+	trait = arcana_good_2
+	trait = lifespan_3
+
+	3417.1.1 = { birth = yes }
+	3780.1.1 = { death = yes }
+}
+
+###Fathryon Dynasty (fathryon)
+
+#House Fathryon
+
+
+fathryon_1000 = {
+	name = "Seden"
+	dynasty = fathryon
+	culture = chi_addun
+	religion = tribunal_temple
+	father = fathryon_102
+	
+	trait = paranoid
+	trait = education_stewardship_4
+	trait = arcana_good_1
+	trait = lifespan_3
+
+	3405.1.1 = { birth = yes }
+	3810.1.1 = { death = yes }
+}
+
+### HOUSE DRES BASTARDS ####
+
+drethan_1000 = {
+	name = "Glathis" ###Future Councilman that 
+	dynasty_house = dres_drethan 
+	culture = marduhn_oad
+	religion = tribunal_temple
+	father = drethan_104
+
+	trait = lifespan_3
+	trait = education_stewardship_3
+	trait = sadistic
+	trait = arrogant
+	trait = impatient
+
+	3378.1.1 = { birth = yes }
+	3460.1.1 = {
+		set_relation_rival = { reason = rival_historical target = character:heita_meen } #Heita Meen hated as a slave 
+	}
+	3620.1.1 = { death = yes } 
+}
+
+drethan_1001 = {
+	name = "Savor" 
+	dynasty_house = dres_drethan 
+	culture = marduhn_oad
+	religion = tribunal_temple
+
+	father = drethan_107
+	mother = nerothan_100 
+	trait = lifespan_3
+
+	3460.1.1 = { birth = yes }
+	3880.1.1 = { death = yes } 
+}
+
+### House dres
+
+dres_105a = {
+	name = "Llurour" 
+	dynasty = 1300004 
+	culture = marduhn_oad
+	religion = tribunal_temple
+	father = dres_105
+
+	trait = lifespan_3
+	trait = education_stewardship_3
+
+	3461.1.1 = { birth = yes }
+	3810.1.1 = { death = yes } 
+}
+
+dres_108a = {
+	name = "Alarel" 
+	dynasty = 1300004 
+	culture = marduhn_oad
+	religion = tribunal_temple
+	father = dres_105
+
+	trait = lifespan_3
+
+	3400.1.1 = { birth = yes }
+	3460.1.1 = { add_spouse = dres_108b }
+	3810.1.1 = { death = yes } 
+}
+
+dres_108b = {
+	name = "Mirise" 
+	female = yes
+	dynasty = 1300004 
+	culture = marduhn_oad
+	religion = tribunal_temple
+	mother = dres_112
+	trait = necromancer
+	trait = arcana_good_2
+	trait = education_magical_ability_2
+	trait = lifespan_3
+
+	3435.1.1 = { birth = yes }
+	3810.1.1 = { death = yes } 
+}
+
+##Sadri Dynasty (1300012) #Major retainer
+
+sadri_100a = {
+	name = "Brelaca" 
+	dynasty = 1300012
+	culture = marduhn_oad
+	religion = tribunal_temple
+	female = yes
+	mother = sadri_100
+
+	trait = lifespan_3
+	trait = education_stewardship_3
+	trait = callous
+	trait = honest
+	trait = greedy
+	trait = beauty_good_1
+
+	3475.1.1 = { birth = yes }
+	3810.1.1 = { death = yes } 
+}
+
+##Faren Dynasty (1300152) #Major retainer, seneschal the Grandmaster in ESO has that surname
+
+
+faren_100a = {
+	name = "Dalse" 
+	dynasty = 1300152
+	culture = marduhn_oad
+	religion = tribunal_temple
+	female = yes
+	mother = faren_100
+
+	trait = lifespan_3
+	trait = education_stewardship_4
+
+	3440.1.1 = { birth = yes }
+	3850.1.1 = { death = yes } 
+}
+
+### Venali
+
+
+venali_103a = {
+	name = "Llorayna" #Marlyn's daughter, subpar plotter with mediocre arcane talent
+	dynasty = venali
+	culture = chi_addun
+	religion = tribunal_temple
+	mother = venali_103
+	female = yes
+
+	trait = arcana_good_3
+	trait = lifespan_3
+
+	3435.1.1 = { birth = yes }
+	3700.1.1 = { death = yes }
+}
+
+#### Ashlanders
+
+ahemmusa_1000 = {
+	name = "Len" 
+	dynasty = 1310192
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_100
+	
+	trait = calm
+	trait = arcana_good_3
+	
+	3371.1.1 = { birth = yes }
+	3700.1.1 = { death = yes }
+}
+ahemmusa_1001 = {
+	name = "Alaburani" 
+	dynasty = 1310192
+	religion = old_velothi
+	culture = ashlander
+	father = ahemmusa_1000
+	
+
+	trait = arcana_good_3
+	
+	3417.1.1 = { birth = yes }
+	3800.1.1 = { death = yes }
+}
+
+#House Bensiberib
+
+bensiberib_1000 = {
+	name = "Zalit" 
+	dynasty_house = zainab_bensiberib
+	religion = old_velothi
+	culture = ashlander
+	father = bensiberib_1
+	
+	trait = lifespan_3
+	
+	3390.1.1 = { birth = yes }
+	3730.1.1 = { death = yes }
+}
+
+# House Sinnammu
+
+
+
+sinnammu_1000 = { 
+	name = "Ashu_Awa" 
+	dynasty_house = ahemmusa_sinnammu
+	religion = old_velothi
+	culture = ashlander
+	mother = sinnammu_101
+
+	trait = arcana_good_3
+	3400.1.1 = { birth = yes }
+	3870.1.1 = { death = yes }
+}
+
+
+##Placeholders Temple holders and Mayors
+
+othrenis_3460 = { 
+	name = "Sadri"
+	religion = tribunal_temple
+	culture = armun_an
+	trait = lifespan_3
+	
+	
+	3380.1.1 = { birth = yes }
+	3681.1.1 = { death = yes }
+}
+
+muth_gnaar_3460 = { 
+	name = "Sadri"
+	religion = tribunal_temple
+	culture = armun_an
+	trait = lifespan_3
+	
+	
+	3380.1.1 = { birth = yes }
+	3681.1.1 = { death = yes }
+}
+
+iliath_3460 = { 
+	name = "Salina"
+	female = yes
+	religion = tribunal_temple
+	culture = armun_an
+	trait = lifespan_3
+	
+	
+	3420.1.1 = { birth = yes }
+	3681.1.1 = { death = yes }
+}
+
+orelu_3460 = {
+	name = "Beron" 
+	culture = chi_addun
+	religion = tribunal_temple
+	
+	trait = education_magical_ability_1
+	trait = arcana_good_1
+
+	3371.1.1 = { birth = yes }
+	3900.1.1 = { death = yes }
+}
+
+lleryn_3460 = {
+	name = "Mari" 
+	female = yes
+	culture = chi_addun
+	religion = tribunal_temple
+	trait = education_stewardship_4
+	trait = education_magical_ability_1
+	trait = arcana_good_1
+
+	3371.1.1 = { birth = yes }
+	3900.1.1 = { death = yes }
+}
+
+##Argonian randoms
+silentmire_3460c = {
+	name = "Seeks-the-Night"
+	female = yes
+	religion = hist
+	culture = paatru
+	trait = deceitful
+	
+	3401.1.1 = { birth = yes }
+	3475.1.1 = { death = yes }
+}
+silentmire_3460 = {
+	name = "Leel-Vata"
+	female = yes
+	religion = hist
+	culture = paatru
+	father = silentmire_3460c
+	3442.1.1 = { birth = yes }
+	3525.1.1 = { death = yes }
+}
+
+silentmire_3460a = {
+	name = "Vara-Zeen"
+	religion = hist
+	culture = paatru
+	
+	3442.1.1 = { birth = yes }
+	3460.1.1 = { add_matrilineal_spouse = silentmire_3460 }
+	3525.1.1 = { death = yes }
+}
+
+silentmire_3460b = {
+	name = "Seeks-the-Night"
+	father = silentmire_3460c
+	religion = hist
+	culture = paatru
+	trait = deceitful
+	
+	3441.1.1 = { birth = yes }
+	3525.1.1 = { death = yes }
+}
