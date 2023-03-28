@@ -1,0 +1,2661 @@
+####Skyrim
+
+flamehair_stormcloak = {
+	pattern="pattern_vertical_stripes_04.dds"
+	color1=skyrim_mblue
+	color2=white
+	colored_emblem={
+		color1=skyrim_mblue
+		color2=skyrim_silver
+		texture="ce_skyrim_windhelm.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.760000 0.760000 }
+		}
+
+	}
+
+}
+vasenon_blackdrake = {
+	pattern="pattern_vertical_stripes_03.dds"
+	color1=red
+	color2=skyrim_gold
+	colored_emblem={
+		color1=black
+		color2=orange
+		texture="ce_dragon_reach.dds"
+		instance={
+			scale={ -1.000000 1.000000 }
+		}
+
+	}
+
+}
+
+bullblood_dreadhorn = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 123 112 88 }
+	color2=orange_dark
+	color3=gold_light
+	color4=white
+	colored_emblem={
+		color1=black
+		color2=rgb { 128 112 95 }
+		color3=rgb { 119 106 89 }
+		texture="ce_bull_head.dds"
+		instance={
+			scale={ 0.575000 0.660000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_reach_frame_3.dds"
+		instance={
+			position={ 1.000000 0.500000 }
+			scale={ -0.460000 1.000000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.000000 0.500000 }
+			scale={ -0.450000 -1.000000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_bulls_massacre.dds"
+		instance={
+			position={ 0.500000 0.300000 }
+			scale={ 0.480000 0.350000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="ce_root_corners.dds"
+		instance={
+			position={ 0.490000 0.420000 }
+			scale={ 0.715000 -1.000000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_suomenusko_kazym.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ -0.560000 -0.560000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=black
+		color3=red
+		texture="ce_suomenusko_kazym.dds"
+		instance={
+			position={ 0.500000 0.955000 }
+			scale={ -0.600000 0.600000 }
+			depth=5.010000
+		}
+
+	}
+
+}
+
+
+200006 ={
+	pattern="pattern_solid.dds"
+	color1=rgb { 40 55 105 }
+	colored_emblem={
+		color1=skyrim_gold
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 2.100000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 118 135 190 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.800000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 94 111 167 }
+		texture="ce_reach_frame_3.dds"
+		instance={
+			position={ 1.540000 0.500000 }
+			scale={ 2.700000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 94 111 167 }
+		texture="ce_mena_pale.dds"
+	}
+
+	colored_emblem={
+		color1=rgb { 40 55 105 }
+		texture="ce_mena_crescent.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.300000 -0.300000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=skyrim_gold
+		color2=grey_light
+		texture="ce_sabre_upright.dds"
+		instance={
+			position={ 0.380000 0.480000 }
+			scale={ 0.700000 0.750000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=skyrim_gold
+		color2=grey_light
+		texture="ce_sabre_upright.dds"
+		instance={
+			position={ 0.620000 0.480000 }
+			scale={ -0.700000 0.750000 }
+		}
+
+	}
+
+}
+
+###High Rock Bretons 
+430000 = { ###Guimard
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=red
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=red
+		texture="ce_eagle_head.dds"
+		instance={
+			scale={ 0.690000 0.690000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_single_tressure.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+
+400014 = {  ###Croix
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 106 68 91 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=black
+		color2=white
+		color3=white
+		texture="ce_owl.dds"
+		instance={
+			position={ 0.470000 0.500000 }
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_single_tressure.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce_circle_nogradient.dds"
+		instance={
+			position={ 0.640000 0.300000 }
+			scale={ 0.280000 0.300000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+410010 = {  ##Montclair
+	pattern="pattern__solid_designer.dds"
+	color1=black
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=black
+		texture="ce_shield_borderless.dds"
+		instance={
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce_crown_small.dds"
+		instance={
+			position={ 0.500000 0.270000 }
+			scale={ 0.200000 0.200000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=orange
+		texture="ce_single_tressure.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=orange
+		texture="ce_dragon_double.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.500000 0.760000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+420001 = { ##horley future rulers of wayrest
+	pattern="pattern_shield_01.dds"
+	color1=rgb { 90 90 112 }
+	color2=rgb { 63 66 64 }
+	colored_emblem={
+		color1=rgb { 63 66 64 }
+		color2=rgb { 63 66 64 }
+		texture="ce_border_shield.dds"
+	}
+
+	colored_emblem={
+		color1=rgb { 211 148 194 }
+		color2=black
+		texture="ce_eastern_sun.dds"
+		instance={
+			position={ 0.315000 0.320000 }
+			scale={ 0.400000 0.400000 }
+		}
+
+		instance={
+			position={ 0.685000 0.320000 }
+			scale={ 0.400000 0.400000 }
+		}
+
+		instance={
+			position={ 0.500000 0.620000 }
+			scale={ 0.400000 0.400000 }
+		}
+
+	}
+
+}
+
+400013 = { ##Lariat dynasty
+	pattern="pattern_solid.dds"
+	color1=rgb { 33 111 104 }
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_single_tressure.dds"
+	}
+
+	colored_emblem={
+		color1=brown
+		color2=white
+		texture="ce_eagle.dds"
+		instance={
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+
+}
+
+400005 = { #duke of kambria
+	pattern="pattern_checkers_01.dds"
+	color1=white
+	color2=rgb { 53 120 59 }
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_griffin_rampant.dds"
+		instance={
+			scale={ 0.620000 0.620000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_border_shield.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=red
+		color3=red
+		texture="ce_single_tressure.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+
+400019 = { #gulitte 
+	custom=yes
+	pattern="pattern_leyawiin.dds"
+	color1=blue_light
+	color2=grey
+	color3=black
+	colored_emblem={
+		color1=rgb { 203 167 134 }
+		texture="ce_lion_rampant.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+
+
+400008 = { #Baelborne
+	pattern="pattern__solid_designer.dds"
+	color1=red
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=black
+		texture="ce_ornoment_2.dds"
+		instance={
+			position={ 0.500000 0.410000 }
+			scale={ 0.760000 0.760000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_ornoment_1.dds"
+		instance={
+			scale={ 0.780000 0.780000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=black
+		texture="ce_lion_rampant_axe.dds"
+		instance={
+			position={ 0.500000 0.490000 }
+			scale={ 0.590000 0.590000 }
+		}
+
+	}
+
+}
+
+400018 = { #Garclay
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=purple
+	colored_emblem={
+		color1=red
+		texture="ce_single_tressure.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_argonian_flame_1.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.560000 0.560000 }
+		}
+
+	}
+
+}
+
+400007 = { #Stroud dukes northmoor
+	pattern="pattern_solid.dds"
+	color1=rgb { 33 111 104 }
+	color2=purple
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_lion_rampant.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.560000 0.560000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_single_tressure.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+
+guimard_vuitton = {
+	pattern="pattern_checkers_02.dds"
+	color1=red
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=rgb { 167 118 45 }
+		texture="ce_fleur.dds"
+		instance={
+			position={ 0.500000 0.880000 }
+			scale={ 0.170000 0.170000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=yellow
+		texture="ce_border_shield_rim.dds"
+		instance={
+			position={ 0.510000 0.510000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 168 122 53 }
+		color2=rgb { 11 33 53 }
+		texture="ce_griffin_rampant.dds"
+		instance={
+			position={ 0.510000 0.480000 }
+			scale={ 0.720000 0.690000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+motierre_rielle = {
+	pattern="pattern_solid.dds"
+	color1=purple
+	color2=purple
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_lion_rampant.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.560000 0.560000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_single_tressure.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+
+silane_guimard = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=red
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=red
+		texture="ce_lion_rampant_per_pale.dds"
+		instance={
+			scale={ 0.590000 0.590000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_single_tressure.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+
+
+
+
+
+
+####Cyrodiil
+
+cyrodiil_sosildor = {
+	pattern="pattern_vertical_stripes_04.dds"
+	color1=green
+	color2=skyrim_lgold
+	colored_emblem={
+		color1=black
+		color2=skyrim_silver
+		texture="ce_horse_rampant.dds"
+		instance={
+			scale={ 0.820000 0.820000 }
+		}
+
+	}
+
+}
+
+
+100018 = { ###Jano former rulers of bruma
+	pattern="pattern_bruma.dds"
+	color1=rgb { 51 34 26 }
+	color2=rgb { 191 142 47 }
+	color3=rgb { 162 140 89 }
+	colored_emblem={
+		color1=yellow
+		color2=brown_dark
+		texture="ce_oval_02.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.950000 0.950000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_cyrodiil_bruma.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+
+110002 = { ###Cidian
+	pattern="pattern_solid.dds"
+	color1=cyrodiil_green
+	colored_emblem={
+		color1=green_dark
+		texture="ce_hands_swords.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.440000 0.440000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=green_dark
+		texture="ce_ornoment_2.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.650000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=green_dark
+		texture="ce_ornoment_1.dds"
+		instance={
+			position={ 0.500000 0.600000 }
+			scale={ 0.650000 0.500000 }
+		}
+
+	}
+
+}
+
+ 110023 = { #Crito using nibenay
+	pattern="pattern_solid.dds"
+	color1=cyrodiil_red
+	colored_emblem={
+		color1=cyrodiil_red
+		color2=red_medium
+		texture="ce_bendy_10.dds"
+		instance={
+			position={ 0.480000 0.460000 }
+			scale={ 1.200000 1.200000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_bend_thin.dds"
+		instance={
+			position={ 0.490000 0.460000 }
+			scale={ 2.500000 2.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_bend_thin.dds"
+		instance={
+			position={ 0.490000 0.460000 }
+			scale={ 2.000000 2.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red_medium
+		texture="ce_lozenge.dds"
+		instance={
+			position={ 0.270000 0.230000 }
+			scale={ 0.340000 0.340000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_imperial_reman.dds"
+		instance={
+			position={ 0.270000 0.230000 }
+			scale={ 0.400000 0.350000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red_medium
+		texture="ce_lozenge.dds"
+		instance={
+			position={ 0.730000 0.670000 }
+			scale={ 0.340000 0.340000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_imperial_reman.dds"
+		instance={
+			position={ 0.730000 0.670000 }
+			scale={ 0.400000 0.350000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red_medium
+		texture="ce_lozenge.dds"
+		instance={
+			position={ 0.490000 0.460000 }
+			scale={ 0.340000 0.340000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_imperial_reman.dds"
+		instance={
+			position={ 0.490000 0.460000 }
+			scale={ 0.400000 0.350000 }
+		}
+
+	}
+
+}
+
+pinder ={
+	pattern="pattern_solid.dds"
+	color1=black
+	colored_emblem={
+		color1=black
+		color2=white
+		texture="ce_cyrodiil_kvatch.dds"
+		instance={
+			position={ 0.300000 0.450000 }
+			scale={ 0.600000 0.620000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=grey_light
+		texture="ce_akaviri_katana.dds"
+		instance={
+			position={ 0.720000 0.450000 }
+			scale={ 0.850000 0.850000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_mena_pale.dds"
+		instance={
+			position={ 0.000000 0.450000 }
+			scale={ 3.300000 1.000000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+
+130000 = { #Terrentius future counts of bravil
+	pattern="pattern_solid.dds"
+	color1=brown_light
+	colored_emblem={
+		color1=brown_medium
+		texture="ce_zigzag.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 1.200000 1.200000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=brown_medium
+		color2=brown_light
+		texture="ce_capsule_2.dds"
+		instance={
+			position={ 0.500000 0.550000 }
+			scale={ 1.400000 1.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=yellow
+		texture="ce_cyrodiil_bravil_2.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+}
+
+110012 = { #Cedrian
+	pattern="pattern_solid.dds"
+	color1=rgb { 165 135 117 }
+	colored_emblem={
+		color1=black
+		texture="ce_ram_horn.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.500000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_ornoment_2.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.650000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_ornoment_1.dds"
+		instance={
+			position={ 0.500000 0.600000 }
+			scale={ 0.650000 0.500000 }
+		}
+
+	}
+
+}
+
+120004 = { #Divarious in Leyawin
+	pattern="pattern_solid.dds"
+	color1=rgb { 208 122 69 }
+	colored_emblem={
+		color1=rgb { 21 41 70 }
+		texture="ce_ornoment_2.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.650000 0.500000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 21 41 70 }
+		texture="ce_ornoment_1.dds"
+		instance={
+			position={ 0.500000 0.600000 }
+			scale={ 0.650000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 21 41 70 }
+		texture="ce_sword_2.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			scale={ 0.650000 0.550000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+100031={ #Vywich skingrad bastard
+	pattern="pattern_solid.dds"
+	color1=black
+	colored_emblem={
+		color1=black
+		texture="ce_ornoment_2.dds"
+		instance={
+			position={ 0.500000 0.280000 }
+			scale={ 0.550000 0.450000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_ornoment_1.dds"
+		instance={
+			position={ 0.500000 0.720000 }
+			scale={ 0.550000 0.450000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red_medium
+		color2=grey
+		color3=black
+		texture="ce_tower_white_gold_4.dds"
+		instance={
+			position={ 0.510000 0.500000 }
+			scale={ 0.500000 0.550000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=red
+		texture="ce_cyrodiil_frame_akatosh.dds"
+		instance={
+			scale={ 1.050000 1.000000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_frame_side.dds"
+		instance={
+			scale={ 1.050000 1.000000 }
+			depth=4.010000
+		}
+
+	}
+
+}
+
+umbranox_lex = {
+	pattern="pattern_solid.dds"
+	color1=brown_light
+	colored_emblem={
+		color1=brown_medium
+		color2=brown_light
+		texture="ce_capsule_2.dds"
+		instance={
+			position={ 0.500000 0.550000 }
+			scale={ 1.400000 1.500000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=brown_medium
+		texture="ce_zigzag.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 1.200000 1.200000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=yellow
+		texture="ce_tower_white_gold_4.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+}
+
+cyrodiil_brazildor ={ ###Cyrodiil but black
+	pattern="pattern_solid.dds"
+	color1=black
+	colored_emblem={
+		color1=skyrim_gold
+		texture="ce_lozenge.dds"
+		instance={
+			scale={ 0.850000 0.900000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_lozenge.dds"
+		instance={
+			scale={ 0.750000 0.800000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=skyrim_gold
+		texture="ce_imperial_reman.dds"
+		instance={
+			scale={ 1.000000 0.850000 }
+		}
+
+	}
+
+}
+
+benirus = { #imperial count of anvil in blackdrake
+	pattern="pattern_solid.dds"
+	color1=red_medium
+	colored_emblem={
+		color1=brown_dark
+		color2=white
+		texture="ce_cyrodiil_anvil_double_bar.dds"
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_mena_pale.dds"
+		instance={
+			position={ 0.500000 0.950000 }
+			scale={ 3.300000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=brown_dark
+		texture="ce_swords.dds"
+		instance={
+			position={ 0.500000 0.650000 }
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+}
+
+caro_enucci = {
+	pattern="pattern_solid.dds"
+	color1=cyrodiil_green
+	color2=green
+	colored_emblem={
+		color1=brown_medium
+		color2=yellow
+		texture="ce_sword_2.dds"
+		instance={
+			position={ 0.500000 0.410000 }
+			scale={ 0.400000 0.450000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=cyrodiil_green
+		color2=brown_dark
+		texture="ce_oval_02.dds"
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.750000 0.700000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=green_dark
+		texture="ce_frame_side.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 1.100000 1.000000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=green
+		color2=cyrodiil_green
+		texture="ce_cyrodiil_frame_leyawiin.dds"
+		instance={
+			position={ 0.500000 0.620000 }
+			scale={ 1.200000 1.200000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+
+
+
+
+####Hammerfell
+
+210013 = { #Hallin dynasty
+	pattern="pattern_solid.dds"
+	color1=red_medium
+	colored_emblem={
+		color1=white
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.850000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 40 40 40 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.500000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_ishtar.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 1.500000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_ishtar.dds"
+		instance={
+			position={ 0.500000 1.000000 }
+			scale={ 1.500000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_religion_akanism.dds"
+		instance={
+			scale={ 0.400000 0.400000 }
+		}
+
+	}
+
+}
+
+220002 = { #tura near hegathe
+	pattern="pattern_solid.dds"
+	color1=red
+	colored_emblem={
+		color1=rgb { 233 187 100 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 2.100000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 218 172 82 }
+		texture="ce_reach_frame_3.dds"
+		instance={
+			position={ 1.540000 0.500000 }
+			scale={ 2.700000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 33 33 33 }
+		texture="ce_mena_pale.dds"
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 0.650000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 33 33 33 }
+		texture="ce_pagan_circle_frame_02.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.600000 0.600000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 211 195 105 }
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ -0.650000 0.650000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 33 33 33 }
+		texture="ce_religion_pagan_westafrican.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.350000 0.350000 }
+		}
+
+	}
+
+}
+
+ 220010 = { #Ahvaz in stonemoor
+	pattern="pattern_solid.dds"
+	color1=rgb { 75 49 36 }
+	colored_emblem={
+		color1=skyrim_gold
+		texture="ce_pagan_cross_arrows_02.dds"
+		instance={
+			position={ 0.500000 0.200000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=skyrim_gold
+		texture="ce_pagan_cross_arrows_02.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=skyrim_gold
+		texture="ce_pagan_cross_arrows_02.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 16 60 104 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.900000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 12 50 89 }
+		texture="ce_reach_frame_3.dds"
+		instance={
+			position={ 1.080000 0.500000 }
+			scale={ 1.500000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=skyrim_gold
+		texture="ce_mena_pale.dds"
+		instance={
+			position={ 0.770000 0.500000 }
+			scale={ 0.200000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=skyrim_gold
+		texture="ce_mena_pale.dds"
+		instance={
+			position={ 0.230000 0.500000 }
+			scale={ 0.200000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 75 49 36 }
+		color2=skyrim_gold
+		texture="ce_septim_diamond.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 2.000000 0.650000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=skyrim_gold
+		texture="ce_tree_alchemy.dds"
+		instance={
+			position={ 0.500000 0.550000 }
+			scale={ 0.450000 0.500000 }
+		}
+
+	}
+
+}
+
+kulati = { #Old yokuda cadet
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=blue
+	colored_emblem={
+		color1=black
+		color2=yellow
+		texture="ce_border_circle_fimbriated.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.800000 0.800000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 125 67 35 }
+		texture="ce_circle.dds"
+		instance={
+			scale={ 1.250000 1.250000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=black
+		texture="ce_hammerfell.dds"
+		instance={
+			scale={ 0.600000 0.600000 }
+		}
+
+	}
+
+}
+
+
+ 240001 = { #Ashabah former rulers of hammerfell
+	pattern="pattern_verticle_stripes_05.dds"
+	color1=yellow
+	color2=blue
+	colored_emblem={
+		color1=blue_dark
+		color2=blue
+		texture="ce_hammerfell.dds"
+		instance={
+			scale={ 0.450000 0.450000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_reach_frame_3.dds"
+		instance={
+			scale={ 1.000000 1.100000 }
+		}
+
+	}
+
+}
+
+210001={ #Nisewan Sentinel
+	pattern="pattern_solid.dds"
+	color1=yellow
+	colored_emblem={
+		color1=rgb { 124 94 31 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 2.100000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.400000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 54 54 54 }
+		texture="ce_mena_pale.dds"
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 0.650000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 54 54 54 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 0.350000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 54 54 54 }
+		texture="ce_pagan_circle_frame_02.dds"
+		instance={
+			position={ 0.500000 0.490000 }
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 124 94 31 }
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.500000 0.490000 }
+			scale={ -0.950000 0.950000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=grey
+		texture="ce_sentinel_moon.dds"
+		instance={
+			position={ 0.445000 0.485000 }
+			scale={ 0.450000 0.550000 }
+		}
+
+	}
+
+}
+
+leki = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 234 208 159 }
+	colored_emblem={
+		color1=rgb { 107 80 48 }
+		texture="ce_hamades_03.dds"
+		instance={
+			position={ 0.500000 0.250000 }
+			scale={ 2.000000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 107 80 48 }
+		texture="ce_hamades_03.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 2.000000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 107 80 48 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.800000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 234 208 159 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.250000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 190 160 103 }
+		color2=rgb { 107 80 48 }
+		texture="ce_mena_sun.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 107 80 48 }
+		color2=white
+		texture="ce_sabre_upright.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+
+}
+
+leki_sahan = {
+	pattern="pattern_solid.dds"
+	color1=green_light
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 174 125 53 }
+		color3=orange
+		texture="ce_khajiit_border.dds"
+		instance={
+			position={ 0.870000 0.500000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 113 45 36 }
+		texture="ce_circle_mask.dds"
+		instance={
+			scale={ 0.380000 0.380000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 183 131 55 }
+		color3=orange
+		texture="ce_khajiit_border.dds"
+		instance={
+			position={ 0.120000 0.500000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 173 125 55 }
+		texture="ce_dharmachakra_satti.dds"
+		instance={
+			scale={ 0.620000 0.620000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 176 128 58 }
+		color2=green_light
+		texture="ce_hammerfell.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.360000 0.360000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 174 125 55 }
+		texture="ce_eastern_sun.dds"
+		instance={
+			scale={ 0.730000 0.730000 }
+			depth=5.010000
+		}
+
+	}
+
+}
+
+leki_amaile = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 190 160 103 }
+	colored_emblem={
+		color1=rgb { 107 80 48 }
+		texture="ce_hausa_knot.dds"
+		instance={
+			position={ 0.750000 1.050000 }
+			scale={ 0.500000 0.500000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.750000 0.700000 }
+			scale={ 0.500000 0.500000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.750000 0.350000 }
+			scale={ 0.500000 0.500000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.750000 0.000000 }
+			scale={ 0.500000 0.500000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.250000 1.050000 }
+			scale={ 0.500000 0.500000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.250000 0.700000 }
+			scale={ 0.500000 0.500000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.250000 0.350000 }
+			scale={ 0.500000 0.500000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.250000 0.000000 }
+			scale={ 0.500000 0.500000 }
+			depth=15.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 234 208 159 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.100000 1.000000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 107 80 48 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.800000 1.000000 }
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 190 160 103 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.400000 1.000000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 234 208 159 }
+		color2=rgb { 107 80 48 }
+		texture="ce_tamgha_roundel_frame.dds"
+		instance={
+			position={ 1.500000 0.450000 }
+			scale={ 0.530000 0.630000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 190 160 103 }
+		texture="ce_chevron_in_chief.dds"
+		instance={
+			position={ 0.500000 0.270000 }
+			scale={ 0.400000 0.420000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 0.400000 -0.420000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=red
+		color3=rgb { 190 160 103 }
+		texture="ce_dragonhead_01.dds"
+		instance={
+			position={ 0.510000 0.550000 }
+			scale={ 0.400000 0.420000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_crossed_sabres_02.dds"
+		instance={
+			position={ 0.500000 0.290000 }
+			scale={ 0.230000 0.230000 }
+		}
+
+	}
+
+}
+
+leki_rahal = {
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	colored_emblem={
+		color1=rgb { 107 80 48 }
+		texture="ce_hamades_03.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 2.000000 0.500000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.500000 0.250000 }
+			scale={ 2.000000 0.500000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 107 80 48 }
+		color2=white
+		texture="ce_sabre_upright.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 107 80 48 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.800000 1.000000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue_light
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.250000 1.000000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 190 160 103 }
+		color2=rgb { 107 80 48 }
+		texture="ce_mena_sun.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.800000 0.800000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+
+phyllocid_hilazada = {
+	pattern="pattern_solid.dds"
+	color1=yellow
+	colored_emblem={
+		color1=rgb { 33 33 33 }
+		texture="ce_pagan_circle_frame_02.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.600000 0.600000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red_medium
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 2.100000 1.000000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_hammerfell.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.300000 0.300000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_reach_frame_3.dds"
+		instance={
+			position={ 1.540000 0.500000 }
+			scale={ 2.700000 1.000000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 95 95 95 }
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ -0.650000 0.650000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 56 6 6 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 0.700000 1.000000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+hunding_rihad ={
+	pattern="pattern_solid.dds"
+	color1=grey
+	colored_emblem={
+		color1=black
+		color2=grey_light
+		texture="ce_sabre_upright.dds"
+		instance={
+			position={ 0.620000 0.480000 }
+			scale={ -0.700000 0.750000 }
+		}
+
+		instance={
+			position={ 0.380000 0.480000 }
+			scale={ 0.700000 0.750000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_mena_crescent.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.300000 -0.300000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_reach_frame_3.dds"
+		instance={
+			position={ 1.540000 0.500000 }
+			scale={ 2.700000 1.000000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_mena_pale.dds"
+		instance={
+			depth=3.010000
+		}
+
+		instance={
+			scale={ 2.100000 1.000000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 1.800000 1.000000 }
+			depth=5.010000
+		}
+
+	}
+
+}
+
+
+
+####placeholder for septims
+
+2 = {
+	pattern = "pattern_solid.dds"
+	color1 = "tamriel_red"
+	#color1 = "red"
+
+	colored_emblem = { #tamriel
+	    texture = "ce_septim_cross.dds"
+	    color1 = "black"
+	    color2 = "skyrim_gold"
+	    instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}
+	colored_emblem = {
+	    texture = "ce_septim_diamond.dds"
+	    color1 = "black"
+	    color2 = "skyrim_gold"
+	    instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}
+	colored_emblem = {
+	    texture = "ce_septim.dds"
+	    color1 = "skyrim_gold"
+	    instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
+	}
+	# colored_emblem = { #ayleid cyrodiil
+	# 	texture = "ce_tamriel_aldmeri.dds"
+	# 	color1 = "tamriel_gold"
+	# 	instance = { position = { 0.5 0.47 } scale = { 0.85 0.85 } }
+	# }
+	# colored_emblem = { #not-tiber or akaviri cyrodiil
+	# 	texture = "ce_imperial_flame_dragon.dds.dds"
+	# 	color1 = "tamriel_gold"
+	# 	instance = { position = { 0.5 0.47 } scale = { 0.85 0.85 } }
+	# }
+	# colored_emblem = { #septim dynasty old
+	#     texture = "ce_septim_dragon.dds"
+	#     color1 = "skyrim_gold"
+	#     color2 = "black"
+	#     color3 = "white"
+	#     instance = { position = { 0.5 0.5 } scale = { 0.9 1.0 } }
+	# }
+	# colored_emblem = { #septim dynasty
+	#     texture = "ce_septim_dragon2.dds"
+	#     color1 = "skyrim_gold"
+	#     instance = { position = { 0.5 0.5 } scale = { 0.9 1.0 } }
+	# }
+}
+
+
+
+
+###ORCS 
+
+shardbrok = { ###shardbrok
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=green
+	colored_emblem={
+		color1=white
+		color2=red
+		color3=red
+		texture="ce_orc_forge.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_orc_brutal.dds"
+		instance={
+			position={ 0.690000 0.350000 }
+			scale={ 0.480000 0.480000 }
+		}
+
+	}
+
+}
+
+800010 = { #bloodtusk
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=rgb { 29 102 36 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=red
+		color2=grey
+		texture="ce_orc_boar.dds"
+		instance={
+			scale={ 0.610000 0.610000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 166 161 161 }
+		texture="ce_orc_gauntlet.dds"
+		instance={
+			position={ 1.000000 1.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.800000 1.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.600000 1.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.400000 1.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.200000 1.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.000000 1.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.900000 0.800000 }
+			scale={ 0.240000 0.240000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.700000 0.800000 }
+			scale={ 0.240000 0.240000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.500000 0.800000 }
+			scale={ 0.240000 0.240000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.300000 0.800000 }
+			scale={ 0.240000 0.240000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.100000 0.800000 }
+			scale={ 0.240000 0.240000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 1.000000 0.600000 }
+			scale={ 0.240000 0.240000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.800000 0.600000 }
+			scale={ 0.240000 0.240000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.600000 0.600000 }
+			scale={ 0.240000 0.240000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.400000 0.600000 }
+			scale={ 0.240000 0.240000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.200000 0.600000 }
+			scale={ 0.240000 0.240000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.000000 0.600000 }
+			scale={ 0.240000 0.240000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.900000 0.400000 }
+			scale={ 0.240000 0.240000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.700000 0.400000 }
+			scale={ 0.240000 0.240000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.240000 0.240000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.300000 0.400000 }
+			scale={ 0.240000 0.240000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.100000 0.400000 }
+			scale={ 0.240000 0.240000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 1.000000 0.200000 }
+			scale={ 0.240000 0.240000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.800000 0.200000 }
+			scale={ 0.240000 0.240000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.600000 0.200000 }
+			scale={ 0.240000 0.240000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.400000 0.200000 }
+			scale={ 0.240000 0.240000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.200000 0.200000 }
+			scale={ 0.240000 0.240000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.000000 0.200000 }
+			scale={ 0.240000 0.240000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.900000 0.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.700000 0.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.300000 0.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=32.009998
+		}
+
+		instance={
+			position={ 0.100000 0.000000 }
+			scale={ 0.240000 0.240000 }
+			depth=33.009998
+		}
+
+	}
+
+}
+
+golzarga = {
+	textured_emblem={
+		texture="te_k_orsinium.dds"
+	}
+
+}
+
+
+## Elseweyr Khajiits
+
+maw_of_lorkaj_eso = {
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=white
+	color3=purple
+	color4=blue
+	colored_emblem={
+		color1=yellow
+		texture="ce_lotus_big.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+			depth=4.010000
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_mena_khanja.dds"
+		instance={
+			position={ 1.000000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.900000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.800000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.700000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.600000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.500000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.400000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.300000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.200000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.100000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.000000 0.950000 }
+			scale={ 0.150000 -0.150000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 1.000000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.900000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.800000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.700000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.600000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.500000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.400000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.300000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.200000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.100000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.000000 0.050000 }
+			scale={ 0.150000 0.150000 }
+			depth=29.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce_mena_pale.dds"
+		instance={
+			position={ 0.500000 0.900000 }
+			scale={ 1.000000 0.075000 }
+			depth=6.010000
+			rotation=90
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 1.000000 0.075000 }
+			depth=7.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_roundel.dds"
+		instance={
+			scale={ 0.600000 0.600000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce_roundel.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=orange
+		texture="ce_sun_india.dds"
+		instance={
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		texture="ce_roundel.dds"
+		instance={
+			scale={ 0.600000 0.600000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_elsweyr_moons.dds"
+		instance={
+			scale={ 0.430000 0.430000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_mena_pale.dds"
+		instance={
+			position={ 0.500000 0.950000 }
+			scale={ 1.000000 0.400000 }
+			depth=30.010000
+			rotation=90
+		}
+
+		instance={
+			position={ 0.500000 0.050000 }
+			scale={ 1.000000 0.400000 }
+			depth=31.010000
+			rotation=90
+		}
+
+	}
+
+}
+
+telvanni_otheri = {
+	pattern="pattern_solid.dds"
+	color1=skyrim_mblue
+	color2=skyrim_mgreen
+	color3=white
+	color4=white
+	colored_emblem={
+		color1=yellow
+		color2=skyrim_mgreen
+		texture="ce_dunmer_frame_greathouse_6.dds"
+		instance={
+			scale={ 0.800000 1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=skyrim_mgreen
+		texture="ce_dunmer_sigil_indoril_1.dds"
+		instance={
+			scale={ 0.500000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_daedra_sigil_L.dds"
+		instance={
+			position={ 0.500000 0.150000 }
+			scale={ 0.150000 0.150000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_daedra_sigil_Q.dds"
+		instance={
+			position={ 0.500000 0.850000 }
+			scale={ 0.100000 0.100000 }
+		}
+
+	}
+
+}
+
+#Summerset Isle Cadets
+
+arana_lillandril ={  #Arana Cadet
+	pattern="pattern_solid.dds"
+	color1=rgb { 40 56 73 }
+	colored_emblem={
+		color1=rgb { 59 80 96 }
+		texture="ce_altmer_bg_1.dds"
+		instance={
+			position={ 0.500000 0.650000 }
+			scale={ 0.660000 0.660000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.660000 0.660000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 209 180 71 }
+		color2=rgb { 40 56 73 }
+		texture="ce_auriel_star_bg.dds"
+		instance={
+			position={ 0.500000 0.190000 }
+			scale={ 0.300000 0.300000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 209 180 71 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 2.600000 1.000000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 40 56 73 }
+		color2=rgb { 209 180 71 }
+		texture="ce_lillandril_flask.dds"
+		instance={
+			position={ 0.500000 0.550000 }
+			scale={ 0.400000 0.400000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 40 56 73 }
+		color2=rgb { 209 180 71 }
+		color3=black
+		texture="ce_lillandril_shield.dds"
+		instance={
+			position={ 0.500000 0.550000 }
+			scale={ 0.550000 0.550000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 40 56 73 }
+		texture="ce_mena_pale.dds"
+		instance={
+			scale={ 2.200000 1.000000 }
+			depth=5.010000
+		}
+
+	}
+
+}
+
