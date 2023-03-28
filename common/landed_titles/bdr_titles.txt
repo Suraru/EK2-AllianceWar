@@ -1,0 +1,13 @@
+k_nibenay_abnur = {
+	color = { 195 15 5 }
+
+	capital = c_cheydinhal
+	can_be_named_after_dynasty = no
+    ignore_titularity_for_title_weighting = yes
+	ai_primary_priority = {
+		if = {
+			limit = { culture = culture:nibenese }
+			add = @better_than_the_alternatives_score
+		}
+	}	
+}
