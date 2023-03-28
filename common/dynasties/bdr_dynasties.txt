@@ -1,0 +1,40 @@
+#Khajits
+
+harabiri = {
+	name = "Harabiri"
+	culture = pellitinian
+}
+maw_of_lorkaj_eso = {
+	name = "Dark Moons"
+	culture = anequinan
+}
+titanborn = {
+	name = "Titanborn"
+	culture = eastmarcher
+}
+
+
+#Bosmer
+
+tanglehaven = {
+	name = "Tanglehaven"
+	culture = grahtwood
+}
+
+
+#Argonians
+bramman = {
+	name = "Bramman"
+	culture = hapsleet
+}
+
+dankur = {
+	name = "Dankur"
+	culture = sarpa
+}
+
+## Cyrodiil
+benirus = {
+	name = "Benirus"
+	culture = strident
+}	
