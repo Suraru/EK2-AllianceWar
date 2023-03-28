@@ -1,0 +1,113 @@
+﻿
+leki_sahan = { #House of Sai Sahan, renowned blademaster and one of the last known Ansei #EK TODO add them as rulers somewhere or retainers
+	name = "Sahan"
+	dynasty = leki
+	motto = dynn_placeholder_motto
+}
+
+leki_amaile = { #House of Dragonstar
+	name = "Amaile"
+	dynasty = leki
+	motto = dynn_placeholder_motto
+}
+
+leki_rahal = {  #House of Rimwatch
+	name = "Rahal"
+	dynasty = leki
+}
+
+phyllocid_hilazada = {
+	prefix = "dynnp_al-"
+	name = "Hilazada"
+	dynasty = 220000
+}
+hunding_rihad = {
+	prefix = "dynnp_al-"
+	name = "Rihad"
+	dynasty = 200006
+}
+kulati = {
+	prefix = "dynnp_al-"
+	name = "Kulati"
+	dynasty = 200002
+}
+
+flamehair_stormcloak = {
+	name = "Stormcloak"
+	dynasty = flamehair
+}
+blackbriar_ironhand = {
+	name = "Ironhand"
+	dynasty = blackbriar
+}
+
+umbranox_lex = {
+	name = "Umbranox"
+	dynasty = lex
+}
+
+cyrodiil_brazildor = {
+	name = "Tor"
+	dynasty = 100013 #(of Cyrodiil)
+}
+
+cyrodiil_sosildor = {
+	name = "Sosildor"
+	dynasty = 100013 #(of Cyrodiil)
+	motto = dynn_sosildor_motto
+}
+
+motierre_rielle = {
+	name = "Motierre"
+	dynasty = 400003
+}
+
+silane_guimard = {
+	name = "Silane"
+	dynasty = 430000
+}
+
+murghak_fharun = {
+	name = "Murghak"
+	dynasty = 800011
+}
+vasenon_blackdrake = {
+	name = "Vasenon"
+	dynasty = 500004
+}
+
+kispoor_brae = { #Cadet line of Darloc rulers in the Rim
+	name = "Kispoor"
+	dynasty = 1110000
+}
+
+zatani_robiri = { #Cadet line of Zatani in Senchal
+	name = "Robiri"
+	dynasty = 1100001
+}
+
+zatani_razumdar = { #Cadet line of Zatani for Razumdar cuz why the hell not
+	name = "First-Eye"
+	dynasty = 1100001
+}
+
+
+redoran_berendas = { #ESO redoran loyalists
+	name = "Berendas"
+	dynasty = 1300001
+}
+
+redoran_boronil = { #ESO redoran loyalists
+	name = "Boronil"
+	dynasty = 1300001
+}
+telvanni_otheri = {
+	name = "Otheri"
+	dynasty = telvanni
+}
+
+arana_lillandril = {
+	name = "Lillandril"
+	dynasty = 700000 #Auriel
+}
+
