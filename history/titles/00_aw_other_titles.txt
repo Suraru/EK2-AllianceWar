@@ -22,28 +22,49 @@ k_telvanni = {
 	}
 
 k_redoran = {
+	2620.1.1 = { 
+		succession_laws = {
+			dunmeri_elective_succession_law #Great House succession
+		}
+	}
 	2620.1.1 = { holder = redoran_995 }
 	2830.1.1 = { holder = redoran_996 }
 	2910.1.1 = { holder = redoran_997 }
 	3200.1.1 = { holder = redoran_998 }
 	3369.1.1 = { holder = redoran_999 }
 	3437.1.1 = { holder = redoran_1000 }
+	3460.1.1 = { holder = redoran_meriath }
 	3492.7.7 = { holder = redoran_1000 liege = e_ebonheart_pact }
+	3502.1.1 = { liege = e_ebonheart_pact holder = redoran_meriath }
+	3505.1.1 = { liege = 0 }
 }
 
 k_hlaalu = {
+	2620.1.1 = { 
+		succession_laws = {
+			dunmeri_elective_succession_law #Great House succession
+		}
+	}
 	3350.10.1 = { holder = hlaalu_48103 }
-	3492.7.7 = { holder = hlaalu_48103 liege = e_ebonheart_pact }
+	3410.1.1 = { holder = hlaalu_ralden }
+	3502.1.1 = { liege = e_ebonheart_pact }
+	3505.1.1 = { liege = 0 }
 }
 
 k_dres = {
+	2620.1.1 = { 
+		succession_laws = {
+			dunmeri_elective_succession_law #Great House succession
+		}
+	}
 	2920.1.1 = { holder = dres_109 }
 	3050.1.1 = { holder = dres_100 }
 	3150.1.1 = { holder = dres_101 }
 	3230.1.1 = { holder = dres_102 }
 	3349.1.1 = { holder = dres_103 }
 	3490.1.1 = { holder = dres_106 }
-	3492.7.7 = { holder = dres_106 liege = e_ebonheart_pact }
+	3502.1.1 = { liege = e_ebonheart_pact }
+	3505.1.1 = { liege = 0 }
 }
 	
 k_indoril = {
@@ -60,6 +81,31 @@ k_indoril = {
 	3590.1.1 = { holder = indoril_1016 }
 }
 
+#Velothi
+e_tribunal_temple = { 
+	669.1.1	= { holder = alma_rula_llothis }
+	701.1.1	= { holder = alma_rula_olms }
+	950.1.1 = { holder = 0 } #Other Alma Rula's
+	3300.1.1 = { holder = indoril_alma_rula }
+	3460.1.1 = { holder = indoril_1019 }
+}
+
+#Aldmeri
+d_auriel = {
+	200.1.1 = { holder = arana_993 }
+	1100.1.1 = { holder = arana_994 }
+	1500.1.1 = { holder = arana_995 }
+	1900.1.1 = { holder = arana_996 }
+	2200.1.1 = { holder = arana_996b }
+	2300.1.1 = { holder = arana_996c }
+	2500.1.1 = { holder = arana_996d }
+	2600.1.1 = { holder = arana_997 }
+	2700.1.1 = { holder = arana_998 }
+	3071.1.1 = { holder = arana_999 }
+	3172.1.1 = { holder = arana_1000 } #King Hidellith
+	3500.10.1 = { holder = arana_1001 } #Queen Ayrenn
+}
+
 #Khajiiti
 k_mane = {
 	3225.1.1 = {
@@ -68,8 +114,44 @@ k_mane = {
 	}
 	3229.1.1 = { liege = e_elsweyr }
     3329.1.1 = { holder = mane_002 }
-    3500.10.1 = { 
+        	3329.1.1 = { holder = mane_002 }
+	3400.1.1 = { holder = mane_002a government = hierocracy_government}
+	3462.11.29 = { holder = mane_003 government = hierocracy_government }
+	3500.10.1 = { 
 		holder = mane_003 
 		liege = e_aldmeri_dominion
 		}
+	3504.4.11 = { holder = mane_004 government = hierocracy_government}
+}
+
+#Bosmeri
+d_green_pact = {
+	361.1.1 = {
+		liege = k_silvenar
+		holder = green_pact_999
+	}
+	500.1.1 = {
+		holder = 0
+	}
+	3340.1.1 = {
+		liege = k_silvenar
+		holder = green_pact_1000
+	}
+	3502.1.1 = { holder = green_pact_102 liege = k_grahtwood }
+}
+
+### Holy Orders
+d_order_of_the_hour = {
+	1040.1.1 = {
+		holder = decan_ennon
+		liege = k_kvatch
+		government = landed_order_government
+	}
+	3352.1.1 = { holder = merula_cavor }
+	3450.1.1 = { holder = hour_phrastus }
+	3470.1.1 = { holder = coventine_jonas }
+	3490.1.1 = { holder = ponticus_artorius }
+	3502.1.1 = { liege = k_anvil }
+	3505.1.1 = { liege = k_kvatch }
+	# 3511.1.1 = { liege = 0 } # Probably wouldn't work anyway, handle that via script when we get to 2E582
 }
