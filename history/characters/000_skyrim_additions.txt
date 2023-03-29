@@ -1,0 +1,451 @@
+
+
+##Stormcloaks
+
+
+
+flamehair_easteregg1 = {
+	name = "Ulfric" 
+	dynasty = flamehair
+	culture = eastmarcher
+	religion = nord_cult
+	father = flamehair_997
+	
+	3252.1.1 = { birth = yes }
+	3334.1.1 = { 
+		death = { death_reason = death_old_age }
+	}
+}
+
+flamehair_easteregg2 = {
+	name = "Rorik" 
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = flamehair_easteregg1
+	
+	3282.1.1 = { birth = yes }
+	3354.1.1 = { 
+		death = { death_reason = death_old_age }
+	}
+}
+
+flamehair_easteregg3 = {
+	name = "Jurgen" 
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = flamehair_easteregg2
+	
+	3302.1.1 = { birth = yes }
+	3358.1.1 = { 
+		death = { death_reason = death_old_age }
+	}
+}
+
+stormcloak_easteregg1 = {
+	name = "Mera" 
+	female = yes
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = flamehair_easteregg3
+	trait = brave
+	
+	3342.1.1 = { birth = yes }
+	3418.1.1 = { 
+		death = { death_reason = death_old_age }
+	}
+}
+
+stormcloak_1000 = {
+	name = "Ulfric"
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = flamehair_easteregg3
+	sexuality = heterosexual
+	trait = shrewd
+	trait = brave
+	trait = gregarious
+	trait = diligent
+	trait = blademaster_3
+	trait = aggressive_attacker
+	trait = winter_soldier
+	trait = varangian
+	trait = just
+	trait = loyal
+	trait = physique_good_2
+	trait = education_stewardship_3
+	
+	diplomacy = 5
+	martial = 6
+	stewardship = 8
+	intrigue = 5
+	learning = 4
+	prowess = 7
+	
+	3340.1.1 = { birth = yes }
+	3351.1.1 = { give_nickname = nick_the_white_bear }
+	3356.1.1 = { employer = flamehair_1000 }
+	3357.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3358.1.15 = { 
+			set_relation_friend = {
+			target = character:flamehair_1000
+			reason = friend_took_lessons_to_heart
+		}
+	}
+	3359.1.15 = { 
+			set_relation_friend = {
+			target = character:flamehair_1008
+			reason = friend_bonfire_bonding }
+		}
+	3361.1.1 = { add_pressed_claim = title:c_kynesgrove }
+	3361.2.1 = { add_pressed_claim = title:c_gloombound }
+	3436.1.5 = { death = yes }
+}
+
+stormcloak_1001 = {
+	name = "Ulfric"
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = stormcloak_1000
+	sexuality = heterosexual
+
+	3384.1.1 = { birth = yes }
+	3456.1.5 = { death = yes }
+}
+
+stormcloak_1002 = {
+	name = "Holgeir"
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = stormcloak_1001
+	sexuality = heterosexual
+
+	3404.1.1 = { birth = yes }
+	3469.1.5 = { death = yes }
+}
+
+stormcloak_1003 = {
+	name = "Jurgen"
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = stormcloak_1002
+	sexuality = heterosexual
+
+	3440.1.1 = { birth = yes }
+	3501.1.5 = { death = yes }
+}
+
+stormcloak_1004 = {
+	name = "Mera"
+	female = yes
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = stormcloak_1003
+	sexuality = heterosexual
+
+	3470.1.1 = { birth = yes }
+	3530.1.5 = { death = yes }
+}
+
+stormcloak_1001a = {
+	name = "Ulfric" 
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = stormcloak_1001
+	
+	3442.1.1 = { birth = yes }
+	3500.1.1 = { death = yes }
+}
+stormcloak_1002a = {
+	name = "Hoag" 
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = stormcloak_1001a
+	trait = giant
+	trait = strong
+	
+	3460.1.1 = { birth = yes }
+	3480.1.1 = { give_nickname = nick_the_giant }
+	3505.1.1 = { add_spouse stormcloak_1004 }
+	3530.1.1 = { death = yes }
+}
+
+stormcloak_1005 = {
+	name = "Ulfric" 
+	dynasty_house = flamehair_stormcloak
+	culture = eastmarcher
+	religion = nord_cult
+	father = stormcloak_1002a
+	mother = stormcloak_1004
+	
+	3508.1.1 = { birth = yes }
+	3575.1.1 = { death = yes }
+}
+
+###Titanborns
+
+titanborn_1000 = {
+	name = "Gjalder" 
+	dynasty = titanborn
+	culture = eastmarcher
+	religion = nord_cult
+	trait = just
+	trait = kind
+	trait = trusting
+	trait = blademaster_2
+	trait = giant
+	trait = physique_good_3
+	
+	3438.1.1 = { birth = yes }
+	3495.1.1 = { death = yes }
+}
+
+titanborn_lyris = {
+	name = "Lyris"
+	female = yes
+	dynasty = titanborn
+	culture = eastmarcher
+	religion = nord_cult
+	trait = cynical
+	trait = wrathful
+	trait = brave
+	trait = loyal
+	trait = just
+	trait = diligent
+	trait = giant
+	trait = physique_good_3
+	disallow_random_traits = yes
+	father = titanborn_1000
+	
+	3460.1.1 = { birth = yes }
+	3490.1.1 = { 
+			set_relation_friend = {
+			target = character:aquilarios_varen
+			reason = friend_historical
+		}
+	}
+	3490.1.2 = { 
+			set_relation_friend = {
+			target = character:sahan_21607
+			reason = friend_historical
+		}
+	}
+	3495.1.1 = { effect = { add_trait = varangian } }
+	3497.1.1 = { effect = { add_trait = adventurer add_trait = blademaster_3 } }
+	3510.1.1 = { death = yes }
+}
+
+##Ironhand #Dukes of Fulltheim
+
+ironhand_eso_1000 = {
+	name = "Unnvald" 
+	dynasty_house = blackbriar_ironhand
+	culture = eastmarcher
+	religion = nord_cult
+	father = blackbriar_101
+	trait = just
+	trait = kind
+	trait = trusting
+	trait = strong
+	trait = brave
+	
+	3442.1.1 = { birth = yes }
+	3450.1.1 = { effect = { create_artifact_wuuthrad_effect = { OWNER = this } } }
+	3460.1.1 = { give_nickname = nick_the_iron_fist }
+	3495.1.1 = { effect = { add_trait = raider } } #after son dies he takes up raiding
+	3503.1.1 = { death = yes }
+}
+
+ironhand_eso_1001 = {
+	name = "Thorald" 
+	dynasty_house = blackbriar_ironhand
+	culture = eastmarcher
+	religion = nord_cult
+	father = ironhand_1000
+	
+	3460.1.1 = { birth = yes }
+	3495.1.1 = { death = yes }
+}
+ironhand_eso_1002 = {
+	name = "Hallfrida" 
+	dynasty_house = blackbriar_ironhand
+	culture = eastmarcher
+	religion = nord_cult
+	father = ironhand_1001
+	trait = shrewd
+	trait = patient
+	trait = just
+
+	3480.1.1 = { birth = yes }
+	3555.1.1 = { death = yes }
+}
+
+## Clan Shattershield
+
+shattershield_1003 = { 
+	name = "Ragnvar"
+	dynasty = 300031
+	religion = nord_cult
+	culture = eastmarcher
+	father = shattershield_102
+	trait = deceitful #took after the father
+	trait = brave #lead from the front
+	trait = flexible_leader #adapt
+	trait = education_martial_2 #not great not terrible
+	
+	3413.1.1 = { birth = yes }
+	3487.1.1 = { death = yes }
+}
+
+shattershield_1004 = { 
+	name = "Havil"
+	dynasty = 300031
+	religion = nord_cult
+	culture = eastmarcher
+	father = shattershield_1003
+	trait = deceitful #took after the father
+	trait = brave #lead from the front
+	trait = flexible_leader #adapt
+	trait = education_martial_2 #not great not terrible
+	trait = intellect_good_1
+	3453.1.1 = { birth = yes }
+	3487.1.1 = { death = yes }
+}
+
+##House Yngvlar heritage
+
+
+numinex_101 = {
+	name = "Olaf" # Jarl of Whiterun -> High King of Skyrim post-Succession War
+	dynasty = 310006 #Yngvlar line
+	religion = alessian
+	culture = westmarcher
+	father = numinex_100
+	trait = line_of_x
+	disallow_random_traits = yes
+	
+	
+	440.1.1 = {	birth = yes }
+	1461.1.1 = { give_nickname = nick_line_of }
+	3222.1.1 = { death = yes }
+}
+
+##House Cursebraid heritage
+
+
+freiretta_1000 = {
+	name = "Alldimar" #Ghostmaker line
+	religion= nord_cult
+	culture = westmarcher
+	dynasty = 310001
+	father = freiretta_100
+	trait = line_of_x
+	disallow_random_traits = yes
+	
+	
+	2600.1.1 = {birth = yes }
+	2661.1.1 = { give_nickname = nick_line_of }
+	3272.1.1 = { death = yes }
+}
+
+
+#Silver Anvil
+
+silveranvil_103a = {
+	name = "Ragnar" #Count of Neugrad ( Alliance War )
+	dynasty_house = doomsayer_silveranvil
+	culture = cyro_nord
+	religion = nord_cult
+	mother = silveranvil_102
+	
+	3440.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+### Twice-Stabbed
+
+twicestabbed_102a = {
+	name = "Olfrid" #Duke of Karthald (Alliance War)
+	female = yes
+	dynasty = 310009
+	culture = westmarcher
+	religion = nord_cult
+	father = twicestabbed_102
+	
+	3485.1.1 = { birth = yes }
+	3555.1.1 = { death = yes }
+}
+
+### Ghilred
+
+
+ghilred_1003a = {
+	name = "Helvard" 
+	dynasty = 310003
+	culture = westmarcher
+	religion = nord_cult
+	father = ghilred_1003
+	
+	3444.1.1 = { birth = yes }
+	3511.1.1 = { death = yes }
+}
+
+ghilred_1003b = {
+	name = "Haknir" 
+	dynasty = 310003
+	culture = westmarcher
+	religion = nord_cult
+	father = ghilred_1003a
+	trait = one_eyed
+	trait = adventurer
+	trait = blademaster_2
+	trait = brave
+	trait = diligent
+	trait = shrewd
+	trait = education_martial_3
+	3485.1.1 = { birth = yes }
+	3555.1.1 = { death = yes }
+}
+
+## Placeholders Temple Holders and Republics
+
+mistwatch_3460 = { 
+	name = "Holmgar"
+	dynasty = 300031
+	religion = nord_cult
+	culture = eastmarcher
+	father = shattershield_1003
+	trait = bastard
+	trait = lazy
+	
+	3443.1.1 = { birth = yes }
+	3460.1.1 = { give_nickname = nick_the_bastard }
+	3487.1.1 = { death = yes }
+}
+
+kynesgrove_3460 = { 
+	name = "Agnorith"
+	dynasty = 300031
+	religion = nord_cult
+	culture = eastmarcher
+	father = shattershield_1003
+	trait = bastard
+	trait = lazy
+	trait = lustful
+	
+	3443.1.1 = { birth = yes }
+	3459.1.1 = {
+		set_relation_rival = { reason = rival_historical target = character:mistwatch_3460 }
+	}
+	3460.1.1 = { give_nickname = nick_the_lecher }
+	3487.1.1 = { death = yes }
+}

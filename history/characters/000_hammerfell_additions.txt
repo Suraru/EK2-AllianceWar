@@ -539,7 +539,7 @@ curetar_21060 = {
 	culture = forebear
 	#add_to_bloodline = bloodline_frandar
 	father = curetar_21057
-	
+	mother = hilazada_1003a
 	3474.1.1 = { birth = yes }
 	3546.1.1 = { death = yes }
 }
@@ -1131,6 +1131,7 @@ amaile_24207 = {
 	
 	culture = crown
 	father = amaile_24206
+	mother = ojwa_1004b
 	
 	3458.5.1 = { birth = yes }
 	3527.1.1 = { death = yes }
@@ -1741,6 +1742,7 @@ ashabah_1002d = {
 ashabah_1002e = {
 	name = "Talia"
 	dynasty = 240001
+	female = yes
 	religion = satakal
 	culture = alikr
 	father = ashabah_1002c
@@ -1822,6 +1824,7 @@ ojwa_1004b = {
 	father = ojwa_1002a
 
 	3441.1.1 = { birth = yes }
+	3470.1.1 = { add_spouse = amaile_24206 }
 	3505.1.1 = { death = yes }	
 }
 
@@ -2633,7 +2636,7 @@ hilazada_24055b = {
 	father = hilazada_24055
 	trait = chaste
 	trait = physique_good_1
-	3450.1.1 = { birth = yes }
+	3489.1.1 = { birth = yes }
 	3530.1.1 = { death = yes }
 }
 hilazada_24056 = {
@@ -2854,6 +2857,7 @@ hilazada_1003a = {
 	father = hilazada_1002
 	
 	3444.1.1 = { birth = yes }
+	3465.1.1 = { add_spouse = curetar_21057 }
 	3511.1.1 = { death = yes }
 }
 hilazada_1003b = {
@@ -3040,7 +3044,58 @@ kulati_4 = {
 ### Hallin Dynasty rulers of Ojwambu
 
 
-hallin_1001c = {
+hallin_1000a = {
+	name = "Ahlam"
+	dynasty = 210013
+	religion = redguard_cult
+	culture = forebear
+	
+	father = hallin_1000
+	mother = lainlyn_1001
+	3387.1.1 = { birth = yes }
+	3455.1.1 = { death = yes }	
+}
+
+hallin_1000b = {
+	name = "Derik"
+	dynasty = 210013
+	religion = redguard_cult
+	culture = forebear
+	
+	father = hallin_1000
+
+	3420.1.1 = { birth = yes }
+	3495.1.1 = { death = yes }	
+}
+
+hallin_1001 = {
+	name = "Derik"
+	dynasty = 210013
+	religion = redguard_cult
+	culture = forebear
+	trait = blademaster_1
+	trait = brave
+	trait = patient
+	trait = intellect_good_1
+	father = hallin_1000b
+
+	3469.1.1 = { birth = yes }
+	3535.1.1 = { death = yes }	
+}
+
+hallin_1000c = {
+	name = "Zirumir"
+	dynasty = 210013
+	religion = redguard_cult
+	culture = forebear
+	
+	father = hallin_1000a
+
+	3427.1.1 = { birth = yes }
+	3495.1.1 = { death = yes }	
+}
+
+hallin_1001d = {
 	name = "Ahdan"
 	dynasty = 210013
 	religion = redguard_cult
@@ -4092,8 +4147,8 @@ devisar_3460 = {
 	religion = tall_papa
 	culture = crown
 	
-	3400.1.1 = { birth = yes }
-	3487.1.1 = { death = yes }
+	3440.1.1 = { birth = yes }
+	3517.1.1 = { death = yes }
 }
 
 
@@ -4114,18 +4169,27 @@ rahniza_3460 = {
 			target = character:sirhan_3460
 			reason = nemesis_excrement_corresponding }
 			}
-	3487.1.1 = { death = yes }
+	3522.1.1 = { death = yes }
 }
 
 ##Placeholder rulers
 
 helland_3460 = {
-	name = "Musa" #Chief Helland 
+	name = "Qasr" #Chief Helland 
 	religion = tall_papa
 	culture = crown
 
-	3431.1.1 = { birth = yes }
-	3487.1.1 = { death = yes }
+	3436.1.1 = { birth = yes }
+	3517.1.1 = { death = yes }
+}
+
+dragonstar_3460 = {
+	name = "Mureesh" #Chief vassal 
+	religion = tall_papa
+	culture = crown
+
+	3436.1.1 = { birth = yes }
+	3517.1.1 = { death = yes }
 }
 
 rimwatch_3460 = {
@@ -4133,8 +4197,8 @@ rimwatch_3460 = {
 	religion = tall_papa
 	culture = crown
 
-	3431.1.1 = { birth = yes }
-	3487.1.1 = { death = yes }
+	3442.1.1 = { birth = yes }
+	3517.1.1 = { death = yes }
 }
 
 skypinnacle_3460 = {
@@ -4142,16 +4206,16 @@ skypinnacle_3460 = {
 	religion = tall_papa
 	culture = crown
 
-	3431.1.1 = { birth = yes }
-	3487.1.1 = { death = yes }
+	3441.1.1 = { birth = yes }
+	3527.1.1 = { death = yes }
 }
 hel_ra_3460 = {
-	name = "Musa" #Chief 
+	name = "Izrunath" #Chief 
 	religion = tall_papa
 	culture = crown
 
-	3431.1.1 = { birth = yes }
-	3487.1.1 = { death = yes }
+	3451.1.1 = { birth = yes }
+	3537.1.1 = { death = yes }
 }
 
 shark_teeth_3460 = {
@@ -4160,7 +4224,7 @@ shark_teeth_3460 = {
 	culture = crown
 
 	3431.1.1 = { birth = yes }
-	3487.1.1 = { death = yes }
+	3527.1.1 = { death = yes }
 }
 
 high_hall_3460 = {
