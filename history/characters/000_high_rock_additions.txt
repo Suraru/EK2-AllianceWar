@@ -1,0 +1,2358 @@
+#Woodborne Dynasty
+
+woodborne_1002a = {
+	name = "Aphren"
+	dynasty_house = gardner_woodborne
+	religion = breton_cult
+	culture = iliac
+
+
+	father = woodborne_1002
+
+	3389.1.1 = { birth = yes }
+	3457.1.1 = { death = yes }
+}
+
+woodborne_1002b = {
+	name = "Casimir"
+	dynasty_house = gardner_woodborne
+	religion = breton_cult
+	culture = iliac
+	father = woodborne_1002a
+
+	3439.1.1 = { birth = yes }
+	3507.1.1 = { death = yes }
+}
+
+woodborne_1002c = {
+	name = "Lucie"
+	female = yes
+	dynasty_house = gardner_woodborne
+	religion = breton_cult
+	culture = iliac
+	father = woodborne_1002a
+
+	3445.1.1 = { birth = yes }
+	3510.1.1 = { death = yes }
+}
+
+woodborne_1003a = {
+	name = "Gryf"
+	dynasty_house = gardner_woodborne
+	religion = breton_cult
+	culture = iliac
+	add_trait = beauty_good_2
+
+	father = woodborne_1003
+
+	3399.1.1 = { birth = yes }
+	3467.1.1 = { death = yes }
+}
+
+woodborne_1003b = {
+	name = "Guillaume"
+	dynasty_house = gardner_woodborne
+	religion = breton_cult
+	culture = iliac
+	father = woodborne_1003a
+	add_trait = beauty_good_1
+
+	3443.1.1 = { birth = yes }
+	3527.1.1 = { death = yes }
+}
+
+woodborne_1003c = {
+	name = "Arthur"
+	dynasty_house = gardner_woodborne
+	religion = breton_cult
+	culture = iliac
+	father = woodborne_1003b
+	add_trait = beauty_good_1
+
+	3483.1.1 = { birth = yes }
+	3557.1.1 = { death = yes }
+}
+
+#Cumberland Dynasty
+
+cumberland_1004a = {
+	name = "Nathanial" #ESO
+	dynasty = 420002
+	religion = breton_cult
+	culture = iliac
+
+	father = cumberland_1003
+	mother = gardner_1004c
+	
+	3451.1.1 = { birth = yes }
+	3486.1.1 = { add_spouse = bergama_1007 }
+	3510.1.1 = { death = yes }
+}
+
+cumberland_1005a = {
+	name = "Gryf" #Arzhela Father
+	dynasty = 420002
+	religion = breton_cult
+	culture = iliac
+	trait = loyal
+	trait = brave
+	trait = patient
+	father = cumberland_1002
+	
+	3424.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+cumberland_1005b = {
+	name = "Arzhela" #Arzhela Emerics Cousin Queen of Evermore
+	female = yes
+	dynasty = 420002
+	religion = breton_cult
+	culture = iliac
+	trait = loyal
+	father = cumberland_1005a
+	
+	3460.1.1 = { birth = yes 
+		effect = {
+			create_betrothal = character:guimard_1011
+		}
+	}
+	3476.1.1 = { add_spouse = guimard_1011 }
+	3502.1.1 = { effect = { add_trait = depressed_1 } }
+	3515.1.1 = { death = yes }
+}
+
+#Beanique Dynasty (420006)
+beanique_15653 = {
+	name = "Staubin" #Count of Kambria (Reachman)
+	dynasty = 420006
+	religion = breton_cult
+	culture = iliac
+	
+	father = beanique_1001
+	
+	3409.1.1 = { birth = yes }
+	3471.1.1 = { death = yes }
+}
+beanique_15654 = {
+	name = "Delphine" #Countess of Kambria (Kamal)
+	female = yes
+	dynasty = 420006
+	religion = breton_cult
+	culture = iliac
+	
+	father = beanique_1001
+	
+	3441.1.1 = { birth = yes }
+	3509.1.1 = { death = yes }
+}
+beanique_15655 = {
+	name = "Matthew" #Heir to Kambria (Kamal)
+	dynasty = 420006
+	religion = breton_cult
+	culture = iliac
+	add_trait = legit_bastard
+	add_trait = physique_good_2
+	add_trait = twin
+	
+	mother = beanique_15654
+	
+	3468.1.1 = { birth = yes }
+	3507.1.1 = { add_spouse = 15461 }
+	3524.1.1 = { death = yes }
+}
+
+beanique_15656 = {
+	name = "Edmund" #Heir to Kambria (Kamal)
+	dynasty = 420006
+	religion = breton_cult
+	culture = iliac
+	
+	father = beanique_1001
+	add_trait = legit_bastard
+	add_trait = intellect_good_2
+	add_trait = twin
+	
+	mother = beanique_15654
+	
+	3468.1.1 = { birth = yes }
+	3522.1.1 = { death = yes }
+}
+
+beanique_15657 = {
+	name = "Escalette" #Heir to Kambria
+	dynasty = 420006
+	religion = breton_cult
+	culture = iliac
+	
+	mother = beanique_15654
+	female = yes
+	
+	3472.1.1 = { birth = yes }
+	3500.1.1 = { add_trait = drunkard }
+	3507.1.1 = { add_spouse = 15607 }
+	3539.1.1 = { death = yes }
+}
+
+beanique_15658 = {
+	name = "Edward"
+	dynasty = 420006
+	religion = breton_cult
+	culture = iliac
+	
+	father = beanique_15656
+	
+	3508.1.1 = { birth = yes }
+	3524.1.1 = { add_trait = scholar }
+	3589.1.1 = { death = yes }
+}
+
+beanique_15659 = {
+	name = "Dominic" #Count of Normar
+	dynasty = 420006
+	religion = breton_cult
+	culture = iliac
+	add_trait = physique_good_2
+	
+	father = beanique_15655
+	mother = 15461
+	
+	3510.1.1 = { birth = yes }
+	3574.1.1 = { death = yes }
+}
+
+##Ildene Dynasty
+
+#House Ildene
+ildene_15810 = {
+	name = "Alabard"
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	
+	3200.1.1 = { birth = yes }
+	3253.1.1 = { death = yes }
+}
+ildene_15811 = {
+	name = "Mordane" #Count of Farrun
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15810
+	
+	3226.1.1 = { birth = yes }
+	3288.1.1 = { death = yes }
+}
+ildene_15812 = {
+	name = "Uthore" #Duke of Farrun
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15811
+	
+	3253.1.1 = { birth = yes }
+	3306.1.1 = { death = yes }
+}
+ildene_15813 = {
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15811
+	
+	3256.1.1 = { birth = yes }
+	3321.1.1 = { death = yes }
+}
+ildene_15814 = {
+	name = "Gaspar" #Duke of Farrun
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15812
+	
+	3282.1.1 = { birth = yes }
+	3338.1.1 = { death = yes }
+}
+ildene_15816 = {
+	name = "Alabard" #Duke of Kambria
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_1000
+	
+	3346.1.1 = { birth = yes }
+	3410.1.1 = { death = yes }
+}
+ildene_15817 = {
+	name = "Ulrich"
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15813
+	
+	3280.1.1 = { birth = yes }
+	3336.1.1 = { death = yes }
+}
+ildene_15818 = {
+	name = "Ennoc" #Count of Irmgard
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15817
+	
+	3316.1.1 = { birth = yes }
+	3369.1.1 = { death = yes }
+}
+ildene_15819 = {
+	name = "Ylbert" #Count of Irmgard (Interregnum)
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15818
+	
+	3343.1.1 = { birth = yes }
+	3409.1.1 = { death = yes }
+}
+ildene_15820 = {
+	name = "Robert" #Duke of Farrun
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15816
+	
+	3381.1.1 = { birth = yes }
+	3449.1.1 = { death = yes }
+}
+ildene_15821 = {
+	name = "Lucien" #Duke of Farrun (unlanded by Reachmen)
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15820
+	
+	3419.1.1 = { birth = yes }
+	3460.1.1 = { death = 
+		{ 
+			death_reason = death_battle
+			killer = reach_18250
+		}
+	}
+}
+ildene_15822 = {
+	name = "Marcel" #Count of Irmgard
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15819
+	
+	3378.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+ildene_15823 = {
+	name = "Bernadette" #Countess of Irmgard (Reachman)
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15822
+	female = yes
+	
+	3424.1.1 = { birth = yes }
+	3450.1.1 = { add_spouse = ildene_15821 }
+	3489.1.1 = { death = yes }
+}
+ildene_15825 = {
+	name = "Edgar" #Duke of Orsinium/Kambria (Kamal)
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15821
+	mother = ildene_15823
+	
+	3456.1.1 = { birth = yes }
+	3519.1.1 = { death = yes }
+}
+ildene_15824 = {
+	name = "Birard" #Count of Irmguard (Kamal)
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15821
+	mother = ildene_15823
+	
+	3458.1.1 = { birth = yes }
+	3519.1.1 = { death = yes }
+}
+ildene_15826 = {
+	name = "Claudina" #Heir to Farrun (Kamal)
+	dynasty = 400005
+	religion = breton_cult
+	culture = glenumbran
+	father = ildene_15825
+	female = yes
+
+	3475.1.1 = { birth = yes }
+	3490.1.1 = { add_trait = adventurer }
+	3491.1.1 = { add_spouse = 15762 }
+	3519.1.2 = { death = yes }
+}
+
+###Galien Gevaudan Bjoule
+
+galien_15329 = {
+	name = "Mercer" #Duke of Gauvadon
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_1000b
+	
+	3371.1.1 = { birth = yes }
+	3448.1.1 = { death = yes }
+}
+galien_15330 = {
+	name = "Alistair" #Duke of Gauvadon (Reachman)
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	trait = education_stewardship_2
+	
+	father = galien_15329
+	
+	3415.1.1 = { birth = yes }
+	3479.1.1 = { death = yes }
+}
+galien_15331 = {
+	name = "Brandish" #Count of Lorient (Interregnum)
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	add_trait = legit_bastard
+
+	father = galien_100b
+	
+	3372.1.1 = { birth = yes }
+	3452.1.1 = { death = yes }
+}
+galien_15332 = {
+	name = "Herluin" #Count of Lorient and Darguard (Reachman)
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+
+	father = galien_15331
+	
+	3427.1.1 = { birth = yes }
+	3485.1.1 = { death = yes }
+}
+galien_15333 = {
+	name = "Loghain" #Duke of Gauvadon (Kamal)
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15330
+	
+	3445.1.1 = { birth = yes }
+	3514.1.1 = { death = yes }
+}
+galien_15334 = {
+	name = "Sebastien" #Count of Darguard (Kamal)
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+
+	father = galien_15332
+	
+	3456.1.1 = { birth = yes }
+	3521.1.1 = { death = yes }
+}
+galien_15335 = {
+	name = "Daric" #Heir to Gauvadon (Kamal)
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15333
+	
+	3472.1.1 = { birth = yes }
+	3541.1.1 = { death = yes }
+}
+galien_15336 = {
+	name = "Callia"
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	female = yes
+	
+
+	father = galien_15334
+	
+	3483.1.1 = { birth = yes }
+	3549.1.1 = { death = yes }
+}
+
+galien_15337 = {
+	name = "Julian"
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15335
+	
+	3509.1.1 = { birth = yes }
+	3531.1.1 = { add_spouse = 16galien_153 }
+	3567.1.1 = { death = yes }
+}
+
+galien_15338 = {
+	name = "Julia"
+	female = yes
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15335
+	
+	3510.1.1 = { birth = yes }
+	3573.1.1 = { death = yes }
+}
+
+galien_15339 = {
+	name = "Samuel"
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	mother = galien_15336
+	
+	3513.1.1 = { birth = yes }
+	3565.1.1 = { death = yes }
+}
+galien_15340 = {
+	name = "Louis" #Gauvadon
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15337
+	mother = 16galien_153
+	
+	3550.1.1 = { birth = yes }
+	3628.1.1 = { death = yes }
+}
+galien_15341 = {
+	name = "Martin" #Lorient & Darguard
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15339
+	
+	3559.1.1 = { birth = yes }
+	3637.1.1 = { death = yes }
+}
+galien_15342 = {
+	name = "Jauffre" #Gauvadon
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15340
+	
+	3585.1.1 = { birth = yes }
+	3672.1.1 = { death = yes }
+}
+galien_15343 = {
+	name = "Tristan" #Lorient & Darguard
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15342
+	
+	3605.1.1 = { birth = yes }
+	3677.1.1 = { death = yes }
+}
+galien_15344 = {
+	name = "Jadien" #Gauvadon
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15343
+	
+	3636.1.1 = { birth = yes }
+	3708.1.1 = { death = yes }
+}
+galien_15345 = {
+	name = "Dyric" #Lorient & Darguard
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15343
+	
+	3646.1.1 = { birth = yes }
+	3720.1.1 = { death = yes }
+}
+galien_15346 = {
+	name = "Corwyn" #Count of Lorient & Darguard ( Winter's Return )
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15345
+	
+	3690.1.1 = { birth = yes }
+	3763.1.1 = { death = yes }
+}
+galien_15347 = {
+	name = "Serrien" #Duke of Gauvadon ( Winter's Return )
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15344
+	
+	3682.1.1 = { birth = yes }
+	3751.1.1 = { death = yes }
+}
+galien_15348 = {
+	name = "Geraud" #Heir of Gauvadon ( Winter's Return )
+	dynasty = 430002
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = galien_15347
+	
+	3714.1.1 = { birth = yes }
+	3785.1.1 = { death = yes }
+}
+
+#Horley Dynasty
+
+horley_15195 = {
+	name = "Meric" #Heir to House Horley
+	dynasty = 420001
+	religion = breton_cult
+	culture = iliac
+	
+	father = horley_1002
+	
+	3392.1.1 = { birth = yes }
+	3449.1.1 = { death = yes }
+}
+horley_15196 = {
+	name = "Lewin" #Heir to House Horley
+	dynasty = 420001
+	culture = iliac
+	religion = breton_cult
+	 
+	
+	father = horley_15195
+	
+	3421.1.1 = { birth = yes }
+	3482.1.1 = { death = yes }
+}
+horley_15197 = {
+	name = "Rowley" #Heir to House Horley, Head of House Horley (Kamal)
+	dynasty = 420001
+	culture = iliac
+	religion = breton_cult
+	 
+	
+	father = horley_15196
+	
+	3449.1.1 = { birth = yes }
+	3508.1.1 = { death = yes }
+}
+horley_15198 = {
+	name = "Edward" #Heir to House Horley
+	dynasty = 420001
+	culture = iliac
+	religion = breton_cult
+	 
+	
+	father = horley_15197
+	
+	3473.1.1 = { birth = yes }
+	3532.1.1 = { death = yes }
+}
+
+horley_15199 = {
+	name = "Zavierry"
+	dynasty = 420001
+	culture = iliac
+	religion = breton_cult
+	 
+	
+	father = horley_15198
+	
+	3510.1.1 = { birth = yes }
+	3573.1.1 = { death = yes }
+}
+
+#Moile Kings of Evermore
+
+moile_15522 = {
+	name = "Heselph"
+	dynasty = 420010
+	culture = iliac
+	religion = breton_cult
+	add_trait = chaste
+	add_trait = brave
+	
+	father = moile_1003
+
+	3405.1.1 = { birth = yes }
+	3462.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = blackdrake_101
+		}
+	}
+}
+
+#Amelion Counts Oxshire
+
+amelion_15555 = {
+	name = "Lazare" #Count of Orlais
+	dynasty = 420012
+	culture = iliac
+	religion = breton_cult
+	
+	father = amelion_1004
+	
+	3372.1.1 = { birth = yes }
+	3436.1.1 = { death = yes }
+}
+amelion_15556 = {
+	name = "Anthony" #Count of Orlais (Reachman)
+	dynasty = 420012
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = amelion_15555
+	
+	3407.1.1 = { birth = yes }
+	3481.1.1 = { death = yes }
+}
+amelion_15557 = {
+	name = "Ulrich" #Count of Orlais (Kamal)
+	dynasty = 420012
+	culture = iliac
+	religion = breton_cult
+	
+	add_trait = legit_bastard
+	
+	father = amelion_15556
+	
+	3455.1.1 = { birth = yes }
+	3517.1.1 = { death = yes }
+}
+amelion_15558 = {
+	name = "Hannibal" #Heir to Orlais (Kamal)
+	dynasty = 420012
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = amelion_15557
+	
+	3486.1.1 = { birth = yes }
+	3507.1.1 = { add_spouse = 15419 }
+	3554.1.1 = { death = yes }
+}
+
+amelion_15559 = {
+	name = "Marcella"
+	female = yes
+	dynasty = 420012
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = amelion_15558
+	mother = 15419
+	
+	3512.1.1 = { birth = yes }
+	3591.1.1 = { death = yes }
+}
+
+amelion_15560 = {
+	name = "Torvic"
+	dynasty = 420012
+	culture = iliac
+	religion = breton_cult
+	
+	
+	father = amelion_15558
+	mother = 15419
+	
+	3515.1.1 = { birth = yes }
+	3587.1.1 = { death = yes }
+}
+
+#Dumonte
+
+dumonte_1001a = {
+	name = "Alain"
+	dynasty = 420016
+	religion = breton_cult
+	culture = iliac
+
+	trait = education_martial_2
+	trait = vengeful
+	trait = brave
+	trait = greedy
+	trait = adventurer
+	father = dumonte_1001
+
+	3421.1.1 = { birth = yes }
+	3478.1.1 = { death = yes }
+}
+
+dumonte_1001b = {
+	name = "Robert"
+	dynasty = 420016
+	religion = breton_cult
+	culture = iliac
+	trait = chaste
+	trait = intellect_good_1
+	father = dumonte_1001
+
+	3441.1.1 = { birth = yes }
+	3538.1.1 = { death = yes }
+}
+
+##Laurent Dynasty (400011)
+
+#House Laurent
+
+laurent_1000a = {
+	name = "Willem"
+	dynasty = 400011
+	religion = breton_cult
+	culture = glenumbran
+	father = laurent_1000
+	mother = westtry_1000
+
+	3376.1.1 = { birth = yes }
+	3437.1.1 = { death = yes }
+}
+laurent_1000b = {
+	name = "Willem"
+	dynasty = 400011
+	religion = breton_cult
+	culture = glenumbran
+	father = laurent_1000a
+	
+	3400.1.1 = { birth = yes }
+	3457.1.1 = { death = yes }
+}
+
+laurent_1000c = {
+	name = "Willem"
+	dynasty = 400011
+	religion = breton_cult
+	culture = glenumbran
+	father = laurent_1000b
+	
+	3421.1.1 = { birth = yes }
+	3477.1.1 = { death = yes }
+}
+
+laurent_clarisse = {
+	name = "Clarisse"
+	female = yes
+	dynasty = 400011
+	religion = breton_cult
+	culture = glenumbran
+	father = laurent_1000c
+	trait = adventurer
+	trait = brave
+	trait = blademaster_2
+	trait = arrogant
+	trait = cynical
+	trait = education_magical_2
+	trait = scholar
+	sexuality = asexual
+	
+	3455.1.1 = { birth = yes }
+	3359.1.15 = { 
+			set_relation_friend = {
+			target = character:galerion_100
+			reason = friend_drinking_buddies
+		}
+	}
+	3460.1.1 = { give_nickname = nick_the_graverobber }
+	3537.1.1 = { death = yes }
+}
+
+
+## Silane Guimard Cadet
+
+
+silane_1000 = {
+	name = "Edward"
+	dynasty_house = silane_guimard
+	religion = breton_cult
+	culture = iliac
+	father = guimard_remaneasteregg1
+	
+	3375.1.1 = { birth = yes }
+	3437.1.1 = { death = yes }
+}
+
+silane_1001 = {
+	name = "Edgar"
+	dynasty_house = silane_guimard
+	religion = breton_cult
+	culture = iliac
+	father = silane_1000
+	
+	3405.1.1 = { birth = yes }
+	3457.1.1 = { death = yes }
+}
+
+silane_1002 = {
+	name = "Edmund"
+	dynasty_house = silane_guimard
+	religion = breton_cult
+	culture = iliac
+	father = silane_1001
+	trait = gregarious
+	
+	3435.1.1 = { birth = yes }
+	3497.1.1 = { death = yes }
+}
+
+silane_1003 = {
+	name = "Baldwin"
+	dynasty_house = silane_guimard
+	religion = breton_cult
+	culture = iliac
+	father = silane_1001
+	trait = strong
+	trait = wrathful
+	
+	3438.1.1 = { birth = yes }
+	3505.1.1 = { death = yes }
+}
+
+silane_1004 = {
+	name = "Lysa"
+	female = yes
+	dynasty_house = silane_guimard
+	religion = breton_cult
+	culture = iliac
+	father = silane_1001
+	trait = fecund
+	trait = chaste
+	
+	3441.1.1 = { birth = yes }
+	3509.1.1 = { death = yes }
+}
+
+silane_1005 = {
+	name = "Astrid"
+	female = yes
+	dynasty_house = silane_guimard
+	religion = breton_cult
+	culture = iliac
+	father = silane_1002
+	trait = arcana_good_2
+	trait = arrogant
+	
+	3459.1.1 = { birth = yes }
+	3519.1.1 = { death = yes }
+}
+
+###Duforts
+3412.1.1 = { holder = dufort_1005a }
+3442.1.1 = { holder = dufort_1006a }
+3490.1.1 = { holder = dufort_1007a }
+
+dufort_1005 = {
+	name = "Lysolda"
+	dynasty = 400023
+	culture = systrean
+	religion = breton_cult
+	female = yes
+	
+	father = dufort_1003
+
+	3348.1.1 = { birth = yes }
+	3412.1.1 = { death = yes }
+}
+
+dufort_1005a = {
+	name = "Edward"
+	dynasty = 400023
+	culture = systrean
+	religion = breton_cult
+	
+	mother = dufort_1005
+
+	3378.1.1 = { birth = yes }
+	3442.1.1 = { death = yes }
+}
+
+dufort_1006a = {
+	name = "Edwyle"
+	dynasty = 400023
+	culture = systrean
+	religion = breton_cult
+	
+	father = dufort_1005a
+
+	3428.1.1 = { birth = yes }
+	3490.1.1 = { death = yes }
+}
+
+dufort_1007a = {
+	name = "Elea" ##Eso
+	female = yes
+	dynasty = 400023
+	culture = systrean
+	religion = breton_cult
+	trait = gregarious
+	trait = lifespan_1
+	father = dufort_1006a
+
+	3458.1.1 = { birth = yes }
+	3522.1.1 = { death = yes }
+}
+
+dufort_1008a = {
+	name = "Damard" ##Eso
+	dynasty = 400023
+	culture = systrean
+	religion = breton_cult
+	trait = battlemage
+	trait = education_magical_3
+	trait = arrogant
+	trait = diligent
+	trait = ambitious
+	trait = deceitful
+	trait = lifespan_1
+	father = dufort_1006a
+
+	3459.1.1 = { birth = yes }
+	3503.1.1 = { death = yes }
+}
+
+###House Mornard on the Systres
+
+
+mornard_2002 = {
+	name = "Avrippe" #Lore
+	dynasty = 420017
+	culture = systrean
+	religion = breton_cult
+	
+	father = mornard_1002
+	
+	trait = disloyal
+	trait = ambitious
+	trait = arrogant
+	#sides with Ranser disliked wayrest afterward was exiled to cyrodiil by emeric around 3487 vassal of wayrest
+	3442.1.1 = { birth = yes }
+	3488.1.1 = { death = yes } #1 year after exile
+}
+
+mornard_2003 = {
+	name = "Leonard" #Lore
+	dynasty = 420017
+	culture = systrean
+	religion = breton_cult
+	
+	father = mornard_2002
+	#has galen
+	3460.1.1 = { birth = yes }
+	3502.1.1 = { 
+		effect = {
+		add_pressed_claim = title:d_systres
+		add_pressed_claim = title:c_systres
+		}
+	}
+	3530.1.1 = { death = yes }
+}
+
+# Reachmen
+
+#Blackdrake
+
+
+vasenon_18026 = {
+	name = "Agrnach"
+	dynasty = 500004
+	culture = reachfolk
+	religion = old_gods
+	
+	father = lineoffaolaneasteregg
+	3200.1.1 = { birth = yes }
+	#3226.1.1 = { add_consort = 300035 }
+	3248.1.1 = { death = yes }
+}
+vasenon_18027 = {
+	name = "Duach"
+	dynasty = 500004
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+	add_trait = child_of_concubine_female
+	father = vasenon_18026
+	mother = 300035
+	3227.1.1 = { birth = yes }
+	#3254.1.1 = { add_consort = vasenon_18054 }
+	3285.1.1 = { death = yes }
+}
+vasenon_18028 = {
+	name = "Uthcen"
+	dynasty = 500004
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+	father = vasenon_18027
+	mother = vasenon_18054
+	add_trait = child_of_concubine_female
+	3256.1.1 = { birth = yes }
+	#3286.1.1 = { add_consort = 300045 }
+	#3288.1.1 = { add_consort = 300046 }
+	3312.1.1 = { death = yes }
+}
+vasenon_18029 = {
+	name = "Braie"
+	dynasty = 500004
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+	add_trait = child_of_concubine_female
+	
+	father = vasenon_18027
+	mother = vasenon_18054
+	female = yes
+	3259.1.1 = { birth = yes }
+	3319.1.1 = { death = yes }
+}
+vasenon_18030 = {
+	name = "Donvar" #Duke of Scarhammer (Interregnum)
+	dynasty = 500004
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+	father = vasenon_18028
+	mother = 300045
+	add_trait = child_of_concubine_female
+	3286.1.1 = { birth = yes }
+	3316.1.1 = { add_spouse = 300049 }
+	3372.1.1 = { death = yes }
+}
+
+blackdrake_101a = {
+	female = yes
+	name = "Tynigan" #
+	dynasty = 500004
+	culture = reachfolk
+	religion = old_gods
+	father = blackdrake_100
+	sexuality = heterosexual
+	3424.1.1 = { birth = yes }
+	3502.1.1 = { 
+		death = { 
+			death_reason = death_sacrificed_to_gods 
+			killer = blackdrake_104
+		}
+	}
+}
+
+blackdrake_101b = {
+	name = "Alacain" #
+	dynasty = 500004
+	culture = reachfolk
+	religion = old_gods
+	father = blackdrake_101a
+	sexuality = heterosexual
+	3462.1.1 = { birth = yes }
+	3502.1.1 = { 
+		death = { 
+			death_reason = death_sacrificed_to_gods 
+			killer = blackdrake_104
+		}
+	}
+}
+
+blackdrake_101c = {
+	name = "Faolan" #
+	dynasty = 500004
+	culture = reachfolk
+	religion = old_gods
+	father = blackdrake_101a
+	sexuality = heterosexual
+	3465.1.1 = { birth = yes }
+	3502.1.1 = { 
+		death = { 
+			death_reason = death_sacrificed_to_gods 
+			killer = blackdrake_104
+		}
+	}
+}
+
+blackdrake_101d = {
+	name = "Madanach" #
+	dynasty = 500004
+	culture = reachfolk
+	religion = old_gods
+	father = blackdrake_101a
+	sexuality = heterosexual
+	3469.1.1 = { birth = yes }
+	3502.1.1 = { 
+		death = { 
+			death_reason = death_sacrificed_to_gods 
+			killer = blackdrake_104
+		}
+	}
+}
+
+#Cadet Blackdrake House Vasenon
+
+vasenon_18033 = {
+	name = "Uraic" #Count of Skymarch (Interregnum)
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = druadach_cult
+	
+	#add_to_bloodline = "bloodline_faolan"
+	father = vasenon_18030
+	mother = 300049
+	3320.1.1 = { birth = yes }
+	3378.1.1 = { death = yes }
+}
+vasenon_18034 = {
+	name = "Duanach"
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+	father = vasenon_18030
+	mother = 300049
+	3323.1.1 = { birth = yes }
+	3346.1.1 = { add_spouse = 300050 }
+	3363.1.1 = { death = yes }
+}
+vasenon_18035 = {
+	name = "Kaigan"
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+	father = vasenon_18034
+	mother = 300050
+	female = yes
+	3348.1.1 = { birth = yes }
+	3385.1.1 = { death = yes }
+}
+vasenon_18036 = {
+	name = "Morrigan"
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+	add_trait = child_of_concubine_female
+	
+	father = vasenon_18028
+	mother = 300046
+	female = yes
+	3289.1.1 = { birth = yes }
+	3339.1.1 = { death = yes }
+}
+vasenon_18037 = {
+	name = "Tynigan"
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+	add_trait = child_of_concubine_female
+	
+	father = vasenon_18028
+	mother = 300045
+	female = yes
+	3291.1.1 = { birth = yes }
+	3341.1.1 = { death = yes }
+}
+vasenon_18038 = {
+	name = "Uraic" #Heir to Skymarch (Interregnum)
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = druadach_cult
+	
+	#add_to_bloodline = "bloodline_faolan"
+	trait = legitimized_bastard
+	father = vasenon_18033
+	3350.1.1 = { birth = yes }
+	3406.1.1 = { death = yes }
+}
+
+vasenon_18042 = {
+	name = "Madlan" #Count of Skymarch
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+
+	father = vasenon_18038
+	3390.1.1 = { birth = yes }
+	3456.1.1 = { death = yes }
+}
+vasenon_18043 = {
+	name = "Neven" #Count of Skymarch (Reachman)
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+
+	father = vasenon_18042
+	3427.1.1 = { birth = yes }
+	3487.1.1 = { death = yes }
+}
+
+vasenon_caddach_father = {
+	name = "Alacain" #Count of Skymarch (Reachman)
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	trait = brave
+	
+	#add_to_bloodline = "bloodline_faolan"
+
+	father = vasenon_18042
+	3426.1.1 = { birth = yes }
+	3458.1.1 = { add_matrilineal_spouse = blackdrake_103 }
+	3483.1.1 = { death = yes }
+}
+vasenon_18043a = {
+	name = "Kain" #Count of Skymarch (Reachman)
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	trait = blademaster_2
+	trait = ambitious
+	#add_to_bloodline = "bloodline_faolan"
+
+	father = vasenon_18042
+	3435.1.1 = { birth = yes }
+	3502.1.1 = { 
+		death = { 
+			death_reason = death_sacrificed_to_gods 
+			killer = blackdrake_104
+		}
+	}
+}
+
+vasenon_18043b = {
+	name = "Cuhlecain" #Count of Skymarch (Reachman)
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	trait = weak
+	trait = wrathful
+	#add_to_bloodline = "bloodline_faolan"
+
+	father = vasenon_18042
+	3437.1.1 = { birth = yes }
+	3502.1.1 = { 
+		death = { 
+			death_reason = death_sacrificed_to_gods 
+			killer = blackdrake_104
+		}
+	}
+}
+
+vasenon_18045 = {
+	name = "Nenacain" #Count of Skymarch (Kamal)
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+
+	father = vasenon_18043
+	3472.1.1 = { birth = yes }
+	3538.1.1 = { death = yes }
+}
+vasenon_18046 = {
+	name = "Nenach"
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+
+	father = vasenon_18043
+	3485.1.1 = { birth = yes }
+	3521.1.1 = { add_matrilineal_spouse = vasenon_18091 }
+	3550.1.1 = { death = yes }
+}
+
+vasenon_18047 = {
+	name = "Tynan"
+	dynasty_house = vasenon_blackdrake
+	culture = reachfolk
+	religion = old_gods
+	
+	#add_to_bloodline = "bloodline_faolan"
+	
+	father = vasenon_18045
+	3507.1.1 = { birth = yes }
+	3573.1.1 = { death = yes }
+}
+
+vasenon_18048 = {
+	name = Mya
+	dynasty_house = vasenon_blackdrake
+	culture = reachmen
+	religion = old_gods
+	
+	female = yes
+	father = vasenon_18047
+	3528.1.1 = { birth = yes }
+	3601.1.1 = { death = yes }
+}
+vasenon_18049 = {
+	name = Foana
+	dynasty_house = vasenon_blackdrake
+	culture = reachmen
+	religion = old_gods
+	
+	female = yes
+	mother = vasenon_18048
+	3558.1.1 = { birth = yes }
+	3630.1.1 = { death = yes }
+}
+
+# Sanuarach Additions Duke of Dunkarn
+
+sanuarach_18135a = {
+	name = "Alabcain" #Duke of Dunkarn (Reachman)
+	dynasty = 500001
+	culture = reachfolk
+	religion = old_gods
+	trait = wrathful
+	trait = blademaster_1
+	
+	father = sanuarach_18135 #dies 3484.1.1 
+
+	3469.1.1 = { birth = yes }
+	3425.1.1 = { death = yes }
+}
+
+#House Ice-Heart
+reach_18250 = {
+	name = "Dualan" #Duke of Farrun (Reachman)
+	dynasty = icehart100 #Ice-Heart
+	culture = reachfolk
+	religion = old_gods
+	trait = education_martial_4
+	trait = holy_warrior
+	trait = strong
+	
+	3429.1.1 = { birth = yes }
+	3485.1.1 = { death = yes }
+}
+reach_18251 = {
+	name = "Urfon" #Duke of Farrun
+	dynasty = icehart100 #Ice-Heart
+	culture = reachfolk
+	religion = old_gods
+	father = reach_18250
+	trait = education_martial_3
+	trait = arcana_good_2
+	3460.1.1 = { birth = yes }
+	3502.1.1 = {
+		employer = 18088 #Alabcain Karth
+	}
+	3503.1.1 = { death = yes }
+}
+
+##Winterborn
+
+winterborn_1001 = {
+	name = "Morvar" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = malacath_coven
+	
+	father = winterborn_1000
+	
+	3352.1.1 = { birth = yes }
+	3405.1.1 = { death = yes }
+}
+
+winterborn_1001a = {
+	name = "Mercer" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = malacath_coven
+	
+	father = winterborn_1001
+	
+	3382.1.1 = { birth = yes }
+	3425.1.1 = { death = yes }
+}
+
+winterborn_1001b = {
+	name = "Madanach" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = malacath_coven
+	
+	father = winterborn_1001a
+	
+	3412.1.1 = { birth = yes }
+	3465.1.1 = { death = yes }
+}
+winterborn_1001c = {
+	name = "Duareg" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = old_gods
+	trait = education_martial_3
+	trait = ambitious
+	trait = diligent
+	
+	father = winterborn_1001a
+	
+	3415.1.1 = { birth = yes }
+	3469.1.1 = { death = yes }
+}
+
+winterborn_1001d = {
+	name = "Cuhlecain" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = old_gods
+	trait = cynical
+	trait = vengeful
+	
+	father = winterborn_1001a
+	
+	3419.1.1 = { birth = yes }
+	3499.1.1 = { death = yes }
+}
+
+winterborn_1002b = {
+	name = "Faolan" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = malacath_coven
+	trait = brave
+	trait = vengeful
+	
+	father = winterborn_1001b
+	
+	3442.1.1 = { birth = yes }
+	3515.1.1 = { death = yes }
+}
+
+winterborn_1003b = {
+	name = "Madaric" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = malacath_coven
+	trait = blademaster_1
+	trait = zealous
+	trait = wrathful
+	
+	father = winterborn_1001b
+	
+	3445.1.1 = { birth = yes }
+	3515.1.1 = { death = yes }
+}
+
+winterborn_1002c = {
+	name = "Cuhleric" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = old_gods
+	trait = cynical
+	trait = adventurer
+	trait = battlemage
+	father = winterborn_1001c
+	
+	3441.1.1 = { birth = yes }
+	3482.1.1 = { death = yes }
+}
+winterborn_1003c = {
+	name = "Priscilla" 
+	female = yes
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = old_gods
+	trait = lustful
+	trait = greedy
+	trait = battlemage
+	father = winterborn_1001c
+	
+	3442.1.1 = { birth = yes }
+	3462.1.1 = { death = yes }
+}
+winterborn_1004c = {
+	name = "Cuhlecain" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = old_gods
+	trait = cynical
+	father = winterborn_1002c
+	
+	3460.1.1 = { birth = yes }
+	3515.1.1 = { death = yes }
+}
+
+winterborn_1002d = {
+	name = "Cosnach" 
+	dynasty = 500022
+	culture = reachfolk
+	#religion = malacath_cult
+	religion = old_gods
+	trait = physique_good_2
+	father = winterborn_1001d
+	
+	3449.1.1 = { birth = yes }
+	3519.1.1 = { death = yes }
+}
+
+### Orsimer
+
+## Fharun Clan
+
+fharun_42102 = {
+	name = "Makhel" #Count of Fharun
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	 
+	
+	father = fharun_1000
+	
+	3401.1.1 = { birth = yes }
+	3457.1.1 = { death = yes }
+}
+fharun_42103 = {
+	name = "Lob" #Count of Fharun (Reachman)
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	 
+	
+	father = fharun_42102
+	
+	3438.1.1 = { birth = yes }
+	3460.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3486.1.1 = { death = 
+		{
+			death_reason = death_duel
+			killer = fharun_1102
+		}
+	}
+}
+fharun_1102= { #was fharun_42104
+	name = "Bazrag" #Count of Fharun (Kamal)
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	 
+	trait = strong
+	trait = legitimized_bastard
+	trait = ambitious
+	trait = sadistic
+	trait = brave
+	trait = zealous
+	trait = wrathful
+	trait = beserker
+	give_nickname = "the Butcher"
+	father = fharun_42103
+	
+	3461.1.1 = { birth = yes }
+	3476.1.1 = {
+		effect = {
+		add_trait = just
+		add_trait = honest
+		add_trait = education_martial_4
+		add_trait = blademaster_3
+	}
+	}
+	3517.1.1 = { death = yes }
+}
+fharun_42105 = {
+	name = "Grat" #Count of Fharun (Kamal)
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	 
+	
+	father = fharun_1102
+	
+	3485.1.1 = { birth = yes }
+	3508.1.1 = { add_spouse = fharun_42133 }
+	3541.1.1 = { 
+		death = {
+			death_reason = death_duel 
+			killer = fharun_42107 
+		} 
+	}
+}
+
+fharun_42106 = {
+	name = "Yarulg"
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = twin
+	trait = weak
+	
+	father = fharun_42105
+	mother = fharun_42133
+	
+	3513.1.1 = { birth = yes }
+	3535.1.1 = { 
+		death = {
+			death_reason = death_duel 
+			killer = fharun_42107 
+		}
+	}
+}
+
+fharun_42107 = {
+	name = "Yarnag"
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	 
+	trait = twin
+	
+	father = fharun_42105
+	mother = fharun_42133
+	
+	3513.1.1 = { birth = yes }
+	3570.1.1 = { death = yes }
+}
+fharun_42108 = {
+	name = "Yarzug"
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	 
+	
+	father = fharun_42107
+	
+	3554.1.1 = { birth = yes }
+	3616.1.1 = { death = yes }
+}
+fharun_42109 = {
+	name = "Lugdakh"
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	 
+	
+	father = fharun_42108
+	
+	3594.1.1 = { birth = yes }
+	3656.1.1 = { death = yes }
+}
+fharun_42110 = {
+	name = "Lakhdosh"
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	 
+	
+	father = fharun_42109
+	
+	3635.1.1 = { birth = yes }
+	3696.1.1 = { death = yes }
+}
+fharun_42111 = {
+	name = "Thragdosh" #King of Orsinium (Pre-Winter's Return)
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = education_martial_2
+	
+	father = fharun_42110
+	
+	3677.1.1 = { birth = yes }
+	3718.1.1 = { death = 
+		{
+			death_reason = death_duel
+			killer = 42018
+		}
+	}
+}
+fharun_42112 = {
+	name = "Thragdakh" #Heir of Fharun (Winter's Return)
+	dynasty = 800011
+	culture = mountain_orc
+	religion = code_of_malacath
+	 
+	
+	father = fharun_42111
+	
+	3708.1.1 = { birth = yes }
+	3772.1.1 = { death = yes }
+}
+
+###Murghak Fharun Cadet Branch
+
+murghak_42300 = {
+	name = "Mulush"
+	dynasty_house = murghak_fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = bastard_founder
+	
+	father = fharun_1001
+	
+	3371.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}
+murghak_42301 = {
+	name = "Ghamonk"
+	dynasty_house = murghak_fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = murghak_42300
+	
+	3420.1.1 = { birth = yes }
+	3460.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3466.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = murghak_42302
+		}
+	}
+}
+murghak_42302 = {
+	name = "Khadba"
+	dynasty_house = murghak_fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = murghak_42301
+	
+	3450.1.1 = { birth = yes }
+	3501.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = murghak_42303
+		}
+	}
+}
+murghak_42303 = {
+	name = "Abzug"
+	dynasty_house = murghak_fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = murghak_42302
+	
+	3470.1.1 = { birth = yes }
+	3515.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = murghak_42304
+		}
+	}
+}
+murghak_42304 = {
+	name = "Borzugh"
+	dynasty_house = murghak_fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = murghak_42303
+	
+	3500.1.1 = { birth = yes }
+	3548.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = 42014
+		}
+	}
+}
+
+
+###Bagrakh Clan
+
+bagrakh_42001 = {
+	name = "Sharkub" #Duke of Orsinium
+	father = bagrakh_998
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = twin
+	
+	father = bagrakh_1001
+	mother = bagrakh_42051
+	
+	3360.1.1 = { birth = yes }
+	3421.1.1 = { death = yes }
+}
+bagrakh_42002 = {
+	name = "Badbog"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	trait = twin
+
+	female = yes
+	father = bagrakh_42000
+	mother = bagrakh_42051
+	
+	3360.1.1 = { birth = yes }
+	3410.1.1 = { death = yes }
+}
+bagrakh_42003 = {
+	name = "Gortwog" #Duke of Orsinium
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = bagrakh_42001
+	
+	3392.1.1 = { birth = yes }
+	3451.1.1 = { death = 	
+		{ 
+			death_reason = death_duel 
+			killer = bagrakh_42004
+		} 
+	}
+}
+bagrakh_42004 = {
+	name = "Bagrakh" #Duke of Orsinium (Reachman)
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = education_martial_3
+	trait = strong
+	trait = brave
+	
+	father = bagrakh_42003
+	
+	3431.1.1 = { birth = yes }
+	3457.1.1 = { add_spouse = bagrakh_42007 }
+	3458.1.1 = { add_pressed_claim = title:c_wrothgar }
+	3460.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3483.1.1 = { death = 
+		{
+			death_reason = death_duel
+			killer = bagrakh_42006
+		}
+	}
+}
+bagrakh_42005 = {
+	name = "Lagakh" #Wife of Count of Shatul (Reachman)
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	female = yes
+	
+	father = bagrakh_42003
+	
+	3431.1.1 = { birth = yes }
+	3450.1.1 = { add_spouse = bagrakh_42055 }
+	3499.1.1 = { death = yes }
+}
+bagrakh_1103 = { #Was bagrakh 42006
+	name = "Kurog" #King of Orsinium (Kamal)
+	dynasty = 800020
+	culture = mountain_orc
+	religion = vosh_rakh
+	father = bagrakh_42004
+	mother = bagrakh_42007
+	trait = physique_good_3
+	trait = gluttonous
+	trait = gregarious
+	trait = brave
+	trait = ambitious
+	trait = deceitful
+	trait = zealous
+	disallow_random_traits = yes
+
+	3461.1.1 = { birth = yes }
+	3476.1.1 = { 
+		add_trait = education_martial_4
+		give_nickname = nick_the_butcher
+	}
+	3486.1.1 = { add_spouse = bagrakh_42008 }
+	3502.8.1 = { death = yes  }
+	dna =  bagrakh_1003_dna_entry
+		portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_clothes=male_clothes_secular_orc_war
+			custom_headgear=male_headgear_secular_byzantine_war_nobility_01
+			custom_beards=male_empty
+			custom_cloaks=male_furs_secular_fp1_nobility_03
+			custom_legwear=male_legwear_secular_fp1_common_01
+		}
+	}
+}
+bagrakh_42007 = {
+	name = "Alga" #Kurog's mother
+	female = yes
+	culture = mountain_orc
+	religion = vosh_rakh
+	
+	trait = zealous
+	trait = ambitious
+	trait = diligent
+	trait = just
+	trait = brave
+	
+	3433.1.1 = { birth = yes }
+	3503.4.11 = { death = {death_reason = death_duel killer = fharun_1102 } }
+}
+bagrakh_42008 = {
+	name = "Barazal" #Wife to King of Orsinium (Kamal)
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	3467.1.1 = { birth = yes }
+	3523.1.1 = { death = yes }
+}
+bagrakh_42009 = {
+	name = "Ulmug" #Potential successor for Kurog
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = bagrakh_1103
+	mother = bagrakh_42008
+	
+	3493.1.1 = { birth = yes }
+	3546.1.1 = { death = yes }
+}
+
+
+bagrakh_42013 = {
+	name = "Nagorg"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = bagrakh_42009
+	
+	3516.1.1 = { birth = yes }
+	3571.1.1 = { death = yes }
+}
+bagrakh_42014 = {
+	name = "Kurog"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = bagrakh_42013
+	
+	3554.1.1 = { birth = yes }
+	3606.1.1 = { 
+		death = {
+				death_reason = death_duel
+				killer = bagrakh_42015
+		}
+	}
+}
+bagrakh_42015 = {
+	name = "Abzug"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = bagrakh_42014
+	
+	3582.1.1 = { birth = yes }
+	3636.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = 42109
+		}
+	}
+}
+bagrakh_42016 = {
+	name = "Nagrul"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = bagrakh_42015
+	
+	3602.1.1 = { birth = yes }
+	3678.1.1 = { death = yes }
+}
+bagrakh_42017 = {
+	name = "Shagrul"
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	
+	father = bagrakh_42016
+	
+	3646.1.1 = { birth = yes }
+	3706.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = bagrakh_42018
+		}
+	}
+}
+bagrakh_42018 = {
+	name = "Ghorbash" #King of Orsinium (Winter's Return)
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	add_trait = strong
+	
+	father = bagrakh_42017
+	
+	3690.1.1 = { birth = yes }
+	3706.1.1 = {
+	add_trait = education_martial_3
+	add_trait = brave
+	add_trait = diligent
+	add_trait = ruthless
+	add_trait = wroth
+	}
+	3718.1.1 = {
+	remove_trait = education_martial_3
+	add_trait = education_martial_4
+	add_trait = ambitious
+	}
+	3720.1.1 = {
+	give_nickname = nick_the_great
+	}
+	3761.1.1 = { death = yes }
+}
+bagrakh_42019 = {
+	name = "Ghornag" #Heir of Orsinium (Winter's Return)
+	dynasty = 800020
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	add_trait = strong
+	
+	father = bagrakh_42018
+	
+	3720.1.1 = { birth = yes }
+	3761.1.1 = { death = yes }
+}
+
+
+###Morkul Clan
+
+morkul_bdr1 = {
+	name = "Agnorak"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = intellect_good_2
+	
+	father = morkul_1001
+	
+	
+	3389.1.1 = { birth = yes }
+	3432.1.1 = { death = yes }
+}
+
+morkul_bdr2 = {
+	name = "Grognak"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = physique_good_2
+	trait = education_martial_3
+	trait = holy_warrior
+	trait = blademaster_2
+	trait = aggressive_attacker
+	
+	father = morkul_bdr1
+	
+	
+	3389.1.1 = { birth = yes }
+	3455.1.1 = { give_nickname = nick_the_destroyer }
+	3460.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3471.1.1 = { death = yes }
+}
+
+morkul_bdr3 = {
+	name = "Bunta"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = chaste
+	trait = weak
+	trait = craven
+	trait = lazy
+	father = morkul_bdr2
+	
+	3422.1.1 = { birth = yes }
+	3450.1.1 = { give_nickname = nick_the_weak }
+	3479.1.1 = {
+				death = {
+			death_reason = death_duel
+			killer = morkul_bdr4
+		}
+		}
+	}	
+morkul_bdr4 = {
+	name = "Kloth"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = lustful
+	trait = physique_good_1
+	trait = brave
+	trait = diligent
+	trait = seducer
+	trait = education_martial_3
+	father = morkul_bdr2
+	
+	3433.1.1 = { birth = yes }
+	3450.1.1 = { give_nickname = nick_the_seducer }
+	3358.1.1 = { 
+		set_relation_rival =  {
+			target = character:morkul_bdr3
+			reason = rival_poison_vengeance_corresponding
+			}
+		}
+	3460.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3501.1.1 = {
+				death = {
+			death_reason = death_duel
+			killer = morkul_bdr4
+			}
+	}
+}
+morkul_bdr5 = {
+	name = "Gro-Gruns"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = physique_good_1
+	father = morkul_bdr4
+	
+	3459.1.1 = { birth = yes }
+	3501.1.1 = { death = yes }
+}
+
+morkul_1100 = {
+	name = "Abzug"
+	dynasty = 800012
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = morkul_bdr4
+	
+	3460.1.1 = { birth = yes }
+	3525.1.1 = { death = yes }
+}
+
+
+##Placeholders
+
+moira_hope_3460 = {
+	name = "Reynard"
+	religion = breton_cult
+	culture = northmen
+
+	3435.1.1 = { birth = yes }
+	3511.1.1 = { death = yes }
+}
