@@ -151,7 +151,7 @@ d_order_of_the_hour = {
 	3450.1.1 = { holder = hour_phrastus }
 	3470.1.1 = { holder = coventine_jonas }
 	3490.1.1 = { holder = ponticus_artorius }
-	3502.1.1 = { liege = k_anvil }
+	3502.1.30 = { liege = k_anvil }
 	3505.1.1 = { liege = k_kvatch }
 	# 3511.1.1 = { liege = 0 } # Probably wouldn't work anyway, handle that via script when we get to 2E582
 }

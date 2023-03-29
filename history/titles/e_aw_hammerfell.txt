@@ -532,7 +532,7 @@ c_lainlyn = {
 	3350.1.1 = { holder = lainlyn_1000 }
 	3381.1.1 = { holder = lainlyn_1001 }
 	3450.1.1 = { holder = hallin_1000c  liege = d_lainlyn }
-	3495.1.1 = { holder = hallin_1001c liege = k_sentinel }
+	3495.1.1 = { holder = hallin_1001d liege = k_sentinel }
 }
 c_totambu = {
 	3350.1.1 = {
@@ -1126,6 +1126,7 @@ d_danobia = {
 	3422.1.1 = { holder = danobia_999 }
 	3430.1.1 = { holder = danobia_1000 }
 	3487.1.1 = { holder = danobia_1002 }
+	3502.1.1 = { holder = danobia_1003 liege = k_taneth }
 }
 
 c_danobia = {
@@ -1137,6 +1138,7 @@ c_danobia = {
 	3422.1.1 = { holder = danobia_999 }
 	3430.1.1 = { holder = danobia_1000 }
 	3487.1.1 = { holder = danobia_1002 }
+	3502.1.1 = { holder = danobia_1003 }
 }
 
 c_oran = {
@@ -1148,6 +1150,7 @@ c_oran = {
 	3422.1.1 = { holder = danobia_999 }
 	3430.1.1 = { holder = danobia_1000 }
 	3487.1.1 = { holder = danobia_1002 }
+	3502.1.1 = { holder = danobia_1003 }
 }
 
 c_devisar = {
@@ -1290,17 +1293,17 @@ c_chiselshriek = {
 }
 d_belkarth = {
 	3460.1.1 = { holder = amaile_24207 liege = k_dragonstar }
-	3502.1.1 = { holder = belkarth_3502 liege = 0 }
+	3502.1.30 = { holder = amaile_24208 liege = k_dragonstar }
 }
 c_belkarth = {
 	3350.1.1 = { holder = bahah_1000 }
 	3459.1.1 = { holder = amaile_24207 liege = k_dragonstar }
-	3502.1.1 = { holder = belkarth_3502 liege = d_belkarth }
+	3502.1.30 = { holder = amaile_24208 liege = k_dragonstar }
 }
 c_reinhold = {
 	3350.1.1 = { holder = bahah_1000 }
 	3460.1.1 = { holder = amaile_24207 liege = k_dragonstar }
-	3502.1.1 = { holder = belkarth_3502 liege = d_belkarth }
+	3502.1.30 = { holder = amaile_24208 liege = k_dragonstar }
 }
 c_rimwatch = {
 	3350.1.1 = { holder = bendcrag_1000 }
@@ -1407,6 +1410,11 @@ c_fearfang = {
 	3320.1.1 = { holder = dovahater_1000 }
 	3361.1.1 = { holder = dovahater_1001 }
 	3364.1.1 = { holder = atuhon_1000 }
+	3483.1.1 = { holder = amaile_24207 }
+	3527.1.1 = { holder = amaile_24208 }
+	3551.1.1 = { holder = amaile_24210 }
+	3559.1.1 = { holder = amaile_24212 }
+	3593.1.1 = { holder = amaile_24213 }	
 }
 c_lothna = {
 	3350.1.1 = { holder = stonefriend_1000 }
@@ -1421,6 +1429,7 @@ c_skyreach = {
 	3421.1.1 = { holder = amaile_24205 }
 	3452.1.1 = { holder = amaile_24206 }
 	3483.1.1 = { holder = amaile_24207 }
+	3502.1.1 = { holder = rahal_23859 liege = k_dragonstar }
 	3527.1.1 = { holder = amaile_24208 }
 	3551.1.1 = { holder = amaile_24210 }
 	3559.1.1 = { holder = amaile_24212 }
@@ -1442,12 +1451,15 @@ c_skypinnacle = {
 	3350.1.1 = { holder = galatite_1000 }
 	3372.1.1 = { holder = galatite_1002 }
 	3460.1.1 = { holder = skypinnacle_3460 liege = k_dragonstar }
+	3502.1.1 = { holder = rahal_23859 liege = k_dragonstar }
 }
 c_illthag = {
 	3350.1.1 = { holder = malachite_1000 }
+	3502.1.1 = { holder = rahal_23859 liege = k_dragonstar }
 }
 c_abdir = {
 	3350.1.1 = { holder = zircon_1000 }
+	3502.1.1 = { holder = rahal_23859 liege = k_dragonstar }
 }
 c_sirhan = {
 	3350.1.1 = { holder = sirhan_1000 }
@@ -1627,6 +1639,8 @@ c_sobatu = {
 	3451.1.1 = { holder = hilazada_1001 liege = d_skaven }
 	3457.1.1 = { holder = hilazada_1002 }
 	3501.1.1 = { holder = hilazada_24055 }
+	3502.1.1 = { holder = hilazada_1003 liege = d_skaven }
+	3505.1.1 = { holder = hilazada_24055 }	
 	3535.1.1 = { holder = hilazada_24056 }
 	3579.1.1 = { holder = hilazada_24057 }
 	3612.1.1 = { holder = hilazada_24058 }
@@ -1651,6 +1665,8 @@ c_wadathe = {
 	3451.1.1 = { holder = hilazada_1001 liege = d_skaven }
 	3457.1.1 = { holder = hilazada_1002 }
 	3501.1.1 = { holder = hilazada_24055 }
+	3502.1.1 = { holder = hilazada_1003 liege = d_skaven }
+	3505.1.1 = { holder = hilazada_24055 }
 	3535.1.1 = { holder = hilazada_24056 }
 	3579.1.1 = { holder = hilazada_24057 }
 	3612.1.1 = { holder = hilazada_24058 }
@@ -1675,6 +1691,8 @@ c_jamul = {
 	3451.1.1 = { holder = hilazada_1001 liege = d_skaven }
 	3457.1.1 = { holder = hilazada_1002 }
 	3501.1.1 = { holder = hilazada_24055 }
+	3502.1.1 = { holder = hilazada_1003 liege = d_skaven }
+	3505.1.1 = { holder = hilazada_24055 }	
 	3535.1.1 = { holder = hilazada_24056 }
 	3579.1.1 = { holder = hilazada_24057 }
 	3612.1.1 = { holder = hilazada_24058 }
