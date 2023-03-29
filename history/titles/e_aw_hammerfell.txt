@@ -73,7 +73,7 @@ c_hegathe = {
 	3411.1.1 = { holder = hegathe_1001 }
 	3432.1.1 = { holder = hegathe_1002 }
 	3451.1.1 = { holder = hegathe_1003 }
-	3460.1.1 = { change_development_level = 19 }
+	3460.1.1 = { change_development_level = 20 }
 	3471.1.1 = { holder = hegathe_1006 }
 	3486.1.1 = { holder = hegathe_1007 }
 	3527.1.1 = { holder = hegathe_1008 }
@@ -251,7 +251,7 @@ c_gilane = {
 	3385.1.1 = { holder = nizwa_1002 }
 	3409.1.1 = { holder = nizwa_24102 }
 	3448.1.1 = { holder = nizwa_24103 }
-	3460.1.1 = { change_development_level = 17 }
+	3460.1.1 = { change_development_level = 19 }
 	3494.1.1 = { holder = nizwa_24104 }
 	3510.1.1 = { 
 	liege = d_abah
@@ -428,7 +428,7 @@ c_sentinel = {
 	3354.1.1 = { holder = nisewan_1002 }
 	3375.1.1 = { holder = bergama_1000 }
 	3412.1.1 = { holder = bergama_1001 }
-	3460.1.1 = { change_development_level = 20 }
+	3460.1.1 = { change_development_level = 21 }
 	3462.1.1 = { holder = bergama_1002 }
 	3465.1.1 = { holder = bergama_1003 }
 	3471.1.1 = { holder = bergama_1005 }
@@ -448,6 +448,11 @@ d_bergama = { #Antyphyllos
 	3462.1.1 = { holder = bergama_1002 }
 	3465.1.1 = { holder = bergama_1004 }
 	3470.1.1 = { holder = bergama_1005 }
+	3502.1.1 = { 
+		succession_laws = {
+		male_preference_law 
+		}
+	}
 	3507.1.1 = { holder = bergama_1008 }
 }
 c_bergama = { #Antyphyllos
@@ -459,7 +464,7 @@ c_bergama = { #Antyphyllos
 		liege = d_sentinel
 	}
 	3412.1.1 = { holder = bergama_1001 }
-	3460.1.1 = { holder = bergama_1002 liege = k_sentinel change_development_level = 10 }
+	3460.1.1 = { holder = bergama_1002 liege = k_sentinel change_development_level = 13 }
 	3461.1.1 = { holder = bergama_1001 }
 	3462.1.1 = { holder = bergama_1002 }
 	3465.1.1 = { holder = bergama_1004 }
@@ -527,6 +532,7 @@ d_lainlyn = {
 	3381.1.1 = { holder = lainlyn_1001 }
 	3450.1.1 = { holder = hallin_1000c  liege = k_sentinel }
 	3495.1.1 = { holder = hallin_1001c liege = k_sentinel }
+	3502.1.1 = { holder = hallin_1001d liege = k_sentinel }
 }
 c_lainlyn = {
 	3350.1.1 = { holder = lainlyn_1000 }
@@ -661,7 +667,7 @@ c_rihad = {
 3418.1.1 = { holder = curetar_21054 }
 3429.1.1 = { holder = curetar_21055 }
 3457.1.1 = { holder = curetar_21056 }
-3460.1.1 = { change_development_level = 17 }
+3460.1.1 = { change_development_level = 19 }
 3487.1.1 = { holder = curetar_21057 }
 3510.1.1 = { holder = curetar_21060 }
 3546.1.1 = { holder = curetar_21063 }
@@ -813,7 +819,7 @@ c_ojwambu = {
 	3396.1.1 = { holder = hallin_1000 }
 	3412.1.1 = { holder = hallin_1000a }
 	3455.1.1 = { holder = hallin_1000b }
-	3460.1.1 = { change_development_level = 17 }
+	3460.1.1 = { change_development_level = 18 }
 	3501.12.12 = { holder = tharn_226 }
 }
 c_twin_arches = {
@@ -943,7 +949,7 @@ c_abah_landing = {
 	3407.1.1 = { holder = addin_1001 }
 	3403.1.1 = { holder = addin_23702 }
 	3431.1.1 = { holder = addin_23703 }
-	3460.1.1 = { change_development_level = 18 }
+	3460.1.1 = { change_development_level = 19 }
 	3465.1.1 = { holder = addin_23704 }
 	3500.1.1 = { holder = addin_23705 }
 	3525.1.1 = { holder = addin_23706 }
@@ -1081,7 +1087,7 @@ c_taneth = {
 	3382.1.1 = { holder = danobia_998 }
 	3400.1.1 = { holder = danobia_999 }
 	3430.1.1 = { holder = danobia_1000 }
-	3460.1.1 = { change_development_level = 16 }
+	3460.1.1 = { change_development_level = 19 }
 }
 
 c_alain = {
@@ -1218,7 +1224,7 @@ c_elinhir = {
 	3416.1.1 = { holder = blackcaster_1003 }
 	3431.1.1 = { holder = blackcaster_1004 }
 	3456.1.1 = { holder = blackcaster_1005 }
-	3460.1.1 = { change_development_level = 17 }
+	3460.1.1 = { change_development_level = 18 }
 	3491.1.1 = { holder = blackcaster_1001 }
 }
 c_bienne = {	
@@ -1751,7 +1757,7 @@ c_stros_mkai = {
 	2950.1.1 = { holder = toddus_howardus }
 	3005.1.1 = { change_development_level = 6 }
 	3350.1.1 = { holder = pharos_1000 }
-	3460.1.1 = { holder = hegathe_1007b liege = d_abah change_development_level = 12 }
+	3460.1.1 = { holder = hegathe_1007b liege = d_abah change_development_level = 14 }
 	3502.1.1 = { holder = stros_mkai_3502 liege = k_sentinel }
 }
 c_saintsport = {
