@@ -1,0 +1,563 @@
+
+
+### Royal Dynasty addition so it doesn't die out
+
+
+arana_bdr1 = {
+	name = "Calanor"
+	dynasty = 700000
+	religion = auriel
+	culture = alinor
+	dna = arana_1000_dna_entry
+	
+	father = arana_999
+	mother = errinorne_36371
+
+	disallow_random_traits = yes
+	trait = wrathful
+	trait = ambitious
+	trait = arrogant
+	trait = impatient
+	diplomacy = 6
+	martial = 9
+	stewardship = 6
+	intrigue = 9
+	learning = 6
+	prowess = 9
+	
+	trait = pure_blooded
+	trait = physique_good_1
+	trait = education_martial_4
+	trait = blademaster_3
+	3153.1.1 = { birth = yes }
+	3371.1.1 = { death = { death_reason = death_duel } }
+}
+
+arana_bdr2 = {
+	name = "Hidellith" #OG always dies so screw it
+	dynasty = 700000
+	religion = auriel
+	culture = alinor
+	dna = arana_1000_dna_entry
+	
+	father = arana_bdr1
+
+	disallow_random_traits = yes
+	trait = zealous
+	trait = arrogant
+	trait = just
+	trait = education_stewardship_2
+	trait = arcana_good_3
+	trait = beauty_good_1
+	trait = pure_blooded
+	trait = praxis_positive_2
+	diplomacy = 6
+	martial = 9
+	stewardship = 6
+	intrigue = 9
+	learning = 6
+	prowess = 9
+	
+	portrait_override={
+			portrait_modifier_overrides={
+				custom_hair=male_hair_indian_01
+				custom_beards=male_beard_mena_04
+			}
+		}
+
+	3370.2.1 = { birth = yes }
+	3390.1.1 = { add_spouse = aunsamiran_36406a }
+	3392.1.2 = {
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = destruction_novice_perk
+			add_perk = destruction_apprentice_perk
+			add_perk = destruction_journeyman_perk
+			add_perk = restoration_novice_perk
+			add_perk = restoration_apprentice_perk
+			add_perk = restoration_journeyman_perk
+		}
+	}
+	3399.1.1 = { 
+		remove_trait = arrogant
+		remove_trait = zealous
+		add_trait = content
+		add_trait = lustful
+		add_trait = cautious_leader
+	}
+	3400.1.1 = { #dont know why
+		remove_trait = lustful
+		add_trait = humble
+		add_trait = administrator
+		set_relation_lover = { target = character:aunsamiran_36406a reason = lover_history } #they have a very strange relationship
+	}
+	3463.1.1 = { #End of Calcemo's revolt
+		effect = {
+			add_martial_skill = 2
+		}
+	}
+	3492.2.5 = { add_trait = depressed_1 } #his wife dies from the knahaten flu
+	
+	3494.1.1 = { add_trait = infirm }
+	3501.1.1 = { death = { death_reason = death_duel } }
+}
+
+aunsamiran_36406a = {
+	name = "Tuinden"
+	dynasty = aunsamiran
+	religion = auriel
+	culture = alinor
+	dna = aunsamiran_36406_dna_entry
+	
+	trait = lifespan_3
+	trait = zealous
+	trait = education_intrigue_3
+	trait = just
+	trait = patient
+	trait = disinherited
+	
+	portrait_override={
+			portrait_modifier_overrides={
+				custom_hair=female_hair_western_05
+			}
+		}
+
+	father = aunsamiran_36405
+	female = yes
+	
+	3378.1.1 = { birth = yes }
+    #3492.1.1 = { add_trait = has_knahaten_flu } #HistoryToDo Assign Knahaten flu
+    3492.2.5 = {
+        death = {
+            death_reason = death_ill #HistoryToDo Assign Knahaten Flu Death
+        }
+    }
+}
+
+arana_bdr3 = {
+	name = "Ayrenn"
+	dynasty = 700000
+	religion = auriel
+	culture = alinor
+	female = yes
+	dna = arana_1001_dna_entry
+	mother = aunsamiran_36406a
+	father = arana_bdr2
+	trait = lifespan_3
+	
+	trait = education_martial_4
+	trait = arcana_good_2
+	trait = pure_blooded
+	trait = ambitious
+	trait = brave
+	trait = cynical
+	trait = adventurer
+	
+	3458.1.1 = { birth = yes }
+	3500.1.1 = { give_nickname = nick_the_unforeseen
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = destruction_novice_perk
+			add_perk = destruction_apprentice_perk
+			add_perk = restoration_novice_perk
+			add_perk = restoration_apprentice_perk
+			add_perk = restoration_journeyman_perk
+		}
+	}
+	3501.2.8 = { death = yes } #Not the real one xD
+	portrait_override = {	# Will override the character's appearance
+	portrait_modifier_overrides={
+		custom_clothes=clothes_altmer_female_noble_war_01
+		custom_hair=female_hair_northern_03
+		custom_headgear=female_headgear_secular_ayleid_crown_02
+		}
+	}	
+}
+arana_bdr4 = {
+	name = "Naemon"
+	dynasty = 700000
+	religion = auriel
+	culture = alinor
+	mother = aunsamiran_36406a
+	father = arana_bdr2
+	trait = lifespan_3
+	
+	trait = education_stewardship_3
+	trait = ambitious
+	trait = pure_blooded
+	trait = arcana_good_1
+	
+	3459.5.5 = { birth = yes }
+	3494.5.5 = { #add_spouse = errinorne_1000 
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = illusion_novice_perk
+			add_perk = illusion_apprentice_perk
+			add_perk = restoration_novice_perk
+			add_perk = restoration_apprentice_perk
+		}	
+	}
+	3501.12.3 = { death = yes } #not the real one
+}
+
+## house Lillandril custom Arana Cadet
+
+lillandril_1000 = { 
+	name = "Feanor"
+	dynasty_house = arana_lillandril
+	religion = auriel
+	culture = alinor
+	
+	father = arana_998
+	mother = aunoroe_97
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 6
+	intrigue = 9
+	learning = 6
+	prowess = 9
+	
+	trait = pure_blooded
+	trait = physique_good_1
+	trait = education_martial_4
+	trait = blademaster_3
+	3000.1.1 = { birth = yes }
+	3371.1.1 = { death = { death_reason = death_duel } }
+}
+
+lillandril_1000a = { 
+	name = "Celembrimbor"
+	dynasty_house = arana_lillandril
+	religion = auriel
+	culture = alinor
+	
+	father = lillandril_1000
+
+	3200.1.1 = { birth = yes }
+	3441.1.1 = { death = { death_reason = death_duel } }
+}
+
+lillandril_1001 = { 
+	name = "Vancano" #God tier necromancer
+	dynasty_house = arana_lillandril
+	religion = auriel
+	culture = alinor
+	
+	father = lillandril_1000a
+	diplomacy = 6
+	martial = 9
+	stewardship = 6
+	intrigue = 9
+	learning = 6
+	prowess = 9
+	
+	trait = ambitious
+	trait = vengeful
+	trait = gregarious
+	trait = battlemage
+	trait = necromancer
+	trait = education_martial_prowess_4
+	trait = pure_blooded
+	trait = physique_good_3
+	trait = arcana_good_2
+	trait = education_martial_3
+	trait = education_martial_3
+	trait = blademaster_2
+	trait = praxis_positive_1
+	trait = disallow_random_traits = yes
+	
+	3390.1.1 = { birth = yes }
+	3440.1.1 = {
+		effect = {
+		add_pressed_claim = title:d_lillandril
+		add_pressed_claim = title:c_lillandril
+		add_pressed_claim = title:k_lillandril
+		}
+	}
+	3452.1.1 = {
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = alteration_journeyman_perk
+			add_perk = alteration_expert_perk
+			add_perk = alteration_master_perk
+			add_perk = conjuration_novice_perk
+			add_perk = conjuration_apprentice_perk
+			add_perk = conjuration_journeyman_perk
+		}
+	}
+	3460.1.1 = { give_nickname = nick_the_griffin }
+	3741.1.1 = { death = { death_reason = death_duel } }
+}
+
+
+
+## Jaroril
+
+
+jaroril_1001a = {
+	name = "Elenwen"
+	female = yes
+	dynasty = jororil
+	religion = auriel
+	culture = auridon
+	mother = jaroril_1000
+
+	trait = lifespan_3
+	3430.1.1 = { birth = yes }
+	3960.1.1 = { death = yes }
+}
+### yanilia dynasty in shimmerene
+
+
+yanilia_1001a = {
+	name = "Aldunie"
+	female = yes
+	dynasty = yanilia
+	religion = auriel
+	culture = alinor
+
+	mother = yanilia_1001
+
+	3427.1.1 = { birth = yes }
+	3842.1.1 = { death = yes }
+}
+
+### Salnile Rellenthil
+
+salnilde_100a = {
+	name = "Farmeldo"
+	religion = auriel
+	dynasty = salnilde
+	culture = alinor
+	father = salnilde_100
+
+	trait = education_learning_3
+	trait = patient
+	trait = honest
+	trait = content
+	trait = arcana_good_2
+	trait = lifespan_3
+	
+	3373.1.1 = { birth = yes }
+	3608.1.1 = { death = yes }
+}
+
+salnilde_100b = {
+	name = "Nedoril"
+	religion = auriel
+	dynasty = salnilde
+	culture = alinor
+	father = salnilde_100a
+	
+	trait = lifespan_3
+	trait = education_stewardship_2
+	trait = arrogant
+	trait = deceitful
+	trait = ambitious
+	trait = callous
+	trait = arcana_good_2
+
+	3443.1.1 = { birth = yes }
+	3708.1.1 = { death = yes }
+}
+
+### Skywatch Errinorne dynasty
+
+errinorne_1000a = {
+	name = "Estre" #Veiled Queen
+	female = yes
+	dynasty = errinorne
+	religion = auriel
+	culture = auridon
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 6
+	intrigue = 10
+	learning = 10
+	father = errinorne_36352
+	mother = arelsenil_37150
+
+	trait = lifespan_3
+	trait = pure_blooded
+	trait = intellect_good_1
+	trait = education_learning_4
+	
+	3459.4.2 = {
+		birth = yes
+		effect = { add_character_flag = estre }
+	}
+	3460.1.1 = {
+			effect = {
+			create_betrothal = character:arana_bdr4
+		}
+	}
+	3465.1.1 = { add_trait = deceitful }
+	3471.1.1 = { add_trait = arrogant }
+	3474.1.1 = { 
+		add_trait = sadistic
+		add_trait = ambitious
+		add_secret = {
+			type = secret_mehrunes_worshipper
+		}
+	}
+	3494.5.5 = {
+		add_spouse = arana_bdr4
+		add_pressed_claim = title:e_summerset
+		add_secret = {
+			type = secret_mehrunes_worshipper
+		}
+	}
+	3500.1.1 = {
+		effect = { add_character_flag = theveiledqueen }
+	}
+	3501.11.12 = { 
+		effect = {
+			set_character_faith_history = faith:mehrunes_cult
+			give_nickname = nick_the_veiled_queen
+		}
+	}
+	3501.12.12 = { death = yes } #Killed by Vestige
+}
+
+###Placeholder mayors
+
+isquer_3460a = {
+	name = "Nurelion"
+	disallow_random_traits = yes
+	dynasty = isquer
+	culture = alinor
+	religion = auriel
+
+	trait = lifespan_3
+	trait = lunatic_genetic
+	trait = shy
+	trait = content
+	trait = temperate
+	trait = scholar
+	trait = education_stewardship_3
+	mother = isquer_36163
+	2593.1.1 = { birth = yes }
+	3204.1.1 = { death = yes }
+}
+
+isquer_3460b = {
+	name = "Nurelion"
+	disallow_random_traits = yes
+	dynasty = isquer
+	culture = alinor
+	religion = auriel
+
+	trait = lifespan_3
+	trait = lunatic_genetic
+	trait = shy
+	trait = content
+	trait = temperate
+	trait = scholar
+	trait = education_stewardship_3
+	father = isquer_3460a
+	3200.1.1 = { birth = yes }
+	3360.1.1 = { death = yes }
+}
+
+isquer_3460 = {
+	name = "Nurelion"
+	disallow_random_traits = yes
+	dynasty = isquer
+	culture = alinor
+	religion = auriel
+
+	trait = lifespan_3
+	trait = lunatic_genetic
+	trait = shy
+	trait = content
+	trait = temperate
+	trait = scholar
+	trait = education_stewardship_3
+	father = isquer_3460b
+	3373.1.1 = { birth = yes }
+	3900.1.1 = { death = yes }
+}
+ancmirar_relequen = {
+	name = "Relequen" #Leader of the Welkynar Knights corrupted by Zmaja the sload
+	dynasty = ancmirar
+	religion = auriel
+	culture = alinor
+	father = ancmirar_99
+	#mother = arana_ciralinde
+	trait = education_martial_prowess_4
+	trait = education_martial_3
+	trait = zealous #joined a knightly alter order
+	trait = arrogant #after being annoying af still has the nerve to refound the order and say he is a good mentor
+	trait = praxis_positive_1 #well respected
+	trait = blademaster_2 #pain in my ass
+	trait = battlemage
+	
+	trait = education_magical_3
+	trait = arcana_good_2
+	
+	3359.1.1 = { birth = yes }	
+	3685.1.1 = { death = yes }
+}
+##Vulkhel Line
+
+arelsamirmo_nesaranwe3460 = {
+	name = "Nesaranwe" #ESO Nesaranwe, Canonreeve of Vulkhel
+	female = yes
+	dynasty = arelsamirmo
+	religion = auriel
+	culture = auridon
+	trait = gregarious
+	trait = lifespan_3
+	trait = pure_blooded
+	mother = arelsamirmo_nesaranwe
+
+	3400.1.1 = { birth = yes }
+	3961.1.1 = { death = yes }
+}
+
+##Direnni Alinor branch
+
+
+direnni_tyrigel_2004 = {
+	name = "Vorian"
+	dynasty_house = direnni_tyrigel
+	religion = auriel
+	culture = alinor
+	trait = lifespan_3
+	trait = blademaster_2
+	trait = brave
+	trait = temperate
+	trait = just
+	trait = battlemage
+	trait = mystic_2
+	trait = education_learning_4
+	trait = education_magical_4
+	trait = arcana_good_3
+	trait = intellect_good_2
+	disallow_random_traits = yes
+	father = direnni_tyrigel_1004
+
+	3410.1.1 = { birth = yes }
+	3452.1.2 = {
+		effect = {
+			add_perk = alteration_novice_perk
+			add_perk = alteration_apprentice_perk
+			add_perk = alteration_journeyman_perk
+			add_perk = conjuration_novice_perk
+			add_perk = conjuration_apprentice_perk
+			add_perk = conjuration_journeyman_perk
+			add_perk = restoration_novice_perk
+			add_perk = restoration_apprentice_perk
+			add_perk = restoration_journeyman_perk				
+			add_perk = restoration_expert_perk
+			add_perk = restoration_master_perk
+		}
+	}	
+	3952.1.1 = { death = yes }
+}
